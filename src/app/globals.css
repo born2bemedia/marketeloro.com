@@ -1,1 +1,13 @@
 @import 'tailwindcss';
+
+:root {
+  --jaguar-color: #030213;
+  --storm-grey-color: #717182;
+  --trjn-davinci-font: trjnDaVinci, trjnDaVinci Fallback;
+}
+@theme inline {
+  --font-clash-grotesk: var(--font-clash-grotesk);
+  --font-trjn-davinci: var(--trjn-davinci-font);
+  --color-jaguar: var(--jaguar-color);
+  --color-storm-grey: var(--storm-grey-color);
+}
