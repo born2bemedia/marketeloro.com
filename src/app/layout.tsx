@@ -1,13 +1,50 @@
 import type { Metadata } from 'next';
-import { Geist } from 'next/font/google';
+import localFont from 'next/font/local';
 
 import { cn } from '@/shared/lib/utils/cn';
+import { Footer } from '@/shared/ui/components/footer';
+import { Header } from '@/shared/ui/components/header';
 
 import './globals.css';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
+const trjnDaVinci = localFont({
+  src: [
+    {
+      path: '../../public/fonts/trjn-davinci/regular.otf',
+      weight: '400',
+      style: 'normal',
+    },
+  ],
+});
+
+const clashGrotesk = localFont({
+  src: [
+    {
+      path: '../../public/fonts/clash-grotesk/light.otf',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/clash-grotesk/regular.otf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/clash-grotesk/medium.otf',
+      weight: '500',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/clash-grotesk/semibold.otf',
+      weight: '600',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/clash-grotesk/bold.otf',
+      weight: '700',
+      style: 'normal',
+    },
+  ],
 });
 
 export const metadata: Metadata = {
@@ -22,7 +59,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(geistSans.variable, 'antialiased')}>{children}</body>
+      <body
+        className={cn(
+          trjnDaVinci.className,
+          clashGrotesk.className,
+          'antialiased',
+        )}
+      >
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
