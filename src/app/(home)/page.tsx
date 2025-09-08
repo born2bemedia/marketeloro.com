@@ -3,6 +3,7 @@ import {
   CoreServices,
   Hero,
   HowWeWork,
+  IndustriesWeServe,
   Outcomes,
   Plans,
   Stats,
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutUs />
       <Stats />
       <HowWeWork />
+      <IndustriesWeServe />
       <CoreServices />
       <Plans />
       <Outcomes />
