@@ -55,7 +55,7 @@ const PlanCard = ({
   return (
     <article
       className={cn(
-        'relative flex h-full w-[470px] flex-1 flex-col rounded-[60px] bg-white px-2 pt-5 pb-2 max-md:w-full',
+        'relative flex h-full max-w-[470px] flex-1 flex-col rounded-[60px] bg-white px-2 pt-5 pb-2 max-md:w-full',
         popular ? 'min-h-[500px] border-4 border-[#004DBF]' : 'min-h-[470px]',
       )}
     >
