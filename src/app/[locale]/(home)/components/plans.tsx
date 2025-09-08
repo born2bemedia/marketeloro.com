@@ -4,35 +4,50 @@ import { cn } from '@/shared/lib/utils/cn';
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
+import { useTranslations } from 'next-intl';
 
 export const Plans = () => {
+  const t = useTranslations('home.plans');
+
   return (
     <section className="bg-[rgba(236,236,240,0.2)] py-20">
       <section className="mx-5 flex flex-col gap-[56px] rounded-xl bg-[#030213] px-10 pt-20 pb-10 max-md:mx-2 max-md:px-5">
         <div className="flex flex-col gap-3.5 text-center">
           <Title>
-            Tailored Plans That <br /> Fit Your Growth Stage
+            {t('title.0', { fallback: 'Tailored Plans That' })} <br />
+            {t('title.1', { fallback: 'Fit Your Growth Stage' })}
           </Title>
           <Text color="white">
-            Choose a plan aligned with your current momentum, and your future
-            ambition.
+            {t('text', {
+              fallback:
+                'Choose a plan aligned with your current momentum, and your future ambition.',
+            })}
           </Text>
         </div>
         <div className="mx-auto flex items-center gap-5 max-[1380px]:flex-wrap max-md:mx-0 max-md:flex-col">
           <PlanCard
-            title="Starter Plan"
-            text="Best for early-stage brands looking to launch with clarity and consistency"
+            title={t('cards.0.title', { fallback: 'Starter Plan' })}
+            text={t('cards.0.text', {
+              fallback:
+                'Best for early-stage brands looking to launch with clarity and consistency',
+            })}
             price="$2,500"
           />
           <PlanCard
-            title="Growth Plan"
-            text="Designed for growing brands seeking multi-channel expansion and measurable ROI"
+            title={t('cards.1.title', { fallback: 'Growth Plan' })}
+            text={t('cards.1.text', {
+              fallback:
+                'Designed for growing brands seeking multi-channel expansion and measurable ROI',
+            })}
             price="$6,000"
             popular
           />
           <PlanCard
-            title="Enterprise Plan"
-            text="Full-service support for established brands aiming for bold market leadership"
+            title={t('cards.2.title', { fallback: 'Enterprise Plan' })}
+            text={t('cards.2.text', {
+              fallback:
+                'Full-service support for established brands aiming for bold market leadership',
+            })}
             price="$10,500"
           />
         </div>
@@ -52,6 +67,8 @@ const PlanCard = ({
   price: string;
   popular?: boolean;
 }) => {
+  const t = useTranslations('home.plans');
+
   return (
     <article
       className={cn(
@@ -62,7 +79,7 @@ const PlanCard = ({
       {popular && (
         <div className="absolute top-0 left-1/2 -translate-x-1/2 rounded-[0_0_33554400px_33554400px] bg-[#004DBF] px-3.5 py-0.5">
           <Text size="xs" color="white">
-            Most Popular
+            {t('mostPopular', { fallback: 'Most Popular' })}
           </Text>
         </div>
       )}
@@ -80,18 +97,20 @@ const PlanCard = ({
       </section>
       <section className="mt-auto flex flex-col items-center gap-5 rounded-[60px] bg-[#030213] p-5">
         <div className="flex flex-col text-center">
-          <Text color="white">Starting at</Text>
+          <Text color="white">
+            {t('startingAt', { fallback: 'Starting at' })}
+          </Text>
           <div className="flex items-end">
             <Text color="white" className="text-[40px] leading-9" weight={700}>
               {price}
             </Text>
             <Text className="opacity-50" color="white" weight={400}>
-              /month
+              /{t('month', { fallback: 'month' })}
             </Text>
           </div>
         </div>
         <Button size="md" variant="secondary">
-          Learn more
+          {t('learnMore', { fallback: 'Learn more' })}
         </Button>
       </section>
     </article>

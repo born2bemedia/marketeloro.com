@@ -13,49 +13,71 @@ import { Button } from '@/shared/ui/kit/button';
 import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
+import { useTranslations } from 'next-intl';
 
-const cards = [
+const getCards = (t: ReturnType<typeof useTranslations>) => [
   {
     icon: AimCircleIcon,
-    title: 'Strategy & Consulting',
-    text: 'Data-driven strategies tailored to your business goals and market position',
+    title: t('cards.0.title', { fallback: 'Strategy & Consulting' }),
+    text: t('cards.0.text', {
+      fallback:
+        'Data-driven strategies tailored to your business goals and market position',
+    }),
     border: true,
   },
   {
     icon: UsersCircleIcon,
-    title: 'Social Media & Community',
-    text: 'Building engaged communities and managing your social media presence',
+    title: t('cards.1.title', { fallback: 'Social Media & Community' }),
+    text: t('cards.1.text', {
+      fallback:
+        'Building engaged communities and managing your social media presence',
+    }),
     border: true,
   },
   {
     icon: PenCircleIcon,
-    title: 'Content & Creative',
-    text: 'Compelling content that resonates with your audience and drives action',
+    title: t('cards.2.title', { fallback: 'Content & Creative' }),
+    text: t('cards.2.text', {
+      fallback:
+        'Compelling content that resonates with your audience and drives action',
+    }),
   },
   {
     icon: PaletteCircleIcon,
-    title: 'Branding & Design',
-    text: 'Creating memorable brand identities that stand out in the marketplace',
+    title: t('cards.3.title', { fallback: 'Branding & Design' }),
+    text: t('cards.3.text', {
+      fallback:
+        'Creating memorable brand identities that stand out in the marketplace',
+    }),
     border: true,
   },
   {
     icon: GraphCircleIcon,
-    title: 'Digital Marketing',
-    text: 'Performance-driven campaigns across all digital channels',
+    title: t('cards.4.title', { fallback: 'Digital Marketing' }),
+    text: t('cards.4.text', {
+      fallback: 'Performance-driven campaigns across all digital channels',
+    }),
     border: true,
   },
   {
     icon: TvCircleIcon,
-    title: 'Web & Digital Experience',
-    text: 'User-focused websites and digital experiences that convert',
+    title: t('cards.5.title', { fallback: 'Web & Digital Experience' }),
+    text: t('cards.5.text', {
+      fallback: 'User-focused websites and digital experiences that convert',
+    }),
   },
 ];
 
 export const CoreServices = () => {
+  const t = useTranslations('home.coreServices');
+
+  const cards = getCards(t);
+
   return (
     <section className="flex flex-col gap-[60px] p-10 max-md:px-2">
       <Title color="jaguar">
-        Marketeloro <br /> Core Services
+        {t('title.0', { fallback: 'Marketeloro' })} <br />
+        {t('title.1', { fallback: 'Core Services' })}
       </Title>
       <section className="grid grid-cols-3 gap-10 max-md:grid-cols-1">
         {cards.map(c => (
@@ -64,9 +86,14 @@ export const CoreServices = () => {
       </section>
       <section className="ml-auto flex w-[600px] flex-col gap-7 max-md:w-full">
         <Title as="h3" size="4xl" color="jaguar">
-          Discover all our services and find the perfect match for your goals
+          {t('discoverAllServices', {
+            fallback:
+              'Discover all our services and find the perfect match for your goals',
+          })}
         </Title>
-        <Button size="md">Explore Services</Button>
+        <Button size="md">
+          {t('exploreServices', { fallback: 'Explore Services' })}
+        </Button>
       </section>
     </section>
   );

@@ -11,35 +11,48 @@ import { RocketIcon } from '@/shared/ui/icons/rocket';
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
+import { useTranslations } from 'next-intl';
 
-const cards = [
+const getCards = (t: ReturnType<typeof useTranslations>) => [
   {
-    title: 'Discover',
-    text: 'We conduct in-depth brand, market, and competitor analysis, review past performance data, and gather actionable insights about your audience to identify high-impact opportunities',
+    title: t('cards.0.title', { fallback: 'Discover' }),
+    text: t('cards.0.text', {
+      fallback:
+        'We conduct in-depth brand, market, and competitor analysis, review past performance data, and gather actionable insights about your audience to identify high-impact opportunities',
+    }),
     icon: <MagGlassIcon />,
     layoutClassName: 'bg-[rgb(0_77_191)]/10',
     numberClassName: 'bg-[#004DBF]',
     number: 1,
   },
   {
-    title: 'Plan',
-    text: 'We design a custom marketing blueprint with clear objectives, defined KPIs, channel selection, budget allocation, and an execution timeline to ensure efficiency and focus',
+    title: t('cards.1.title', { fallback: 'Plan' }),
+    text: t('cards.1.text', {
+      fallback:
+        'We design a custom marketing blueprint with clear objectives, defined KPIs, channel selection, budget allocation, and an execution timeline to ensure efficiency and focus',
+    }),
     icon: <AimIcon />,
     layoutClassName: 'bg-[rgb(255_161_0_/_0.1)]',
     numberClassName: 'bg-[#FFA100]',
     number: 2,
   },
   {
-    title: 'Execute',
-    text: 'We launch targeted campaigns with compelling creative assets, optimized messaging, and precise audience segmentation to generate measurable engagement and conversions',
+    title: t('cards.2.title', { fallback: 'Execute' }),
+    text: t('cards.2.text', {
+      fallback:
+        'We launch targeted campaigns with compelling creative assets, optimized messaging, and precise audience segmentation to generate measurable engagement and conversions',
+    }),
     icon: <RocketIcon />,
     layoutClassName: 'bg-[rgb(255_100_78_/_0.1)]',
     numberClassName: 'bg-[#FF644E]',
     number: 3,
   },
   {
-    title: 'Optimize',
-    text: 'We monitor performance in real time, run A/B tests, and apply data-driven adjustments to improve ROI and sustain growth over the long term',
+    title: t('cards.3.title', { fallback: 'Optimize' }),
+    text: t('cards.3.text', {
+      fallback:
+        'We monitor performance in real time, run A/B tests, and apply data-driven adjustments to improve ROI and sustain growth over the long term',
+    }),
     icon: <LineUpIcon />,
     layoutClassName: 'bg-[rgb(0_132_67_/_0.1)]',
     numberClassName: 'bg-[#008443]',
@@ -48,14 +61,27 @@ const cards = [
 ];
 
 export const HowWeWork = () => {
+  const t = useTranslations('home.howWeWork');
+
+  const cards = getCards(t);
+
   return (
     <section className="flex flex-col gap-[56px] px-10 py-[70px] max-md:px-2">
       <div className="relative flex flex-col gap-3.5">
-        <Title color="jaguar">How We Work to Deliver Lasting Success</Title>
+        <Title color="jaguar">
+          {t('title', {
+            fallback: 'How We Work to Deliver Lasting Success',
+          })}
+        </Title>
         <Text color="stormGrey" size="base">
-          Success is the result of a clear and structured strategy. On average,
-          our clients see a <br />
-          25% increase in success rate. Here&apos;s how we do it.
+          {t('text.0', {
+            fallback:
+              'Success is the result of a clear and structured strategy. On average, our clients see a 25% increase in success rate. Here&apos;s how we do it.',
+          })}
+          <br />
+          {t('text.1', {
+            fallback: '25% increase in success rate. Here&apos;s how we do it.',
+          })}
         </Text>
         <Image
           className="absolute -top-20 right-0 hidden max-md:block"
@@ -89,10 +115,19 @@ export const HowWeWork = () => {
           </section>
           <section className="flex flex-col gap-7">
             <Title as="h3" size="4xl" color="jaguar">
-              Ready to apply this strategy and <br />
-              start getting measurable results?
+              {t('readyToApply.0', {
+                fallback: 'Ready to apply this strategy and',
+              })}
+              <br />
+              {t('readyToApply.1', {
+                fallback: 'start getting measurable results?',
+              })}
             </Title>
-            <Button size="md">Let&apos;s Discuss Your Project</Button>
+            <Button size="md">
+              {t('button', {
+                fallback: 'Let&apos;s Discuss Your Project',
+              })}
+            </Button>
           </section>
         </div>
       </section>

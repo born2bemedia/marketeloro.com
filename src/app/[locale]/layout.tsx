@@ -6,11 +6,12 @@ import { Footer } from '@/shared/ui/components/footer';
 import { Header } from '@/shared/ui/components/header';
 
 import './globals.css';
+import { NextIntlClientProvider } from 'next-intl';
 
 const trjnDaVinci = localFont({
   src: [
     {
-      path: '../../public/fonts/trjn-davinci/regular.otf',
+      path: '../../../public/fonts/trjn-davinci/regular.otf',
       weight: '400',
       style: 'normal',
     },
@@ -20,27 +21,27 @@ const trjnDaVinci = localFont({
 const clashGrotesk = localFont({
   src: [
     {
-      path: '../../public/fonts/clash-grotesk/light.otf',
+      path: '../../../public/fonts/clash-grotesk/light.otf',
       weight: '300',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/clash-grotesk/regular.otf',
+      path: '../../../public/fonts/clash-grotesk/regular.otf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/clash-grotesk/medium.otf',
+      path: '../../../public/fonts/clash-grotesk/medium.otf',
       weight: '500',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/clash-grotesk/semibold.otf',
+      path: '../../../public/fonts/clash-grotesk/semibold.otf',
       weight: '600',
       style: 'normal',
     },
     {
-      path: '../../public/fonts/clash-grotesk/bold.otf',
+      path: '../../../public/fonts/clash-grotesk/bold.otf',
       weight: '700',
       style: 'normal',
     },
@@ -66,9 +67,11 @@ export default function RootLayout({
           'antialiased',
         )}
       >
-        <Header />
-        {children}
-        <Footer />
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

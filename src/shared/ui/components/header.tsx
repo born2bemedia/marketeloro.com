@@ -10,20 +10,23 @@ import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 
 import { SocialNetworks } from './social-networks';
+import { useTranslations } from 'next-intl';
 
 export const Header = () => {
+  const t = useTranslations('header');
+
   return (
     <header className="flex items-center justify-between px-10 pt-2 pb-3.5 max-md:px-2">
       <Image src="/logo.svg" alt="Logo" width={37} height={40} />
       <nav className="flex items-center gap-7 max-md:hidden">
         <Link href="/services">
-          <Text>Services</Text>
+          <Text>{t('services', { fallback: 'Services' })}</Text>
         </Link>
         <Link href="/about-us">
-          <Text>About Us</Text>
+          <Text>{t('aboutUs', { fallback: 'About Us' })}</Text>
         </Link>
         <Link href="/about-us">
-          <Text>Contact</Text>
+          <Text>{t('contact', { fallback: 'Contact' })}</Text>
         </Link>
       </nav>
       <section className="flex items-center gap-6 max-md:hidden">
@@ -42,11 +45,11 @@ export const Header = () => {
         </div>
         <SocialNetworks />
         <Button>
-          Cart <CartIcon />
+          {t('cart', { fallback: 'Cart' })} <CartIcon />
         </Button>
       </section>
       <section className="hidden max-md:flex">
-        <Text>Menu</Text>
+        <Text>{t('menu', { fallback: 'Menu' })}</Text>
       </section>
     </header>
   );
