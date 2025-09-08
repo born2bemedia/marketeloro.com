@@ -7,57 +7,84 @@ import useEmblaCarousel from 'embla-carousel-react';
 
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
+import { useTranslations } from 'next-intl';
 
-const getSlides = () => [
+const getSlides = (t: ReturnType<typeof useTranslations>) => [
   {
-    category: 'E-commerce',
-    text: 'Driving traffic, boosting conversions, and building loyal customer bases',
+    category: t('slides.0.category', { fallback: 'E-commerce' }),
+    text: t('slides.0.text', {
+      fallback:
+        'Driving traffic, boosting conversions, and building loyal customer bases',
+    }),
     imgUrl: '/images/home/slides/e-commerce.webp',
   },
   {
-    category: 'Hospitality & Travel',
-    text: 'Creating demand, increasing bookings, and enhancing guest engagement',
+    category: t('slides.1.category', { fallback: 'Hospitality & Travel' }),
+    text: t('slides.1.text', {
+      fallback:
+        'Creating demand, increasing bookings, and enhancing guest engagement',
+    }),
     imgUrl: '/images/home/slides/e-commerce.webp',
   },
   {
-    category: 'Technology & SaaS',
-    text: 'Positioning complex solutions clearly and generating qualified leads',
+    category: t('slides.2.category', { fallback: 'Technology & SaaS' }),
+    text: t('slides.2.text', {
+      fallback:
+        'Positioning complex solutions clearly and generating qualified leads',
+    }),
     imgUrl: '/images/home/slides/e-commerce.webp',
   },
   {
-    category: 'Lifestyle & Wellness',
-    text: 'Building aspirational brands and fostering community connections',
+    category: t('slides.3.category', { fallback: 'Lifestyle & Wellness' }),
+    text: t('slides.3.text', {
+      fallback:
+        'Building aspirational brands and fostering community connections',
+    }),
     imgUrl: '/images/home/slides/e-commerce.webp',
   },
   {
-    category: 'Fashion & Beauty',
-    text: 'Elevating style-driven brands through impactful storytelling and visuals',
+    category: t('slides.4.category', { fallback: 'Fashion & Beauty' }),
+    text: t('slides.4.text', {
+      fallback:
+        'Elevating style-driven brands through impactful storytelling and visuals',
+    }),
     imgUrl: '/images/home/slides/e-commerce.webp',
   },
   {
-    category: 'Food & Beverage',
-    text: 'Strengthening brand presence and driving repeat purchases',
+    category: t('slides.5.category', { fallback: 'Food & Beverage' }),
+    text: t('slides.5.text', {
+      fallback: 'Strengthening brand presence and driving repeat purchases',
+    }),
     imgUrl: '/images/home/slides/e-commerce.webp',
   },
   {
-    category: 'Education & e-Learning',
-    text: 'Attracting students, increasing enrollments, and building trust',
+    category: t('slides.6.category', { fallback: 'Education & e-Learning' }),
+    text: t('slides.6.text', {
+      fallback:
+        'Attracting students, increasing enrollments, and building trust',
+    }),
     imgUrl: '/images/home/slides/e-commerce.webp',
   },
   {
-    category: 'Real Estate',
-    text: 'Generating qualified inquiries and showcasing properties effectively',
+    category: t('slides.7.category', { fallback: 'Real Estate' }),
+    text: t('slides.7.text', {
+      fallback:
+        'Generating qualified inquiries and showcasing properties effectively',
+    }),
     imgUrl: '/images/home/slides/e-commerce.webp',
   },
   {
-    category: 'Entertainment & Media',
-    text: 'Expanding reach and boosting audience engagement',
+    category: t('slides.8.category', { fallback: 'Entertainment & Media' }),
+    text: t('slides.8.text', {
+      fallback: 'Expanding reach and boosting audience engagement',
+    }),
     imgUrl: '/images/home/slides/e-commerce.webp',
   },
 ];
 
 export const IndustriesWeServe = () => {
-  const slides = getSlides();
+  const t = useTranslations('home.industriesWeServe');
+
   const autoplay = useRef(
     Autoplay({ delay: 4000, stopOnInteraction: false, stopOnMouseEnter: true }),
   );
@@ -108,9 +135,15 @@ export const IndustriesWeServe = () => {
     scrollSelectedToTop(selectedIndex);
   }, [selectedIndex, scrollSelectedToTop]);
 
+  const slides = getSlides(t);
+
   return (
     <section className="mx-5 my-20 flex flex-col gap-[56px] rounded-xl bg-[#030213] px-10 py-20 max-md:mx-2 max-md:px-5">
-      <Title color="white">Industries We Serve</Title>
+      <Title color="white">
+        {t('title', {
+          fallback: 'Industries We Serve',
+        })}
+      </Title>
       <div className="flex gap-12 max-lg:flex-col">
         <ul
           ref={listRef}

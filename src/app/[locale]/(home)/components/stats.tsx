@@ -4,20 +4,33 @@ import Image from 'next/image';
 
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
+import { useTranslations } from 'next-intl';
 
-const stats = [
-  { stat: '+142%', text: 'Average client growth in their first year with us' },
+const getStats = (t: ReturnType<typeof useTranslations>) => [
+  {
+    stat: '+142%',
+    text: t('cards.0', {
+      fallback: 'Average client growth in their first year with us',
+    }),
+  },
   {
     stat: '1,200+',
-    text: 'Campaigns launched, tested, and optimized for maximum ROI',
+    text: t('cards.1', {
+      fallback: 'Campaigns launched, tested, and optimized for maximum ROI',
+    }),
   },
   {
     stat: '350+',
-    text: 'Projects moved from concept to completion with measurable results',
+    text: t('cards.2', {
+      fallback:
+        'Projects moved from concept to completion with measurable results',
+    }),
   },
 ];
 
 export const Stats = () => {
+  const t = useTranslations('home.stats');
+
   return (
     <section className="relative mx-5 my-[70px] flex flex-col gap-20 rounded-xl bg-[#030213] px-10 py-20 max-md:mx-2 max-md:px-5">
       <Image
@@ -28,10 +41,12 @@ export const Stats = () => {
         height={509}
       />
       <Title className="w-[65%] max-md:w-full">
-        Big wins, bold moves, and measurable impact
+        {t('title', {
+          fallback: 'Big wins, bold moves, and measurable impact',
+        })}
       </Title>
       <ul className="flex flex-wrap gap-[60px]">
-        {stats.map(s => (
+        {getStats(t).map(s => (
           <ByNumber key={s.stat} {...s} />
         ))}
       </ul>

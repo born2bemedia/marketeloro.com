@@ -1,0 +1,256 @@
+{
+  "header": {
+    "services": "Services",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "cart": "Cart",
+    "menu": "Menu"
+  },
+  "footer": {
+    "storytime": "StoryTime",
+    "contactUs": "Contact Us",
+    "aboutOurAgency": "About Our Agency",
+    "services": "Services",
+    "tailoredPlans": "Tailored Plans",
+    "workWithUs": "Work with us",
+    "termsAndConditions": "Terms and Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "refundPolicy": "Refund Policy",
+    "company": "COMPANY",
+    "legal": "LEGAL",
+    "copyright": "Reserve INTELORO LIMITED. All Rights Reserved."
+  },
+  "home": {
+    "hero": {
+      "title": "A marketing agency that creates campaigns people remember — and love",
+      "description": "Your best-fit partner for real growth and lasting impact.",
+      "getStarted": "Get Started",
+      "viewServices": "View Services"
+    },
+    "aboutUs": {
+      "title": "If you're looking for a marketing partner who…",
+      "text": {
+        "0": "Then we're here to deliver the results your brand deserves.",
+        "1": "Curious about how we work and who we are?"
+      },
+      "learnMore": "Learn more",
+      "cards": {
+        "0": "Creates experiences your audience talks about",
+        "1": "Spots trends before they go mainstream",
+        "2": "Builds campaigns that stand the test of time",
+        "3": "Shares your passion for making an impact",
+        "4": "Uses smart insights to spark real connections",
+        "5": "Gives your brand a style people can't ignore"
+      }
+    },
+    "stats": {
+      "title": "Big wins, bold moves, and measurable impact",
+      "cards": {
+        "0": "Average client growth in their first year with us",
+        "1": "Campaigns launched, tested, and optimized for maximum ROI",
+        "2": "Projects moved from concept to completion with measurable results"
+      }
+    },
+    "howWeWork": {
+      "title": "How We Work to Deliver Lasting Success",
+      "text": {
+        "0": "Success is the result of a clear and structured strategy. On average, our clients see a",
+        "1": "25% increase in success rate. Here's how we do it."
+      },
+      "readyToApply": {
+        "0": "Ready to apply this strategy and",
+        "1": "start getting measurable results?"
+      },
+      "button": "Let's Discuss Your Project",
+      "cards": {
+        "0": {
+          "title": "Discover",
+          "text": "We conduct in-depth brand, market, and competitor analysis, review past performance data, and gather actionable insights about your audience to identify high-impact opportunities"
+        },
+        "1": {
+          "title": "Plan",
+          "text": "We design a custom marketing blueprint with clear objectives, defined KPIs, channel selection, budget allocation, and an execution timeline to ensure efficiency and focus"
+        },
+        "2": {
+          "title": "Execute",
+          "text": "We launch targeted campaigns with compelling creative assets, optimized messaging, and precise audience segmentation to generate measurable engagement and conversions"
+        },
+        "3": {
+          "title": "Optimize",
+          "text": "We monitor performance in real time, run A/B tests, and apply data-driven adjustments to improve ROI and sustain growth over the long term"
+        }
+      }
+    },
+    "industriesWeServe": {
+      "title": "Industries We Serve",
+      "slides": {
+        "0": {
+          "category": "E-commerce",
+          "text": "Driving traffic, boosting conversions, and building loyal customer bases"
+        },
+        "1": {
+          "category": "Hospitality & Travel",
+          "text": "Creating demand, increasing bookings, and enhancing guest engagement"
+        },
+        "2": {
+          "category": "Technology & SaaS",
+          "text": "Positioning complex solutions clearly and generating qualified leads"
+        },
+        "3": {
+          "category": "Lifestyle & Wellness",
+          "text": "Building aspirational brands and fostering community connections"
+        },
+        "4": {
+          "category": "Fashion & Beauty",
+          "text": "Elevating style-driven brands through impactful storytelling and visuals"
+        },
+        "5": {
+          "category": "Food & Beverage",
+          "text": "Strengthening brand presence and driving repeat purchases"
+        },
+        "6": {
+          "category": "Education & e-Learning",
+          "text": "Attracting students, increasing enrollments, and building trust"
+        },
+        "7": {
+          "category": "Real Estate",
+          "text": "Generating qualified inquiries and showcasing properties effectively"
+        },
+        "8": {
+          "category": "Entertainment & Media",
+          "text": "Expanding reach and boosting audience engagement"
+        }
+      }
+    },
+    "coreServices": {
+      "title": {
+        "0": "Marketeloro",
+        "1": "Core Services"
+      },
+      "discoverAllServices": "Discover all our services and find the perfect match for your goals",
+      "exploreServices": "Explore Services",
+      "cards": {
+        "0": {
+          "title": "Strategy & Consulting",
+          "text": "Data-driven strategies tailored to your business goals and market position"
+        },
+        "1": {
+          "title": "Social Media & Community",
+          "text": "Building engaged communities and managing your social media presence"
+        },
+        "2": {
+          "title": "Content & Creative",
+          "text": "Compelling content that resonates with your audience and drives action"
+        },
+        "3": {
+          "title": "Branding & Design",
+          "text": "Creating memorable brand identities that stand out in the marketplace"
+        },
+        "4": {
+          "title": "Digital Marketing",
+          "text": "Performance-driven campaigns across all digital channels"
+        },
+        "5": {
+          "title": "Web & Digital Experience",
+          "text": "User-focused websites and digital experiences that convert"
+        }
+      }
+    },
+    "plans": {
+      "title": {
+        "0": "Tailored Plans That",
+        "1": "Fit Your Growth Stage"
+      },
+      "text": "Choose a plan aligned with your current momentum, and your future ambition.",
+      "cards": {
+        "0": {
+          "title": "Starter Plan",
+          "text": "Best for early-stage brands looking to launch with clarity and consistency"
+        },
+        "1": {
+          "title": "Growth Plan",
+          "text": "Designed for growing brands seeking multi-channel expansion and measurable ROI"
+        },
+        "2": {
+          "title": "Enterprise Plan",
+          "text": "Full-service support for established brands aiming for bold market leadership"
+        }
+      },
+      "mostPopular": "Most Popular",
+      "startingAt": "Starting at",
+      "learnMore": "Learn more",
+      "month": "month"
+    },
+    "outcomes": {
+      "title": "Proven Collaboration Outcomes",
+      "before": "Before",
+      "after": "After",
+      "cards": {
+        "0": {
+          "text": "Marketeloro didn't just run ads — they built a strategy that finally unlocked our growth.",
+          "position": "E-commerce Brand Owner",
+          "before": "Sales had plateaued despite consistent ad spend",
+          "after": "in online revenue within 4 months"
+        },
+        "1": {
+          "text": "The team's SEO expertise is next-level — we went from invisible to unavoidable.",
+          "position": "Tech Startup Founder",
+          "before": "Struggling to gain visibility in a crowded SaaS market",
+          "after": "Ranked in Google's top 3 for key industry terms"
+        },
+        "2": {
+          "text": "Their campaigns turned our low season into a profit season.",
+          "position": "Boutique Hotel Managers",
+          "before": "Seasonal bookings left big revenue gaps",
+          "after": "Year-round occupancy rates up by 42%"
+        },
+        "3": {
+          "text": "Marketeloro helped me refine my brand voice and attract the right audience.",
+          "position": "Lifestyle Influencer",
+          "before": "Engagement rate stuck under 2%",
+          "after": {
+            "0": "Now averages 7.5%",
+            "1": "with a growing brand partnership list"
+          }
+        },
+        "4": {
+          "text": "It felt like they became part of our in-house team — fully invested in our success.",
+          "position": "Fashion Label CEO",
+          "before": "Weak online presence despite high-quality products",
+          "after": {
+            "0": "Increased web traffic by 310%",
+            "1": "and boosted direct sales"
+          }
+        },
+        "5": {
+          "text": "Their go-to-market strategy was a game changer for us.",
+          "position": "Fitness App Founder",
+          "before": "Launch campaign failed to generate enough early adopters",
+          "after": {
+            "0": "Achieved 50K+ downloads",
+            "1": "in the first 90 days post-relaunch"
+          }
+        },
+        "6": {
+          "text": "They brought structure, creativity, and real returns.",
+          "position": "Luxury Skincare Brand Owner",
+          "before": "Over-reliance on word of mouth",
+          "after": {
+            "0": "Built a scalable paid ads system",
+            "1": "generating 4.2x ROAS"
+          }
+        },
+        "7": {
+          "text": "They knew exactly which levers to pull to turn interest into revenue.",
+          "position": "E-learning Platform Director",
+          "before": "Low conversion rate from free trial to paid plan",
+          "after": {
+            "0": "Improved trial-to-paid conversions",
+            "1": "by 65%"
+          }
+        }
+      }
+    }
+  }
+}

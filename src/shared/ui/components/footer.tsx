@@ -9,8 +9,12 @@ import { Text } from '@/shared/ui/kit/text';
 import { MailIcon } from '../icons/mail';
 import { PhoneIcon } from '../icons/phone';
 import { SocialNetworks } from './social-networks';
+import { useTransition } from 'react';
+import { useTranslations } from 'next-intl';
 
 export const Footer = () => {
+  const t = useTranslations('footer');
+
   return (
     <footer className="flex flex-col gap-[42px] overflow-hidden bg-[#030213] px-10 pt-[60px] max-md:px-2">
       <section className="mx-auto flex gap-7 max-md:mx-0 max-md:flex-col">
@@ -39,10 +43,14 @@ export const Footer = () => {
           <SocialNetworks iconsColor="white" />
           <nav className="flex flex-col gap-2">
             <Link href="/storytime">
-              <Text color="white">StoryTime</Text>
+              <Text color="white">
+                {t('storytime', { fallback: 'StoryTime' })}
+              </Text>
             </Link>
             <Link href="/contact-us">
-              <Text color="white">Contact Us</Text>
+              <Text color="white">
+                {t('contactUs', { fallback: 'Contact Us' })}
+              </Text>
             </Link>
           </nav>
           {/* <div className="flex flex-col gap-1">
@@ -55,21 +63,47 @@ export const Footer = () => {
         <section className="grid w-[444px] grid-cols-2 gap-7 max-[1040px]:w-full">
           <Navigation
             links={[
-              { text: 'About Our Agency', href: '/about-our-agency' },
-              { text: 'Services', href: '/services' },
-              { text: 'Tailored Plans', href: '/tailored-plans' },
-              { text: 'Work with us', href: '/work-with-us' },
+              {
+                text: t('aboutOurAgency', { fallback: 'About Our Agency' }),
+                href: '/about-our-agency',
+              },
+              {
+                text: t('services', { fallback: 'Services' }),
+                href: '/services',
+              },
+              {
+                text: t('tailoredPlans', { fallback: 'Tailored Plans' }),
+                href: '/tailored-plans',
+              },
+              {
+                text: t('workWithUs', { fallback: 'Work with us' }),
+                href: '/work-with-us',
+              },
             ]}
-            title="COMPANY"
+            title={t('company', { fallback: 'COMPANY' })}
           />
           <Navigation
             links={[
-              { text: 'Terms and Conditions', href: '/terms-and-conditions' },
-              { text: 'Privacy Policy', href: '/privacy-policy' },
-              { text: 'Cookie Policy', href: '/cookie-policy' },
-              { text: 'Refund Policy', href: '/refund-policy' },
+              {
+                text: t('termsAndConditions', {
+                  fallback: 'Terms and Conditions',
+                }),
+                href: '/terms-and-conditions',
+              },
+              {
+                text: t('privacyPolicy', { fallback: 'Privacy Policy' }),
+                href: '/privacy-policy',
+              },
+              {
+                text: t('cookiePolicy', { fallback: 'Cookie Policy' }),
+                href: '/cookie-policy',
+              },
+              {
+                text: t('refundPolicy', { fallback: 'Refund Policy' }),
+                href: '/refund-policy',
+              },
             ]}
-            title="LEGAL"
+            title={t('legal', { fallback: 'LEGAL' })}
           />
         </section>
       </section>
@@ -77,7 +111,10 @@ export const Footer = () => {
         <Divider className="bg-white/20" />
         <div className="flex flex-col gap-4">
           <Text color="white">
-            © 2025 Reserve INTELORO LIMITED. All Rights Reserved.
+            © {new Date().getFullYear()}{' '}
+            {t('copyright', {
+              fallback: 'Reserve INTELORO LIMITED. All Rights Reserved.',
+            })}
           </Text>
           <Image
             className="h-auto w-full opacity-10"
