@@ -252,5 +252,92 @@
         }
       }
     }
+  },
+  "tailoredPlans": {
+    "hero": {
+      "title": "Go Bigger, Starting Right Where You Are",
+      "description": {
+        "0": "Every brand has a story. Some are just starting the first chapter. Others are already turning the page to something bigger. ",
+        "1": "Whether you're starting out or moving forward, our custom-made plans are here to propel you toward your next bold action, with strategic thinking, creativity, and execution tailored to you.",
+        "2": "Explore the path that fits your growth stage best!"
+      }
+    },
+    "starterPlan": {
+      "title": "Starter Plan",
+      "text": "Best for early-stage brands looking to launch with clarity and consistency",
+      "included": {
+        "0": "Marketing Strategy Development",
+        "1": "Brand Positioning & Messaging",
+        "2": "Social Media Management",
+        "3": "Content Creation for Social Media (posts, stories, reels)",
+        "4": "Copywriting & Storytelling",
+        "5": "Email Marketing Campaigns",
+        "6": "Social Media Audit & Optimization"
+      },
+      "bonus": {
+        "0": "1 Landing Page Creation & Optimization",
+        "1": "Basic Competitive Analysis"
+      }
+    },
+    "growthPlan": {
+      "title": "Growth Plan",
+      "text": "Designed for growing brands seeking multi-channel expansion and measurable ROI",
+      "included": {
+        "0": "Marketing Strategy Development",
+        "1": "Social Media Advertising (Meta Ads, TikTok Ads, LinkedIn Ads)",
+        "2": "Pay-Per-Click Advertising (Google Ads, Bing Ads)",
+        "3": "SEO (Search Engine Optimization)",
+        "4": "Campaign Planning & Roadmapping",
+        "5": "Influencer Marketing & Partnerships",
+        "6": "Marketing Automation",
+        "7": "Content Marketing Strategy",
+        "8": "Blog & Article Writing",
+        "9": "Email Marketing Campaigns",
+        "10": "Social Media Management",
+        "11": "Video Production (short-form, ads, brand videos)",
+        "12": "Graphic Design & Visual Branding"
+      },
+      "bonus": {
+        "0": "Conversion Rate Optimization (CRO)",
+        "1": "Social Media Audit & Optimization",
+        "2": "Retargeting & Remarketing Campaigns"
+      }
+    },
+    "enterprisePlan": {
+      "title": "Enterprise Plan",
+      "text": "Full-service support for established brands aiming for bold market leadership",
+      "included": {
+        "0": "Marketing Strategy Development",
+        "1": "Market Research & Consumer Insights",
+        "2": "Go-to-Market Strategy",
+        "3": "Brand Identity Development (logo, color palette, typography)",
+        "4": "Website Design & Development",
+        "5": "UX/UI Design for Digital Campaigns",
+        "6": "Creative Direction",
+        "7": "Brand Guidelines Creation"
+      },
+      "bonus": {
+        "0": "Rebranding Services",
+        "1": "E-commerce Marketing Strategy",
+        "2": "Visual Campaign Concepts",
+        "3": "Content creation for social media (Posts, stories, reels)",
+        "4": "Paid Social Media Campaigns",
+        "5": "Retargeting & Remarketing Campaigns",
+        "6": "Video Production (Short-form, ads, brand videos)",
+        "7": "Email Marketing campaigns",
+        "8": "Search engine optimization (SEO)"
+      }
+    },
+    "footer": {
+      "title": "Need help choosing the right plan?",
+      "description": "We’ll match your goals with the strategy that delivers.",
+      "contactUs": "Contact us"
+    }
+  },
+  "packageSection": {
+    "includedServices": "Included Services:",
+    "bonus": "Bonus:",
+    "startingAt": "Starting at",
+    "getStarted": "Get Started"
   }
 }
