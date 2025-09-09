@@ -15,7 +15,7 @@ const btnVariants = cva(
         secondary:
           'bg-white border border-white text-jaguar text-sm hover:bg-[#f7f7f7]',
         reversed:
-          'bg-transparent border border-white text-white text-sm hover:bg-white hover:text-jaguar',
+          'bg-transparent border border-white text-white text-sm hover:bg-[#f4f5f6]/60 hover:text-jaguar',
         transparent:
           'bg-transparent border border-jaguar text-jaguar text-sm hover:bg-jaguar hover:text-white',
       },
