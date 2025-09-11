@@ -1,6 +1,7 @@
 'use client';
 
 import type { JSX } from 'react';
+import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils/cn';
 import { AimCircleIcon } from '@/shared/ui/icons/circles/aim';
@@ -13,7 +14,6 @@ import { Button } from '@/shared/ui/kit/button';
 import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
-import { useTranslations } from 'next-intl';
 
 const getCards = (t: ReturnType<typeof useTranslations>) => [
   {

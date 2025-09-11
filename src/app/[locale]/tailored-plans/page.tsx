@@ -1,7 +1,9 @@
+import { getTranslations } from 'next-intl/server';
+
 import { PageHero } from '@/shared/ui/components/page-hero';
 import { ArrowRightIcon } from '@/shared/ui/icons/arrow-right';
+
 import { PackageSection } from './components';
-import { getTranslations } from 'next-intl/server';
 
 export default async function TailoredPlans() {
   const t = await getTranslations('tailoredPlans');

@@ -1,4 +1,9 @@
+import { getTranslations } from 'next-intl/server';
+
 import { PageHero } from '@/shared/ui/components/page-hero';
+import { ArrowRightIcon } from '@/shared/ui/icons/arrow-right';
+import { PlayIcon } from '@/shared/ui/icons/play';
+
 import {
   AboutUs,
   CoreServices,
@@ -8,9 +13,6 @@ import {
   Plans,
   Stats,
 } from './components';
-import { getTranslations } from 'next-intl/server';
-import { ArrowRightIcon } from '@/shared/ui/icons/arrow-right';
-import { PlayIcon } from '@/shared/ui/icons/play';
 
 export default async function Home() {
   const t = await getTranslations('home.hero');

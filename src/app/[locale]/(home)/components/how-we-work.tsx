@@ -2,6 +2,7 @@
 
 import type { ReactNode } from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils/cn';
 import { AimIcon } from '@/shared/ui/icons/aim';
@@ -11,7 +12,6 @@ import { RocketIcon } from '@/shared/ui/icons/rocket';
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
-import { useTranslations } from 'next-intl';
 
 const getCards = (t: ReturnType<typeof useTranslations>) => [
   {

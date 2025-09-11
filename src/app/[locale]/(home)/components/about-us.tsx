@@ -1,11 +1,12 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { PlayIcon } from '@/shared/ui/icons/play';
 import { TickCircleIcon } from '@/shared/ui/icons/tick-circle';
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
-import { useTranslations } from 'next-intl';
 
 const getFeatures = (t: ReturnType<typeof useTranslations>) => [
   t('cards.0', { fallback: 'Creates experiences your audience talks about' }),

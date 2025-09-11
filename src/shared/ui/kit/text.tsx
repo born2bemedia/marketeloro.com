@@ -16,6 +16,7 @@ const textVariants = cva('transition duration-300 ease-in-out', {
       '2xl': 'text-2xl',
       '3xl': 'text-3xl',
       '4xl': 'text-[40px]',
+      '5xl': 'text-[52px] max-md:text-base',
     },
     color: {
       white: 'text-white',
