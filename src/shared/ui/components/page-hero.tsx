@@ -1,16 +1,17 @@
 'use client';
 
 import type { JSX } from 'react';
-
+import type { ReactNode } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
-import { Button, ButtonVariants } from '@/shared/ui/kit/button';
+import { cn } from '@/shared/lib/utils/cn';
+import type { ButtonVariants } from '@/shared/ui/kit/button';
+import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
-import { ReactNode } from 'react';
-import Link from 'next/link';
-import { IconProps } from '../icons/types';
-import { cn } from '@/shared/lib/utils/cn';
+
+import type { IconProps } from '../icons/types';
 
 export const PageHero = ({
   title,
@@ -20,7 +21,7 @@ export const PageHero = ({
   className,
 }: {
   title: string;
-  description: ReactNode;
+  description?: ReactNode;
   imgUrl: string;
   metaButtons?: {
     text: string;
@@ -42,14 +43,16 @@ export const PageHero = ({
       <Title as="h1" className="z-10 w-[80%] max-md:w-full">
         {title}
       </Title>
-      <Text
-        size="base"
-        color="white"
-        className="z-10 w-[672px] max-md:w-full"
-        weight={500}
-      >
-        {description}
-      </Text>
+      {description && (
+        <Text
+          size="base"
+          color="white"
+          className="z-10 w-[672px] max-md:w-full"
+          weight={500}
+        >
+          {description}
+        </Text>
+      )}
       {metaButtons && (
         <div className="z-10 flex items-center gap-3.5">
           {metaButtons.map(({ href, text, variant, icon: Icon }) => (

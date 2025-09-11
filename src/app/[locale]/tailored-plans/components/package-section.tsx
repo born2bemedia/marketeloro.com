@@ -1,12 +1,13 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { cn } from '@/shared/lib/utils/cn';
 import { PlayIcon } from '@/shared/ui/icons/play';
 import { Button } from '@/shared/ui/kit/button';
 import { List } from '@/shared/ui/kit/list';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
-import { useTranslations } from 'next-intl';
 
 export const PackageSection = ({
   text,

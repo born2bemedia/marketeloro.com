@@ -1,10 +1,11 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
+
 import { cn } from '@/shared/lib/utils/cn';
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
-import { useTranslations } from 'next-intl';
 
 export const Plans = () => {
   const t = useTranslations('home.plans');

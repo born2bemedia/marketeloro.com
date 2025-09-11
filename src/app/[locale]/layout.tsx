@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import { NextIntlClientProvider } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils/cn';
 import { Footer } from '@/shared/ui/components/footer';
 import { Header } from '@/shared/ui/components/header';
 
 import './globals.css';
-import { NextIntlClientProvider } from 'next-intl';
 
 const trjnDaVinci = localFont({
   src: [

@@ -1,7 +1,8 @@
 'use client';
 
 import { cn } from '@/shared/lib/utils/cn';
-import { Text, TextVariants } from '@/shared/ui/kit/text';
+import type { TextVariants } from '@/shared/ui/kit/text';
+import { Text } from '@/shared/ui/kit/text';
 
 export const List = ({
   values,

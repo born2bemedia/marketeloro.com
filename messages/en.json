@@ -339,5 +339,205 @@
     "bonus": "Bonus:",
     "startingAt": "Starting at",
     "getStarted": "Get Started"
+  },
+  "aboutOurAgency": {
+    "hero": {
+      "title": "Marketeloro builds success step by step",
+      "description": {
+        "0": "Every growth story starts with experiments, lessons, and breakthroughs.",
+        "1": "Get behind-the-scenes access to how strategies become results."
+      },
+      "button": "Visit StoryTime"
+    },
+    "principles": {
+      "title": "Principles in Action",
+      "text": {
+        "0": "Our principles guide every project, every meeting, and every client relationship ",
+        "1": "These principles are not words on a slide — they are actions we take daily:"
+      },
+      "cards": {
+        "0": {
+          "title": "Bold Thinking",
+          "text": "We never copy-paste. Each brand deserves ideas strong enough to cut through the noise."
+        },
+        "1": {
+          "title": {
+            "0": "Precision",
+            "1": "Execution"
+          },
+          "text": "Big strategies matter, but they fail without detail. We execute with discipline, testing every assumption."
+        },
+        "2": {
+          "title": "Collaboration",
+          "text": "We see clients as partners. We succeed only if you succeed."
+        },
+        "3": {
+          "title": {
+            "0": "Continuous",
+            "1": "Learning"
+          },
+          "text": "Marketing evolves daily. We analyze every campaign to extract insights for the next one."
+        },
+        "4": {
+          "title": "Responsibility",
+          "text": "Growth must be sustainable. We respect audiences, build trust, and protect brand reputation at every step."
+        }
+      }
+    },
+    "lookingFor": {
+      "title": "If you're looking for a marketing partner who…",
+      "text": {
+        "0": "is a full-service B2C marketing agency, created to help brands grow with confidence and creativity.",
+        "1": "We are a team of strategists, creators, analysts, and innovators who understand that marketing today is not about pushing messages but about creating experiences people care about.",
+        "2": "Our work is rooted in combining",
+        "3": "market intelligence",
+        "4": "with",
+        "5": "emotional storytelling",
+        "6": "We study how consumers think, what they expect from brands, and how they make decisions. Then we turn that knowledge into campaigns that don’t just reach people, but stay with them.",
+        "7": "We are not a vendor. We are a partner who shares your ambition and works as closely with your team as if we were sitting in the same office."
+      }
+    },
+    "ourWhy": {
+      "cards": {
+        "0": {
+          "title": "Data Science",
+          "text": "Every campaign is backed by research, analytics, and performance tracking. We don’t guess — we calculate."
+        },
+        "1": {
+          "title": "Creativity",
+          "text": "Insight alone doesn’t move markets. We translate numbers into powerful creative that resonates with audiences."
+        },
+        "2": {
+          "title": "Execution Speed",
+          "text": "Markets change fast, and so do we. Our team is structured to react in real time, test quickly, and scale what works."
+        }
+      },
+      "blocks": {
+        "0": "Helping businesses move beyond vanity metrics and generate real revenue growth.",
+        "1": "Turning ideas into campaigns that shape markets instead of just competing in them.",
+        "2": "Giving brands the confidence that every dollar invested in marketing is measurable and accountable."
+      },
+      "title": "Our Why",
+      "text": {
+        "0": "We exist because too many brands settle for marketing that is busy but not effective. Marketeloro was built to change that.",
+        "1": "Our driving force is impact:",
+        "2": "We are motivated by curiosity and the belief that marketing is not a cost — it is a growth engine. That is why every project we deliver is designed to create both emotional connection and business value."
+      },
+      "title2": "The Edge",
+      "text2": "Our advantage comes from the fusion of three disciplines:",
+      "text3": {
+        "0": "Unlike traditional agencies, we do not hide behind long presentations or endless revisions. We bring ideas to market quickly, validate them with data, and scale only what proves to deliver ROI. This is why our campaigns consistently outperform the industry average.",
+        "1": "This is why our campaigns consistently outperform the industry average."
+      }
+    },
+    "method": {
+      "title": "The Marketeloro Method",
+      "text": "Our principles guide every project, every meeting, and every client relationship",
+      "text2": "These principles are not words on a slide — they are actions we take daily:",
+      "text3": "This method has already helped clients achieve triple-digit growth within months.",
+      "cards": {
+        "0": {
+          "title": "Discover",
+          "list": {
+            "0": "We analyze your market, brand position, competitors, and past results.",
+            "1": "We interview stakeholders, review customer behavior, and identify growth gaps.",
+            "2": "Outcome: a clear map of opportunities with data to back it."
+          }
+        },
+        "1": {
+          "title": "Plan",
+          "list": {
+            "0": "We create a step-by-step marketing blueprint with objectives, KPIs, and budgets.",
+            "1": "We select the right mix of channels — digital, social, paid media, or offline.",
+            "2": "Outcome: a plan that is measurable, realistic, and aligned with your goals."
+          }
+        },
+        "2": {
+          "title": "Execute",
+          "list": {
+            "0": "We launch campaigns with creative assets built to capture attention and drive conversions.",
+            "1": "Every message is tested, segmented, and optimized for relevance.",
+            "2": "Outcome: campaigns that deliver immediate traction and long-term growth."
+          }
+        },
+        "3": {
+          "title": "Optimize",
+          "list": {
+            "0": "We track performance daily and adjust in real time.",
+            "1": "A/B testing, advanced analytics, and automation ensure no opportunity is missed.",
+            "2": "Outcome: consistent growth with maximum ROI."
+          }
+        }
+      }
+    },
+    "blueprintThinking": {
+      "title": "Blueprint Thinking",
+      "text": "Each brand we work with gets a unique Blueprint Strategy:",
+      "text2": "Blueprint Thinking ensures that every campaign is not random but part of a larger system that moves your brand toward measurable goals.",
+      "cards": {
+        "0": {
+          "title": "Market Research",
+          "text": "Detailed analysis of customer behavior, industry trends, and competitor activity."
+        },
+        "1": {
+          "title": "Segmentation",
+          "text": "Identifying micro-audiences and tailoring messages for each."
+        },
+        "2": {
+          "title": "Positioning",
+          "text": "Defining the emotional and rational reason why your brand matters."
+        },
+        "3": {
+          "title": "Roadmapping",
+          "text": "Building a long-term plan that balances quick wins with sustainable results."
+        }
+      }
+    },
+    "dataAndCreativity": {
+      "list1": {
+        "0": {
+          "0": "You get",
+          "1": "direct access",
+          "2": "to strategists, creatives, and analysts — no endless layers of account managers."
+        },
+        "1": {
+          "0": "We",
+          "1": "co-create",
+          "2": "— involving you in the process, ensuring strategies fit your culture and audience."
+        },
+        "2": {
+          "0": "We",
+          "1": "adapt in real time",
+          "2": "— adjusting based on your feedback and market signals."
+        }
+      },
+      "list2": {
+        "0": {
+          "0": "If something works",
+          "1": "we scale it."
+        },
+        "1": {
+          "0": "If something doesn't",
+          "1": "we learn fast and adjust."
+        }
+      },
+      "title": "Data x Creativity – Connecting Numbers and Imagination",
+      "text": "Our campaigns succeed because we connect two worlds:",
+      "data": "Data",
+      "text2": "tells us what people do — their clicks, searches, behaviors, and patterns.",
+      "creativity": "Creativity",
+      "text3": "tells us why they do it — their feelings, aspirations, and culture.",
+      "text4": "We use predictive analytics, A/B testing, and consumer insights to identify the most promising opportunities. Then our creative team turns those insights into stories, visuals, and experiences that inspire action.",
+      "text5": "This balance means our campaigns are never just pretty or just technical — they are effective.",
+      "text6": "One Team With You",
+      "text7": "We don’t just deliver projects and disappear. We embed ourselves as part of your team.",
+      "text8": "This way of working creates transparency, trust, and faster execution. Many of our clients describe us not as an agency but as their extended marketing department.",
+      "text9": "Always Testing, Always Learning",
+      "text10": "For us, every campaign is a live experiment. We test everything — from ad copy and visuals to audience segments and landing pages.",
+      "text11": "This cycle of testing and learning ensures that we are never static. It keeps us, and our clients, ahead of competitors who rely on outdated “best practices.”",
+      "title2": "Proof in Practice",
+      "text12": "At Marketeloro, strategy only matters if it delivers in the real world. That’s why we test, measure, and share our results openly — every case study is proof that bold ideas backed by data drive real growth.",
+      "text13": "This approach has already helped clients achieve triple-digit growth within months."
+    }
   }
 }

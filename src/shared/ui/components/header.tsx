@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 import { CartIcon } from '@/shared/ui/icons/cart';
 import { MailIcon } from '@/shared/ui/icons/mail';
@@ -10,7 +11,6 @@ import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 
 import { SocialNetworks } from './social-networks';
-import { useTranslations } from 'next-intl';
 
 export const Header = () => {
   const t = useTranslations('header');
