@@ -539,5 +539,16 @@
       "text12": "At Marketeloro, strategy only matters if it delivers in the real world. That’s why we test, measure, and share our results openly — every case study is proof that bold ideas backed by data drive real growth.",
       "text13": "This approach has already helped clients achieve triple-digit growth within months."
     }
+  },
+  "requestDialog": {
+    "title": "Request Form",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "aboutProject": "Tell us about your project",
+    "message": "Your message (optional)",
+    "cancel": "Cancel",
+    "submit": "Submit Request",
+    "submitting": "Submitting..."
   }
 }

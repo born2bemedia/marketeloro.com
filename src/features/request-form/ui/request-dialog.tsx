@@ -2,6 +2,7 @@
 
 import type { ReactNode } from 'react';
 import { Controller, useForm } from 'react-hook-form';
+import { useTranslations } from 'next-intl';
 import { valibotResolver } from '@hookform/resolvers/valibot';
 import {
   Close,
@@ -27,6 +28,8 @@ import { useRequestDialogStore } from '../model/request-dialog.store';
 import { requestFormSchema } from '../model/schema';
 
 export const RequestDialog = () => {
+  const t = useTranslations('requestDialog');
+
   const { open, setOpen, packageName } = useRequestDialogStore();
 
   const {
@@ -50,6 +53,7 @@ export const RequestDialog = () => {
   });
 
   const getFirstError = () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     return Object.entries(errors).map(([_, error]) => error?.message)[0];
   };
 
@@ -69,7 +73,6 @@ export const RequestDialog = () => {
             <section className="flex flex-col items-center gap-3">
               {firstError && (
                 <div className="flex w-max flex-col rounded-[40px] bg-[#C70000] p-5 text-sm text-white">
-                  <p className="font-bold">Invalid Email</p>
                   <p>{firstError}</p>
                 </div>
               )}
@@ -80,17 +83,20 @@ export const RequestDialog = () => {
                 <div className="flex items-end gap-4">
                   <Title>{packageName}</Title>
                   <Text color="white" size="base">
-                    Request Form
+                    {t('title', { fallback: 'Request Form' })}
                   </Text>
                 </div>
                 <section className="flex flex-col gap-10">
                   <section className="flex gap-4 max-md:flex-col">
                     <FormColumn>
                       <TextField
-                        placeholder="Full Name"
+                        placeholder={t('fullName', { fallback: 'Full Name' })}
                         {...register('fullName')}
                       />
-                      <TextField placeholder="Email" {...register('email')} />
+                      <TextField
+                        placeholder={t('email', { fallback: 'Email' })}
+                        {...register('email')}
+                      />
                     </FormColumn>
                     <FormColumn>
                       <Controller
@@ -99,7 +105,7 @@ export const RequestDialog = () => {
                         render={({ field }) => (
                           <PhoneField
                             name={field.name}
-                            placeholder="Phone"
+                            placeholder={t('phone', { fallback: 'Phone' })}
                             value={String(field.value)}
                             onBlur={field.onBlur}
                             onChange={value => field.onChange(value)}
@@ -107,19 +113,24 @@ export const RequestDialog = () => {
                         )}
                       />
                       <TextField
-                        placeholder="Tell us about your project"
+                        placeholder={t('aboutProject', {
+                          fallback: 'Tell us about your project',
+                        })}
                         {...register('aboutProject')}
                       />
                     </FormColumn>
                     <TextArea
-                      placeholder="Your message (optional)"
+                      placeholder={t('message', {
+                        fallback: 'Your message (optional)',
+                      })}
                       {...register('message')}
                     />
                   </section>
                   <div className="flex gap-5">
                     <Close asChild>
                       <Button variant="reversed" size="md">
-                        Cancel <CloseCircleIcon />
+                        {t('cancel', { fallback: 'Cancel' })}{' '}
+                        <CloseCircleIcon />
                       </Button>
                     </Close>
                     <Button
@@ -129,10 +140,11 @@ export const RequestDialog = () => {
                       size="md"
                     >
                       {isSubmitting ? (
-                        'Submitting...'
+                        t('submitting', { fallback: 'Submitting...' })
                       ) : (
                         <>
-                          Submit Request <PlayIcon />
+                          {t('submit', { fallback: 'Submit Request' })}{' '}
+                          <PlayIcon />
                         </>
                       )}
                     </Button>
