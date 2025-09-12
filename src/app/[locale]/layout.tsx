@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import { NextIntlClientProvider } from 'next-intl';
 
+import { RequestDialog } from '@/features/request-form/ui/request-dialog';
+
 import { cn } from '@/shared/lib/utils/cn';
 import { Footer } from '@/shared/ui/components/footer';
 import { Header } from '@/shared/ui/components/header';
@@ -71,6 +73,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <RequestDialog />
         </NextIntlClientProvider>
       </body>
     </html>

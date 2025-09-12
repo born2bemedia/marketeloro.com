@@ -2,6 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 
+import { useRequestDialogStore } from '@/features/request-form/model/request-dialog.store';
+
 import { cn } from '@/shared/lib/utils/cn';
 import { PlayIcon } from '@/shared/ui/icons/play';
 import { Button } from '@/shared/ui/kit/button';
@@ -25,6 +27,8 @@ export const PackageSection = ({
   variant?: 'primary' | 'secondary';
 }) => {
   const t = useTranslations('packageSection');
+
+  const { setOpen, setPackageName } = useRequestDialogStore();
 
   return (
     <section className="flex gap-10 px-10 py-[70px] max-md:flex-col max-md:gap-6 max-md:px-2">
@@ -68,6 +72,10 @@ export const PackageSection = ({
                   variant="reversed"
                   size="md"
                   className="max-md:h-[60px] max-md:w-full max-md:justify-center"
+                  onClick={() => {
+                    setPackageName(title);
+                    setOpen(true);
+                  }}
                 >
                   {t('getStarted', { fallback: 'Get Started' })} <PlayIcon />
                 </Button>
@@ -98,6 +106,10 @@ export const PackageSection = ({
                 variant="reversed"
                 size="md"
                 className="max-md:w-full max-md:justify-center"
+                onClick={() => {
+                  setPackageName(title);
+                  setOpen(true);
+                }}
               >
                 {t('getStarted', { fallback: 'Get Started' })} <PlayIcon />
               </Button>
