@@ -550,5 +550,54 @@
     "cancel": "Cancel",
     "submit": "Submit Request",
     "submitting": "Submitting..."
+  },
+  "contactUs": {
+    "title": "Let’s Get to Work",
+    "description": "Get in touch for a conversation about strategies, tailored marketing plans, or to discuss how we can help you grow.",
+    "title2": "Your Data Stays Safe With Us",
+    "description2": {
+      "0": "Your privacy comes first. Everything you share through this form or by email is secured and never shared with third parties.",
+      "1": "We follow GDPR and international privacy standards."
+    },
+    "title3": "Visit Us Offline",
+    "description3": {
+      "0": "Prefer a face-to-face conversation? We’d love to host you at our office.",
+      "1": "Book a visit, and we’ll prepare a space for a productive meeting."
+    },
+    "businessHours": "Business Hours:",
+    "businessHoursValue": "9:00 – 6:00 (Mon–Fri)",
+    "contact": {
+      "title": "Prefer a Call Instead?",
+      "description": "Prefer human-to-human over screen-to-screen?",
+      "responseTime": "Response Time",
+      "responseTimeDescription": "We know your time matters. That’s why every message sent to Marketeloro gets a quick response.",
+      "list": {
+        "0": {
+          "0": "Standard inquiries: within",
+          "1": "24 hours",
+          "2": "on business days."
+        },
+        "1": {
+          "0": "Project requests & proposals: first reply usually within",
+          "1": "12 hours"
+        },
+        "2": {
+          "0": "Client support cases: handled with",
+          "1": "priority attention",
+          "2": "— most resolved in under",
+          "3": "1 business day"
+        }
+      },
+      "neverLeftHanging": "You’ll never be left hanging!"
+    }
+  },
+  "contactForm": {
+    "title": "Contact Form",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "companyName": "Company Name",
+    "submit": "Send Message",
+    "submitting": "Sending..."
   }
 }

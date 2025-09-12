@@ -2,6 +2,7 @@
 
 import type { ReactNode } from 'react';
 import { useForm } from 'react-hook-form';
+import { useTranslations } from 'next-intl';
 import { valibotResolver } from '@hookform/resolvers/valibot';
 
 import { PlayIcon } from '@/shared/ui/icons/play';
@@ -12,6 +13,8 @@ import { Title } from '@/shared/ui/kit/title';
 import { contactFormSchema } from '../model/schema';
 
 export const ContactForm = () => {
+  const t = useTranslations('contactForm');
+
   const {
     register,
     handleSubmit,
@@ -49,15 +52,27 @@ export const ContactForm = () => {
           <p>{firstError}</p>
         </div>
       )}
-      <Title>Contact Form</Title>
+      <Title>{t('title', { fallback: 'Contact Form' })}</Title>
       <section className="flex gap-4">
         <FormColumn>
-          <TextField placeholder="First Name" {...register('firstName')} />
-          <TextField placeholder="Email" {...register('email')} />
+          <TextField
+            placeholder={t('firstName', { fallback: 'First Name' })}
+            {...register('firstName')}
+          />
+          <TextField
+            placeholder={t('email', { fallback: 'Email' })}
+            {...register('email')}
+          />
         </FormColumn>
         <FormColumn>
-          <TextField placeholder="Last Name" {...register('lastName')} />
-          <TextField placeholder="Company Name" {...register('companyName')} />
+          <TextField
+            placeholder={t('lastName', { fallback: 'Last Name' })}
+            {...register('lastName')}
+          />
+          <TextField
+            placeholder={t('companyName', { fallback: 'Company Name' })}
+            {...register('companyName')}
+          />
         </FormColumn>
       </section>
       <Button
@@ -66,7 +81,10 @@ export const ContactForm = () => {
         type="submit"
         disabled={isSubmitting}
       >
-        {isSubmitting ? 'Sending...' : 'Send Message'} <PlayIcon />
+        {isSubmitting
+          ? t('submitting', { fallback: 'Sending...' })
+          : t('submit', { fallback: 'Send Message' })}{' '}
+        <PlayIcon />
       </Button>
     </form>
   );
