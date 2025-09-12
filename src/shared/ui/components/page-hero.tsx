@@ -20,7 +20,7 @@ export const PageHero = ({
   metaButtons,
   className,
 }: {
-  title: string;
+  title?: string;
   description?: ReactNode;
   imgUrl: string;
   metaButtons?: {
@@ -40,9 +40,11 @@ export const PageHero = ({
     >
       <Image className="object-cover" src={imgUrl} alt="hero-img" fill />
       <div className="absolute inset-0 bg-black/30" />
-      <Title as="h1" className="z-10 w-[80%] max-md:w-full">
-        {title}
-      </Title>
+      {title && (
+        <Title as="h1" className="z-10 w-[80%] max-md:w-full">
+          {title}
+        </Title>
+      )}
       {description && (
         <Text
           size="base"
