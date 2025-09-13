@@ -72,8 +72,8 @@ export default function RootLayout({
         <NextIntlClientProvider>
           <Header />
           {children}
-          <Footer />
           <RequestDialog />
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
