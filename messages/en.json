@@ -599,5 +599,65 @@
     "companyName": "Company Name",
     "submit": "Send Message",
     "submitting": "Sending..."
+  },
+  "storyTime": {
+    "hero": {
+      "title": "StoryTime",
+      "description": "Marketing changes fast. StoryTime is where we push limits, test ideas, break rules, and share what truly works in the real world."
+    },
+    "overview": {
+      "title": "One Team With You",
+      "items": {
+        "0": {
+          "title": "Wins & Fails",
+          "text": "Raw case studies with numbers"
+        },
+        "1": {
+          "title": "Future Signals",
+          "text": "Trends before they hit the mainstream"
+        },
+        "2": {
+          "title": "Playbooks",
+          "text": "Practical steps you can steal and apply"
+        },
+        "3": {
+          "title": "Voices",
+          "text": "Insights from the people behind"
+        }
+      }
+    },
+    "latestDrops": {
+      "title": "Latest drops",
+      "items": {
+        "0": {
+          "name": "How We Turned a Plateaued E-commerce Brand into +167% Growth in 4 Months",
+          "description": "a deep dive into strategy, channels, and the exact levers that unlocked growth.",
+          "btnLabel": "Read Case Study"
+        },
+        "1": {
+          "name": "5 PPC Tweaks That Saved a Client $42,000 in Ad Spend",
+          "description": "practical, repeatable adjustments you can use right away.",
+          "btnLabel": "See the Insights"
+        },
+        "2": {
+          "name": "CRO in Action: Small Changes, Big Conversions",
+          "description": "proof that a better button or headline can mean thousands in revenue.",
+          "btnLabel": "Read More"
+        },
+        "3": {
+          "name": "Why “Safe” Branding is the Fastest Way to Be Forgotten",
+          "description": "an argument for boldness, with examples that prove the point.",
+          "btnLabel": "Read the Article"
+        }
+      }
+    },
+    "footer": {
+      "title": "Your story matters too!",
+      "description": {
+        "0": "StoryTime is a space for bold ideas and real experiences from our community.",
+        "1": "if you’ve got a story worth telling — a big win, a tough lesson, or a creative breakthrough — send it to us by email.",
+        "2": "We’ll review it, and your story could be published here."
+      }
+    }
   }
 }
