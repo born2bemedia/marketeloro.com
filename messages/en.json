@@ -1318,5 +1318,271 @@
       "0": "If you have questions or concerns about how cookies are used on our Site, please contact us:",
       "1": "Website"
     }
+  },
+  "termsAndConditions": {
+    "title": "Terms and Conditions",
+    "0": {
+      "0": {
+        "0": "Welcome to Marketeloro.",
+        "1": "These Terms and Conditions (“Terms”) establish the guidelines under which you (“you,” “client,” or “user”) may browse our website and access any marketing or strategic services offered by us.",
+        "2": "By visiting our site, submitting a request, purchasing a service, or engaging with materials published by Marketeloro, you confirm that you have read, understood, and agreed to comply with these Terms in full. If you do not agree with these Terms, please discontinue use of the website and our services."
+      },
+      "1": {
+        "0": "Disclaimer:",
+        "1": "Any examples, visuals, testimonials, or case studies presented on the Marketeloro website are provided for demonstration and informational purposes only. They are not promises of identical results and may not always represent actual clients or internal team members."
+      }
+    },
+    "1": {
+      "title": "Definition",
+      "list": {
+        "0": {
+          "0": "Company",
+          "1": "“we,” “our,” or “us” refers to"
+        },
+        "1": {
+          "0": "Device",
+          "1": "Any digital medium used to access the website, such as a smartphone, tablet, laptop, or desktop computer."
+        },
+        "2": {
+          "0": "Services",
+          "1": "Any marketing, consulting, creative, or strategic solutions provided via the website or as part of a direct engagement with clients."
+        },
+        "3": {
+          "0": "Third-Party Services",
+          "1": "Any external platforms, tools, or vendors not managed by Marketeloro, which may be referenced or integrated during service delivery."
+        },
+        "4": {
+          "0": "Website",
+          "1": "The official domain operated by the Company"
+        },
+        "5": {
+          "0": "You",
+          "1": "Any person or entity accessing the website, making inquiries, submitting a form, purchasing services, or otherwise interacting with Marketeloro."
+        }
+      }
+    },
+    "2": {
+      "title": "Governing Law",
+      "0": "These Terms are governed by and interpreted according to the laws. Any disputes arising under these Terms shall fall within the exclusive jurisdiction of the competent courts of that location.",
+      "1": "By continuing to use our website and services, you accept the latest version of these Terms. We reserve the right to amend or update them at any time without prior notice."
+    },
+    "3": {
+      "title": "Cookies",
+      "0": "Marketeloro uses cookies (small data files stored on your device) to enhance functionality, analyze performance, and improve your browsing experience. By continuing to navigate our website, you consent to our use of cookies as described in our Cookie Policy."
+    },
+    "4": {
+      "title": "Intellectual Property",
+      "0": "All content available on the Marketeloro website, including text, visuals, creative materials, frameworks, downloadable resources, and design elements, is the property of Marketeloro or its licensors.",
+      "1": "Such materials are protected under copyright, trademark, and intellectual property regulations. Copying, redistribution, or use of these materials for commercial purposes without prior written permission is prohibited, unless explicitly authorized by a specific service contract or license."
+    },
+    "5": {
+      "title": "Payments and Billing",
+      "0": {
+        "0": "Any transactions processed through",
+        "1": "will appear on your billing statement under",
+        "2": "or",
+        "3": "depending on your chosen payment method and regional processing."
+      },
+      "1": "Submitting payment confirms your agreement to the scope and terms of the corresponding service description or contract."
+    },
+    "6": {
+      "title": "Copyright Complaints",
+      "0": "If you believe that content published by Marketeloro infringes upon your intellectual property rights, you may file a formal notice containing the following information:",
+      "list": {
+        "0": "Your full legal name along with a physical or digital signature.",
+        "1": "A clear description of the copyrighted work you claim has been infringed.",
+        "2": "The exact location (URL) of the material in question.",
+        "3": "Your contact details, including address, email, and phone number.",
+        "4": "A statement confirming your good faith belief that the disputed use is not authorized by the copyright holder, their representative, or the law.",
+        "5": "A declaration, under penalty of perjury, that all information provided is accurate and that you are the rightful owner (or authorized agent)."
+      },
+      "1": "Please send copyright-related inquiries to: hello@marketeloro.com."
+    },
+    "7": {
+      "title": "Promotions and Special Offers",
+      "0": "Occasionally, Marketeloro may run promotional campaigns — such as discounts, giveaways, contests, or limited-time offers. Participation in such activities may require the submission of personal information, testimonials, or feedback.",
+      "1": "Each promotion will include its own eligibility rules, conditions, and requirements (e.g., age, region, or other restrictions).",
+      "2": "By joining any of these campaigns, you agree to follow the relevant rules and conditions. It is your responsibility to review promotion-specific details before participating."
+    },
+    "8": {
+      "title": "Updates to These Terms",
+      "0": {
+        "0": "We may update these Terms and Conditions from time to time to reflect changes in our services, legal requirements, or internal processes.",
+        "1": "If substantial modifications are made, we will inform users through a notice on our website, by email, or within the client dashboard."
+      },
+      "1": {
+        "0": "Your continued use of",
+        "1": "following such updates will be considered acceptance of the revised Terms. If you do not agree with the changes, you must discontinue use of our site and services."
+      }
+    },
+    "9": {
+      "title": "Modifications to the Service",
+      "0": "reserves the right to adjust, suspend, or discontinue any part of its services at any moment, with or without prior notice. This may include introducing new features, updating the platform, restricting access, or deactivating certain accounts.",
+      "1": "Should your access be restricted or terminated, you may lose related resources, files, or communications previously made available through our services."
+    },
+    "10": {
+      "title": "Entire Agreement",
+      "0": {
+        "0": "These Terms represent the full and exclusive agreement between you and",
+        "1": "concerning the use of the Marketeloro website and services. They supersede any prior communications, whether written, oral, or implied, related to this subject."
+      }
+    },
+    "11": {
+      "title": "Amendments",
+      "0": "We may revise these Terms at any point. If we determine that a change is significant, we will provide advance notice — typically no less than 30 days — before the updated version becomes effective.",
+      "1": "The definition of a “material change” will be determined solely at our discretion. Continued use of the website or services after publication of changes constitutes acceptance of the revised Terms."
+    },
+    "12": {
+      "title": "Platform Changes and Technical Updates",
+      "0": {
+        "0": "To improve user experience, service reliability, and security,",
+        "1": "may introduce technical enhancements or platform changes. These updates can include new features, design changes, system optimizations, or backend improvements."
+      },
+      "1": "We reserve the right to update, limit, restrict, or remove functionality on the website at any time, either temporarily or permanently, without prior notice and without liability to users."
+    },
+    "13": {
+      "title": "External Links",
+      "0": "The Marketeloro website may include links to third-party websites or services for convenience. We do not control or endorse the content, practices, or accuracy of these external sites. Once you leave our domain, these Terms and our Privacy Policy no longer apply."
+    },
+    "14": {
+      "title": "Third-Party Services",
+      "0": "In the course of delivering our marketing and consulting services, we may integrate or recommend third-party platforms, software, or providers. Your use of such tools is voluntary and subject to the external provider’s own terms and policies.",
+      "1": "accepts no responsibility for the availability, legality, performance, or reliability of third-party services."
+    },
+    "15": {
+      "title": "Term and Termination",
+      "0": "These Terms remain in effect for 90 days after your service purchase, unless terminated earlier by either party.",
+      "1": "You may terminate your relationship with Marketeloro at any time by ceasing use of the website and deleting stored data.",
+      "2": "We reserve the right to suspend or revoke access to our services if misuse, policy violations, or unauthorized activities are detected."
+    },
+    "16": {
+      "title": "No Warranties",
+      "0": {
+        "0": "Our website and services are provided on an",
+        "1": "“as is”",
+        "2": "and",
+        "3": "“as available”",
+        "4": "basis, without warranties of any kind.",
+        "5": "This includes, but is not limited to, warranties regarding:"
+      },
+      "list": {
+        "0": "Merchantability",
+        "1": "Fitness for a particular purpose",
+        "2": "Non-infringement",
+        "3": "Uninterrupted access or performance",
+        "4": "Accuracy or reliability of information",
+        "5": "Protection against errors, malware, or harmful code",
+        "6": "Non-infringement",
+        "7": "Uninterrupted access or performance",
+        "8": "Accuracy or reliability of information",
+        "9": "Protection against errors, malware, or harmful code"
+      },
+      "1": "We do not guarantee that our website or services will meet every expectation or operate without interruptions. Some warranty exclusions may not apply in jurisdictions where limitations are restricted by law."
+    },
+    "17": {
+      "title": "Limitation of Liability",
+      "0": {
+        "0": "To the maximum extent allowed under applicable law,",
+        "1": "its affiliates, partners, and contractors will not be liable for any indirect, incidental, or consequential damages that result from your use of the website or services."
+      },
+      "1": "Our total liability under any claim is limited to the amount you paid for the specific service involved."
+    },
+    "18": {
+      "title": "Indemnification",
+      "0": "You agree to indemnify and hold harmless",
+      "1": "its employees, affiliates, and partners against any claims, damages, or expenses (including reasonable legal fees) arising from:",
+      "list": {
+        "0": "Your use of our website or services",
+        "1": "Your breach of these Terms",
+        "2": "Your violation of laws or regulations",
+        "3": "Any infringement of third-party rights"
+      }
+    },
+    "19": {
+      "title": "Validity of Provisions",
+      "0": "If any clause within these Terms is ruled invalid, unlawful, or unenforceable by a court, that clause will be adapted or removed as needed. The rest of the Terms will remain fully effective.",
+      "1": {
+        "0": "Any legal claim relating to your use of",
+        "1": "must be initiated within",
+        "2": "one (1) year",
+        "3": "from the date the issue arose."
+      }
+    },
+    "20": {
+      "title": "No Waiver of Rights",
+      "0": "If either party does not immediately enforce a right or condition under these Terms, it does not mean that the right is waived. A single waiver will not extend to future cases or similar circumstances."
+    },
+    "21": {
+      "title": "Resolving Disputes",
+      "0": {
+        "0": "Commitment to Arbitration",
+        "1": "Any disputes, disagreements, or claims tied to these Terms or your use of",
+        "2": "(except matters involving intellectual property or urgent legal remedies) shall be handled through binding arbitration."
+      },
+      "1": {
+        "0": "Arbitration Process",
+        "1": "If informal negotiations do not resolve the issue, both parties agree to arbitration under the commercial arbitration rules.",
+        "2": "By agreeing to these Terms, both you and",
+        "3": "give up the right to court proceedings or jury trials. Temporary legal remedies may be pursued during arbitration to safeguard rights."
+      },
+      "2": "The party that does not prevail may be required to cover reasonable legal and administrative fees of the winning side.",
+      "3": {
+        "title": "Initiating a Dispute",
+        "0": "To begin the process, a Notice of Dispute must be provided, including:",
+        "list": {
+          "0": "Full name and contact details",
+          "1": "A clear explanation of the issue",
+          "2": "A proposed resolution"
+        }
+      },
+      "4": "Send notices to:",
+      "5": {
+        "0": "Both parties agree to attempt resolution for up to",
+        "1": "60 days",
+        "2": "before moving to arbitration."
+      },
+      "6": {
+        "title": "Service Disclaimer",
+        "0": {
+          "0": "The",
+          "1": "platform, its tools, and related services are provided strictly on an",
+          "2": "“as is”",
+          "3": "and",
+          "4": "“as available”",
+          "5": "basis."
+        },
+        "1": "We do not guarantee:",
+        "list": {
+          "0": "Uninterrupted operation or flawless performance",
+          "1": "Accuracy, timeliness, or completeness of any content",
+          "2": "Compatibility with all devices and browsers",
+          "3": "Complete protection from bugs, malware, or technical faults"
+        },
+        "2": "We may adjust, update, or discontinue features and services at our discretion, without prior notice."
+      },
+      "7": {
+        "title": "Eligibility and Age Verification",
+        "0": "To use the",
+        "1": "website or engage with our services, you must confirm that you are at least",
+        "2": "18 years old",
+        "3": "(or the legal age of majority in your jurisdiction).",
+        "4": "By creating an account, submitting a form, or purchasing any service, you represent and warrant that you meet the minimum age requirement and have the legal capacity to enter into binding agreements.",
+        "5": "If we discover that a user has provided false information regarding their age, or is otherwise not legally permitted to use our services,",
+        "6": "reserves the right to restrict or terminate access immediately, without liability.",
+        "7": "Parents or legal guardians who believe a minor has engaged with Marketeloro’s services should contact us directly at [insert support email], so that we can take appropriate action, including removal of data if applicable."
+      },
+      "8": {
+        "title": "Acceptance of Terms",
+        "0": "By browsing our site, submitting forms, or purchasing services, you confirm that you have read, understood, and fully agreed to these Terms and Conditions."
+      },
+      "9": {
+        "title": "Feedback and Complaints",
+        "0": "If you experience issues with our services, please reach out and provide all relevant details (service name, date, correspondence, etc.) along with your proposed solution.",
+        "list": {
+          "0": "Website"
+        },
+        "1": "We aim to resolve all concerns fairly, promptly, and with professionalism."
+      }
+    }
   }
 }
