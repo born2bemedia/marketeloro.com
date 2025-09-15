@@ -632,22 +632,59 @@
         "0": {
           "name": "How We Turned a Plateaued E-commerce Brand into +167% Growth in 4 Months",
           "description": "a deep dive into strategy, channels, and the exact levers that unlocked growth.",
-          "btnLabel": "Read Case Study"
+          "btnLabel": "Read Case Study",
+          "footer": {
+            "title": {
+              "0": "You’ve Seen the Proof. ",
+              "1": "Be the Next Case Study."
+            },
+            "buttons": {
+              "0": "Our Services",
+              "1": "Reach Out Today"
+            }
+          }
         },
         "1": {
           "name": "5 PPC Tweaks That Saved a Client $42,000 in Ad Spend",
           "description": "practical, repeatable adjustments you can use right away.",
-          "btnLabel": "See the Insights"
+          "btnLabel": "See the Insights",
+          "footer": {
+            "title": {
+              "0": "Ready to ",
+              "1": "Boost Your Conversions?"
+            },
+            "buttons": {
+              "0": "Our Services",
+              "1": "Talk to Marketeloro"
+            }
+          }
         },
         "2": {
           "name": "CRO in Action: Small Changes, Big Conversions",
           "description": "proof that a better button or headline can mean thousands in revenue.",
-          "btnLabel": "Read More"
+          "btnLabel": "Read More",
+          "footer": {
+            "title": {
+              "0": "Want to Cut ",
+              "1": "Wasted Ad Spend Too?"
+            },
+            "buttons": {
+              "0": "Our Services",
+              "1": "Reach Out Today"
+            }
+          }
         },
         "3": {
           "name": "Why “Safe” Branding is the Fastest Way to Be Forgotten",
           "description": "an argument for boldness, with examples that prove the point.",
-          "btnLabel": "Read the Article"
+          "btnLabel": "Read the Article",
+          "footer": {
+            "title": "Don’t Be the Brand No One Remembers",
+            "buttons": {
+              "0": "Make My Brand Bold",
+              "1": "Talk to Marketeloro"
+            }
+          }
         }
       }
     },
@@ -657,6 +694,497 @@
         "0": "StoryTime is a space for bold ideas and real experiences from our community.",
         "1": "if you’ve got a story worth telling — a big win, a tough lesson, or a creative breakthrough — send it to us by email.",
         "2": "We’ll review it, and your story could be published here."
+      }
+    }
+  },
+  "articles": {
+    "back": "Back",
+    "howWeTurned": {
+      "0": {
+        "title": "The Channels That Actually Moved the Needle",
+        "0": {
+          "0": "One of the first lessons: not every platform deserves your money. At the time of the audit, the client was spreading spend across",
+          "1": "Google Search, Display, Meta (Facebook/Instagram), and TikTok Ads.",
+          "2": "Here’s what we found after a 3-week controlled test:"
+        },
+        "list": {
+          "0": "82% of spend, but almost zero conversions. The impressions looked impressive, but the audience quality was poor.",
+          "1": "modest spend, but high CTR (1.9%) and low CPA compared to benchmarks.",
+          "2": "cheaper CPMs, huge reach, but conversions weren’t cost-effective without creative adaptation.",
+          "3": "the quiet winner. Purchase-intent keywords showed a 3.2% conversion rate with minimal optimization."
+        },
+        "1": {
+          "0": "Key takeaway:",
+          "1": "the problem wasn’t the product — it was budget allocation. 62% of the total monthly budget was shifted from Display into Search + Meta, doubling ROI within the first 30 days."
+        }
+      },
+      "1": {
+        "title": "Creative That Converts, Not Just Impresses",
+        "0": {
+          "0": "Ad fatigue was killing performance. The brand had been recycling the same creative for months — polished product shots, generic slogans like “Shop the Collection,” and zero storytelling.",
+          "1": "We tested",
+          "2": "12 new ad variations",
+          "3": "with micro-messaging angles, each focused on a different conversion driver:"
+        },
+        "list": {
+          "0": {
+            "0": "Scarcity",
+            "1": "(“Only 12 left in stock”) — CTR +1.2%"
+          },
+          "1": {
+            "0": "Social proof",
+            "1": "(“Over 20,000 happy customers”) — CTR +2.7%"
+          },
+          "2": {
+            "0": "Problem/Solution",
+            "1": "(“Stop wasting time on X. Here’s Y.”) — CTR +3.5%"
+          },
+          "3": {
+            "0": "Urgency + Offer",
+            "1": "(“Order in the next 24h for free shipping”) — best performer with a 4.1% CTR"
+          }
+        },
+        "1": {
+          "0": "The creative that looked the least polished (UGC-style videos shot on iPhone, authentic voiceovers) outperformed studio-perfect visuals by",
+          "1": "over 250% in ROAS."
+        },
+        "2": {
+          "0": "Key takeaway:",
+          "1": "polish doesn’t sell, relevance does. People don’t want brand theater — they want real voices."
+        }
+      },
+      "2": {
+        "title": "Conversion Rate Optimization: The Silent Multiplier",
+        "0": {
+          "0": "The website was the real bottleneck. We didn’t redesign the whole store — we identified",
+          "1": "3 friction points",
+          "2": "and fixed them fast:"
+        },
+        "list": {
+          "0": {
+            "0": "Checkout flow",
+            "1": "24% of users dropped after adding to cart. The culprit? A mandatory account creation step. We added a “Checkout as Guest” option → cart abandonment dropped by 38%."
+          },
+          "1": {
+            "0": "Product page clarity",
+            "1": "specs buried below the fold. We moved key info (sizes, delivery times, returns policy) above the fold → time on page +47%."
+          },
+          "2": {
+            "0": "Speed",
+            "1": "mobile load times were 5.7s. After image compression + lazy loading, we cut it to 2.1s → bounce rate dropped by 29%."
+          }
+        },
+        "3": {
+          "0": "The cumulative effect? Conversion rate went from 1.3% to 3.6% in under 2 months.",
+          "1": "Key takeaway:",
+          "2": "CRO is not about flashy redesigns. It’s about removing friction, step by step."
+        }
+      },
+      "3": {
+        "title": "Retention and LTV: Where the Real Growth Hid",
+        "0": {
+          "0": "The client had been obsessed with new customer acquisition, but completely ignored",
+          "1": "repeat purchase potential",
+          "2": "We launched a",
+          "3": "3-touch email flow:"
+        },
+        "list": {
+          "0": {
+            "0": "Welcome flow",
+            "1": "(Day 0–3): personalized brand intro + product education → 42% open rate."
+          },
+          "1": {
+            "0": "Reactivation flow",
+            "1": "(Day 14): “Still thinking?” + small discount → 18% recovery of abandoned carts."
+          },
+          "2": {
+            "0": "Loyalty flow",
+            "1": "(Day 30): “VIP Access” early product drops → 27% repeat purchase rate in first 60 days."
+          }
+        },
+        "1": {
+          "0": "This alone boosted Customer Lifetime Value (LTV) by 34% in the 4-month window."
+        },
+        "2": {
+          "0": "Key takeaway:",
+          "1": "profit isn’t in the first sale. Sustainable growth comes from turning one-time buyers into repeat customers."
+        }
+      },
+      "4": {
+        "title": "The Numbers After 4 Months",
+        "list": {
+          "0": {
+            "0": "Revenue",
+            "1": "+167% increase compared to the plateau baseline."
+          },
+          "1": {
+            "0": "ROAS",
+            "1": "improved from 1.8x to 4.2x."
+          },
+          "2": {
+            "0": "CPA",
+            "1": "dropped by 37%."
+          },
+          "3": {
+            "0": "Conversion rate",
+            "1": "improved 2.3x after CRO fixes."
+          },
+          "4": {
+            "0": "Repeat purchases",
+            "1": "up 34%."
+          }
+        }
+      },
+      "5": {
+        "title": "Lessons for Any E-commerce Brand",
+        "list": {
+          "0": {
+            "0": "Cut dead weight channels.",
+            "1": "Don’t spread thin — double down where the ROI lives."
+          },
+          "1": {
+            "0": "Test raw creative.",
+            "1": "Authenticity beats polish 9 out of 10 times."
+          },
+          "2": {
+            "0": "Fix the funnel before scaling ads.",
+            "1": "CRO multipliers make ad spend worth it."
+          },
+          "3": {
+            "0": "Retention is growth fuel.",
+            "1": "Email automation is still one of the highest ROI moves you can make."
+          },
+          "4": {
+            "0": "Growth isn’t magic.",
+            "1": "It’s structured testing, ruthless optimization, and reallocation of resources."
+          }
+        },
+        "2": {
+          "0": "Final thought:",
+          "1": "Growth doesn’t come from working harder — it comes from working smarter, cutting the noise, and focusing on the few levers that really move the needle."
+        }
+      }
+    },
+    "croInAction": {
+      "0": {
+        "title": "The Situation",
+        "0": {
+          "0": "A mid-sized online retailer came to us frustrated. They had steady traffic from ads and organic search, but sales weren’t matching the effort. The data told a clear story: lots of visitors, too few buyers.",
+          "1": {
+            "0": "Instead of throwing more money into ads, we decided to",
+            "1": "turn the website itself into a conversion machine"
+          }
+        }
+      },
+      "1": {
+        "title": "Step 1 — Headlines That Speak to People, Not Algorithms",
+        "0": {
+          "0": "The original product pages used generic headers like “Our Best Collection Yet.”",
+          "1": "After surveying customers, we rewrote them to highlight",
+          "2": "value and urgency:"
+        },
+        "list": {
+          "0": "Old: “New Summer Collection”",
+          "1": "New: “Stay Cool This Summer — Limited Stock, Ships in 24h”"
+        },
+        "1": {
+          "0": "Result → Bounce rate dropped by 19%, add-to-cart clicks up by 27%.",
+          "1": "Insight:",
+          "2": "Customers don’t want poetry, they want clarity + a reason to act now."
+        }
+      },
+      "2": {
+        "title": "Step 2 — The Button That Changed Everything",
+        "0": {
+          "0": "Their CTA button said: “Buy Now”. It blended with the rest of the design — gray text on a pale background.",
+          "1": "We tested two changes:"
+        },
+        "list": {
+          "0": {
+            "0": "Color contrast",
+            "1": "switched to a bold orange that stood out."
+          },
+          "1": {
+            "0": "Copy tweak",
+            "1": "from “Buy Now” to “Get Yours Today.”"
+          }
+        },
+        "1": "Result → CTR on the button increased by 46%, and completed purchases rose by 21% within 3 weeks.",
+        "2": {
+          "0": "Insight:",
+          "1": "Small visual and copy tweaks can outperform massive redesigns."
+        }
+      },
+      "3": {
+        "title": "Step 3 — Trust Signals at the Right Place",
+        "0": "Most reviews and guarantees were buried at the bottom of the page. We moved them directly under the “Add to Cart” button.",
+        "1": {
+          "0": "Result → Conversion rate went from 2.1% to 3.8%.",
+          "1": {
+            "0": "That’s an extra",
+            "1": "$72,000 in revenue",
+            "2": "in just 2 months — without increasing traffic."
+          }
+        },
+        "2": {
+          "0": "Insight:",
+          "1": "People hesitate at the purchase step. Put reassurance exactly where the decision happens."
+        }
+      },
+      "4": {
+        "title": "Step 4 — Mobile First, Always",
+        "0": "70% of the store’s traffic was mobile, but forms were clunky. We simplified checkout from 5 steps → 3 steps, added auto-fill, and improved load speed (4.9s → 2.2s).",
+        "1": "Result → Mobile conversions jumped by 62%.",
+        "2": {
+          "0": "Insight:",
+          "1": "Mobile isn’t “secondary.” For most e-com brands, it is the main store."
+        }
+      },
+      "5": {
+        "title": "The Numbers After 60 Days",
+        "list": {
+          "0": "Conversion rate → from 2.1% to 4.2% (+100%)",
+          "1": "Revenue increase → +$120,000 without extra ad spend",
+          "2": "Checkout abandonment → down 35%",
+          "3": "Mobile conversions → up 62%"
+        }
+      },
+      "6": {
+        "title": "Takeaways You Can Apply Today",
+        "list": {
+          "0": "Rewrite headlines to highlight benefit + urgency.",
+          "1": "Make your CTA button impossible to ignore — visually and verbally.",
+          "2": "Place trust signals exactly where hesitation happens.",
+          "3": "Cut checkout friction, especially on mobile."
+        },
+        "0": {
+          "0": "Final Thought:",
+          "1": "In CRO, small changes are often the big wins. You don’t always need a full redesign. Sometimes, the difference between mediocre and outstanding results is as simple as a button color or a headline rewrite."
+        }
+      }
+    },
+    "ppcTweaks": {
+      "0": {
+        "title": "The Situation",
+        "0": {
+          "0": "A SaaS client came to us with a painful problem: They were spending",
+          "1": "$65,000/month",
+          "2": "on Google Ads and Meta campaigns, but the ROI wasn’t adding up. Leads were coming in, but the cost per acquisition (CPA) was spiraling out of control."
+        },
+        "1": {
+          "0": "Instead of “more budget, more clicks,” we decided to",
+          "1": "audit and optimize",
+          "2": "ruthlessly. Within 90 days, five tactical changes saved",
+          "3": "$42,000",
+          "4": "— without hurting lead flow."
+        }
+      },
+      "1": {
+        "title": "Tweak #1 — Kill the Zombie Keywords",
+        "0": {
+          "0": "We found dozens of keywords that were eating budget but driving zero conversions.",
+          "1": "Examples included:"
+        },
+        "list": {
+          "0": "Broad terms like “software tools”",
+          "1": "High-cost competitors with no realistic conversion",
+          "2": "Irrelevant long-tails triggered by sloppy match types"
+        },
+        "1": {
+          "0": "By pausing 17 underperforming keywords and tightening match types, we cut wasted spend by",
+          "1": "$12,000/month."
+        },
+        "2": {
+          "0": "Action tip:",
+          "1": "Audit your keyword report weekly. If it hasn’t been converted in 90 days and has high spend, kill it."
+        }
+      },
+      "2": {
+        "title": "Tweak #2 — Tighten Geo-Targeting",
+        "0": {
+          "0": "The client was running campaigns globally, but 73% of conversions came from just",
+          "1": "3 countries",
+          "2": "We reallocated the budget to those markets, while excluding low-value regions."
+        },
+        "1": {
+          "0": "Result → CTR improved by 22%, CPA dropped by 19%. Monthly savings:"
+        },
+        "2": {
+          "0": "Action tip:",
+          "1": "If you don’t need global reach, don’t pay for it. Focus on where your best customers actually live."
+        }
+      },
+      "3": {
+        "title": "Tweak #3 — Stop Overpaying for Top Position",
+        "0": {
+          "0": "The client was obsessed with ranking #1 on Google Search. The problem?",
+          "1": "Top placement cost 35–40% more per click, but position #2 or #3 delivered nearly identical conversion rates.",
+          "2": "We shifted the bidding strategy from “Maximize Position” to “Target CPA.”"
+        },
+        "1": {
+          "0": "Result → CPC dropped by 28%, and we saved",
+          "1": "in the first month."
+        },
+        "2": {
+          "0": "Action tip:",
+          "1": "Position #1 is ego. Position #2 can be profitable. Test it."
+        }
+      },
+      "4": {
+        "title": "Tweak #4 — Ad Copy Stress-Test",
+        "0": {
+          "0": "Most ads had been running unchanged for 9+ months. Click-through rates were stagnant. We A/B tested 6 new ad variations with sharper hooks:"
+        },
+        "list": {
+          "0": "Old: “Get the Best Software Today”",
+          "1": "New: “Cut Costs 32% With Smarter Software”"
+        },
+        "1": {
+          "0": "Result → CTR lifted by 34%, Quality Score improved, CPC decreased by 12%.",
+          "1": "Savings:",
+          "2": "$6,000/month."
+        },
+        "2": {
+          "0": "Action tip:",
+          "1": "Never let ad copy go stale. Rotate every 6–8 weeks to protect Quality Score."
+        }
+      },
+      "5": {
+        "title": "Tweak #5 — Retarget Smarter, Not Harder",
+        "0": {
+          "0": "The client was blasting retargeting ads to everyone who visited their site, regardless of intent."
+        },
+        "1": "We segmented:",
+        "list": {
+          "0": {
+            "0": "Hot leads",
+            "1": "cart abandoners, pricing page visitors → full retarget budget."
+          },
+          "1": {
+            "0": "Cold visitors",
+            "1": "blog readers, bounced users → capped frequency + smaller budget."
+          }
+        },
+        "2": "Result → retargeting CPA dropped 40%, with $5,000 in monthly savings.",
+        "3": {
+          "0": "Action tip:",
+          "1": "Treat retargeting audiences differently. Not all visitors deserve the same spend."
+        }
+      },
+      "6": {
+        "title": "The Numbers After 90 Days",
+        "list": {
+          "0": {
+            "0": "Ad spend saved:"
+          },
+          "1": {
+            "0": "CPA reduced:"
+          },
+          "2": {
+            "0": "Lead volume:",
+            "1": "steady (no drop despite cuts)"
+          },
+          "3": {
+            "0": "Quality Score:",
+            "1": "improved across 80% of ad groups"
+          }
+        }
+      },
+      "7": {
+        "title": "Takeaways You Can Apply Today",
+        "list": {
+          "0": "Audit and pause keywords that don’t convert.",
+          "1": "Narrow geo-targeting to your top-performing regions.",
+          "2": "Don’t overpay for position #1 — test smarter bidding.",
+          "3": "Keep ad copy fresh to protect CTR and Quality Score.",
+          "4": "Retarget based on intent, not just visits."
+        },
+        "0": {
+          "0": "Final Thought:",
+          "1": "PPC waste hides in plain sight. With a few sharp tweaks, you can save thousands — and reinvest into the channels and audiences that actually drive growth."
+        }
+      }
+    },
+    "safeBranding": {
+      "0": {
+        "title": "The Trap of Playing It Safe",
+        "0": "Most brands think safety equals stability. They avoid sharp opinions, bold visuals, or anything that might “offend” or stand out too much. Instead, they pick neutral colors, generic taglines, and copy that sounds like everyone else.",
+        "1": "The result? Silence. No controversy, but no attention either.",
+        "2": "And in a market overflowing with ads, silence is the same as invisibility."
+      },
+      "1": {
+        "title": "What Safe Branding Looks Like",
+        "0": "We see it every day:",
+        "list": {
+          "0": "Taglines that could belong to any brand: “Quality you can trust,” “Innovation for the future.”",
+          "1": "Logos that blend into the same five templates.",
+          "2": "Campaigns designed by committee — where every risky idea is trimmed until nothing remains."
+        },
+        "1": "Safe branding feels comfortable in the boardroom. But in the marketplace, it disappears."
+      },
+      "2": {
+        "title": "The Boldness Advantage",
+        "0": "Brands that win aren’t the ones who “fit in” — they’re the ones who make people stop, think, and feel.",
+        "list": {
+          "examples": "Examples:",
+          "0": {
+            "0": "Nike’s “Just Do It.”",
+            "1": "It wasn’t about shoes. It was about identity, courage, and personal struggle."
+          },
+          "1": {
+            "0": "Oatly’s disruptive packaging.",
+            "1": "Handwritten fonts, quirky copy (“Wow no cow!”) — it broke every “rule” of serious food branding."
+          },
+          "2": {
+            "0": "Liquid Death.",
+            "1": "A water brand with a heavy metal aesthetic — and it worked, because it turned plain water into a statement."
+          }
+        },
+        "1": {
+          "0": "Lesson:",
+          "1": "Bold branding doesn’t mean shocking for the sake of shock. It means owning a clear, unapologetic point of view."
+        }
+      },
+      "3": {
+        "title": "Practical Ways to Be Bold Without Being Reckless",
+        "list": {
+          "0": {
+            "0": "Choose a stance.",
+            "1": "Stop trying to please everyone. Bold brands are clear about what they believe."
+          },
+          "1": {
+            "0": "Cut the jargon.",
+            "1": "If your tagline could be copy-pasted onto any competitor, it’s worthless."
+          },
+          "2": {
+            "0": "Visual risk = visual memory.",
+            "1": "Use colors, typography, and design elements that don’t look safe. That’s what makes people remember."
+          },
+          "3": {
+            "0": "Say it sharper.",
+            "1": "Instead of “Our app helps you save time,” try: “Stop wasting hours — cut them in half with one click.”"
+          },
+          "4": {
+            "0": "Be consistent.",
+            "1": "Boldness only works when it’s carried across every touchpoint — ads, packaging, emails, even error pages."
+          }
+        }
+      },
+      "4": {
+        "title": "The Cost of Forgettable Branding",
+        "0": "A “safe” brand can survive — but it will never lead. It will always fight for scraps of attention, needing higher ad spend to stay visible.",
+        "1": {
+          "0": "Bold brands, by contrast,",
+          "1": "earn memory."
+        },
+        "2": "They cut acquisition costs because people actually recognize them.",
+        "3": "They build loyalty because customers buy into the attitude, not just the product."
+      },
+      "5": {
+        "title": "Final Thought",
+        "0": "In marketing, blending in is the riskiest move you can make.",
+        "1": "Safe feels secure, but it kills momentum. Bold feels dangerous, but it builds legacy.",
+        "2": "Be remembered, or be ignored. The choice is yours!"
       }
     }
   }

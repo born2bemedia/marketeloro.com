@@ -18,6 +18,8 @@ const btnVariants = cva(
           'bg-transparent border border-white text-white text-sm hover:border-white/60',
         transparent:
           'bg-transparent border border-jaguar text-jaguar text-sm hover:bg-jaguar hover:text-white',
+        shadow:
+          'bg-white border border-white text-jaguar text-sm shadow-[0_83px_23px_0_rgba(0,0,0,0.00),0_53px_21px_0_rgba(0,0,0,0.01),0_30px_18px_0_rgba(0,0,0,0.05),0_13px_13px_0_rgba(0,0,0,0.09),0_3px_7px_0_rgba(0,0,0,0.10)]',
       },
       size: {
         sm: 'px-2 py-1 rounded-3xl',
