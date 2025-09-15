@@ -1584,5 +1584,106 @@
         "1": "We aim to resolve all concerns fairly, promptly, and with professionalism."
       }
     }
+  },
+  "refundPolicy": {
+    "title": "Refund Policy",
+    "0": {
+      "0": {
+        "0": "At",
+        "1": "operated by",
+        "2": "a company registered under the laws of [Insert Country of Registration], with its registered office at [Insert Registered Address] and registration number [Insert Company Number], we are committed to providing clients with professional marketing solutions designed for measurable growth."
+      },
+      "1": {
+        "0": "By purchasing our services, you acknowledge and accept that all completed transactions are",
+        "1": "final and non-refundable",
+        "2": "as our work commences immediately upon order confirmation."
+      }
+    },
+    "1": {
+      "0": "Before placing an order, we encourage you to make well-informed decisions.",
+      "1": "Please be sure to:",
+      "list": {
+        "0": "Review service descriptions, packages, and pricing carefully.",
+        "1": "Reach out to our team for any clarifications prior to making payment.",
+        "2": "Understand that completing a purchase indicates your acceptance of this Refund Policy."
+      }
+    },
+    "2": {
+      "title": "Possible Exceptions",
+      "0": "While our standard approach does not include refunds, we may consider them under certain exceptional circumstances, including:",
+      "list": {
+        "0": {
+          "0": "Duplicate or Accidental Payments",
+          "1": "if you were mistakenly charged more than once."
+        },
+        "1": {
+          "0": "Billing Errors",
+          "1": "where an overcharge has occurred due to our mistake."
+        },
+        "2": {
+          "0": "Technical Failures",
+          "1": "failed or incomplete transactions caused by system errors."
+        },
+        "3": {
+          "0": "Service Non-Delivery",
+          "1": "if a purchased service cannot be provided due to reasons directly attributable to Marketeloro."
+        }
+      }
+    },
+    "3": {
+      "title": "Requesting a Refund",
+      "0": "If you believe your case qualifies for an exception, please send us a written request containing:",
+      "list": {
+        "0": {
+          "0": "Your",
+          "1": "full name",
+          "2": "and",
+          "3": "email",
+          "4": "used for the order"
+        },
+        "1": {
+          "0": "Date",
+          "1": "and",
+          "2": "proof of transaction",
+          "3": "(ID, receipt, or invoice)"
+        },
+        "2": "A short explanation of the issue"
+      }
+    },
+    "4": {
+      "title": "Review Procedure",
+      "list": {
+        "0": {
+          "0": "Assessment",
+          "1": "Each request will be evaluated by our billing team."
+        },
+        "1": {
+          "0": "Verification",
+          "1": "We will check payment records and service logs."
+        },
+        "2": {
+          "0": "Response Time",
+          "1": "A decision will be provided within",
+          "2": "7 working days",
+          "3": "of receiving your request."
+        }
+      }
+    },
+    "5": {
+      "title": "Outcome Notification",
+      "0": "Once our review is complete, you will be informed of the result by email. Refund approvals are strictly case-based and guided by this policy."
+    },
+    "6": {
+      "title": "Contact Us",
+      "0": "For questions or assistance regarding this policy, you can contact us at:",
+      "list": {
+        "0": "Contact Form"
+      },
+      "1": "Our support team is available during business hours to assist with any concerns."
+    },
+    "7": {
+      "title": "Policy Changes",
+      "0": "Marketeloro reserves the right to update this Refund Policy at any time. Revised versions will be published here and considered effective immediately. Clients are encouraged to check this page periodically for updates."
+    }
   }
 }
