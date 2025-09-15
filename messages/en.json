@@ -1187,5 +1187,136 @@
         "2": "Be remembered, or be ignored. The choice is yours!"
       }
     }
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "0": {
+      "0": "This Cookie Policy applies to the website",
+      "1": "which is operated by",
+      "2": "a company registered under the laws of",
+      "3": "and conducting business under the brand name",
+      "4": "with its registered office at",
+      "5": "By browsing or using the Site, you consent to the use of cookies and similar tracking technologies that help us ensure functionality, improve performance, and personalize your experience. Some cookies are essential for core features such as login and checkout, while others support analytics, preferences, or marketing activities.",
+      "6": "You may manage or disable cookies at any time through your browser settings, though certain features of the Site may not function properly as a result."
+    },
+    "1": {
+      "0": "Cookies are small data files that are placed on your device (desktop, laptop, smartphone, or tablet) when you visit a website. They allow websites to identify returning visitors, remember preferences, and improve the browsing experience across multiple sessions.",
+      "1": "There are two main categories:",
+      "list": {
+        "0": {
+          "0": "Session cookies",
+          "1": "Temporary files that disappear once you close your browser."
+        },
+        "1": {
+          "0": "Persistent cookies",
+          "1": "Remain stored on your device until deleted by you or until their expiration date."
+        }
+      },
+      "2": {
+        "0": "Cookies on the",
+        "1": "site may be placed by us directly or by authorized third parties that provide tools and integrations."
+      }
+    },
+    "2": {
+      "title": "Why We Use Cookies",
+      "0": {
+        "0": "Cookies help ensure the smooth operation of our platform, improve performance, and deliver more relevant experiences to visitors.",
+        "1": "Specifically, they are used to:"
+      },
+      "list": {
+        "0": "Maintain secure login sessions and essential site functionality",
+        "1": "Recognize repeat users and apply stored preferences (e.g., language or location)",
+        "2": "Measure engagement with different sections of the website",
+        "3": "Optimize speed, design, and navigation based on user behavior",
+        "4": "Support advertising and promotional campaigns across partner platforms"
+      },
+      "1": "By enabling cookies, we can continuously adapt and improve how the website serves your needs."
+    },
+    "3": {
+      "title": "Categories of Cookies We Apply",
+      "0": {
+        "0": "1. Essential Cookies",
+        "1": "These are fundamental for the website to function. They enable login processes, checkout steps, secure form submissions, and other core features. If disabled, the Site may not operate as intended."
+      },
+      "1": {
+        "0": "2. Analytics & Performance Cookies",
+        "1": "Used to understand how visitors interact with our pages. Tools like Google Analytics help track statistics such as session duration, navigation flows, and bounce rates. This information allows us to refine our services and enhance usability."
+      },
+      "2": {
+        "0": "3. Preference Cookies",
+        "1": "These cookies save your choices — such as language, location, or autofill data, and provide a more personalized browsing experience during future visits."
+      },
+      "3": {
+        "0": "4. Marketing & Targeting Cookies",
+        "1": "Set by us or third-party advertising partners, these cookies deliver tailored promotions on external platforms. They may also limit ad frequency and help us measure the success of campaigns."
+      }
+    },
+    "4": {
+      "title": "Use of Third-Party Cookies",
+      "0": "Some features of our Site rely on integrations with external providers, which may use their own cookies. These services may track interactions across multiple websites and devices.",
+      "1": "Examples include:",
+      "list": {
+        "0": {
+          "0": "Google Analytics",
+          "1": "website traffic insights and visitor behavior analysis"
+        },
+        "1": {
+          "0": "Meta (Facebook) Pixel",
+          "1": "tracking advertising effectiveness and conversions"
+        },
+        "2": {
+          "0": "YouTube / Vimeo",
+          "1": "enabling embedded video playback"
+        }
+      },
+      "2": "Each third party is responsible for its own cookie practices. For further details, please review their respective policies."
+    },
+    "5": {
+      "title": "Managing Cookie Settings",
+      "0": {
+        "0": "You can manage or disable cookies at any time through your browser controls.",
+        "1": "Most browsers allow you to:"
+      },
+      "list": {
+        "0": "View existing cookies",
+        "1": "Block cookies from specific websites",
+        "2": "Delete cookies manually",
+        "3": "Prevent all cookies from being saved"
+      },
+      "1": {
+        "0": "Please note: blocking or removing cookies may affect website performance, prevent login, or disable preference saving.",
+        "1": "When you first visit",
+        "2": ", you will see a cookie banner. This allows you to adjust your cookie preferences before proceeding to use the Site."
+      }
+    },
+    "6": {
+      "title": "“Do Not Track” Signals",
+      "0": {
+        "0": "Some browsers allow you to send “Do Not Track” (DNT) requests. At present,",
+        "1": "does not respond to DNT signals, as no global technical standard has yet been adopted for honoring such requests."
+      }
+    },
+    "7": {
+      "title": "Age Verification and Cookie Use",
+      "0": {
+        "0": {
+          "0": "The Marketeloro platform is intended for use only by individuals who are",
+          "1": "18 years of age or older",
+          "2": "(or the age of majority under applicable law in their jurisdiction). By using this Site, you confirm that you meet the required age threshold."
+        },
+        "1": "We do not knowingly place cookies or collect personal data from minors. If we become aware that cookies have been used to track activity of a user under the required age, we will take immediate steps to disable tracking and delete related data.",
+        "2": "In certain cases, we may request proof of age or apply verification tools before providing access to services, accounts, or promotional features that rely on cookies and related technologies."
+      }
+    },
+    "8": {
+      "title": "Updates to This Policy",
+      "0": "We may revise this Cookie Policy occasionally to reflect changes in technology, applicable regulations, or how we use cookies. The “Last Updated” date will always indicate the most recent version.",
+      "1": "In case of significant modifications, we will notify users via our website or through other appropriate communication channels."
+    },
+    "9": {
+      "title": "Contact Information",
+      "0": "If you have questions or concerns about how cookies are used on our Site, please contact us:",
+      "1": "Website"
+    }
   }
 }
