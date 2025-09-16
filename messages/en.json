@@ -1931,5 +1931,181 @@
       },
       "1": "We aim to respond to all requests in a timely and respectful manner."
     }
+  },
+  "workWithUs": {
+    "hero": {
+      "title": "Work with us and grow beyond expectations",
+      "description": "We’re inviting ambitious talent to redefine what’s possible. Big ideas matter, but execution is everything. Here, you’ll do both."
+    },
+    "greatCampaigns": {
+      "title": {
+        "0": "Great campaigns are built here.",
+        "1": "Great careers too"
+      },
+      "text": "That’s why the work we do lasts.",
+      "cards": {
+        "0": {
+          "title": "At Marketeloro, ambition means:",
+          "list": {
+            "0": {
+              "0": "People",
+              "1": "who move first, not follow."
+            },
+            "1": {
+              "0": "Strategists",
+              "1": "who think big and act with precision."
+            },
+            "2": {
+              "0": "Teams",
+              "1": "that care about real impact, not empty numbers."
+            },
+            "3": {
+              "0": "Colleagues",
+              "1": "who grow together, not against each other."
+            },
+            "4": {
+              "0": "Minds",
+              "1": "that use both data and creativity to win."
+            }
+          }
+        },
+        "1": {
+          "title": "We’re not made for average.",
+          "list": {
+            "0": "Our people don’t follow trends - they set them.",
+            "1": "They see the world without borders but execute with focus.",
+            "2": "They define success by impact, not impressions.",
+            "3": "They rise by lifting others, not stepping over them.",
+            "4": "And they mix the logic of data with the power of creativity."
+          }
+        }
+      }
+    },
+    "workWith": {
+      "title": {
+        "0": "Ways to",
+        "1": "Work With Us"
+      },
+      "cards": {
+        "0": {
+          "title": "Internships & Learning",
+          "text": "A hands-on experience for those ready to learn from real campaigns, not textbooks."
+        },
+        "1": {
+          "title": "Join the Team",
+          "text": "We’re always looking for strategists, creators, and digital explorers who want to grow with us."
+        },
+        "2": {
+          "title": "Freelance & Partnerships",
+          "text": "Collaborate on campaigns, projects, and big ideas that cross industries."
+        }
+      }
+    },
+    "ourOpenings": {
+      "title": {
+        "0": "Our",
+        "1": "Openings"
+      },
+      "yourDailyWork": "Your daily work will involve:",
+      "whatWeExpect": "What we expect:",
+      "whatYouGet": "What you get with us:",
+      "cards": {
+        "0": {
+          "title": "PPC Campaign Manager",
+          "description": {
+            "0": "We’re looking for a",
+            "1": "PPC Campaign Manager",
+            "2": "who knows how to turn clicks into conversions and ad spend into real growth. You’ll be responsible for building and managing performance-driven campaigns across Google Ads, Bing Ads, and other PPC platforms."
+          },
+          "dailyWork": {
+            "0": "Planning, launching, and optimizing multi-channel PPC campaigns.",
+            "1": "Conducting keyword research, competitor benchmarking, and audience targeting.",
+            "2": "Testing ad copy, visuals, and landing pages to boost performance.",
+            "3": "Monitoring budgets closely to maximize ROI.",
+            "4": "Delivering clear, actionable reports to both clients and internal teams."
+          },
+          "weExpect": {
+            "0": "Proven experience managing paid campaigns with measurable results.",
+            "1": "Strong knowledge of Google Ads, Bing Ads, and analytics tools.",
+            "2": "Analytical mindset with the ability to turn data into action.",
+            "3": "Creative problem-solving and attention to detail."
+          },
+          "whatYouGet": {
+            "0": "Global clients across industries.",
+            "1": "The freedom to test and innovate.",
+            "2": "A team that values performance as much as creativity."
+          }
+        },
+        "1": {
+          "title": "Graphic Designer",
+          "description": {
+            "0": "At Marketeloro, design isn’t decoration — it’s strategy made visible. We’re hiring a",
+            "1": "Graphic Designer",
+            "2": "who can transform concepts into visuals that make brands unforgettable."
+          },
+          "dailyWork": {
+            "0": "Create bold, eye-catching designs for digital campaigns, social media, and web.",
+            "1": "Support branding projects — from logo design to full visual identity systems.",
+            "2": "Collaborate with copywriters, marketers, and developers to ensure cohesion.",
+            "3": "Adapt designs across formats: ads, infographics, presentations, and motion graphics.",
+            "4": "Keep up with design trends while maintaining each client’s unique identity."
+          },
+          "weExpect": {
+            "0": "Solid portfolio that shows creative range and branding work.",
+            "1": "Proficiency in Adobe Creative Suite (Illustrator, Photoshop, InDesign, XD).",
+            "2": "Knowledge of typography, color theory, and digital-first design.",
+            "3": "Ability to manage multiple projects and meet deadlines."
+          },
+          "whatYouGet": {
+            "0": "The chance to build visuals seen by global audiences.",
+            "1": "Creative freedom within structured campaigns.",
+            "2": "A collaborative environment that values bold ideas."
+          }
+        },
+        "2": {
+          "title": "Conversion Rate Optimization (CRO) Specialist",
+          "description": {
+            "0": "Clicks are easy. Conversions are earned. We’re looking for a",
+            "1": "CRO Specialist",
+            "2": "who can analyze user behavior, identify friction points, and implement data-driven changes that boost performance across websites, funnels, and landing pages."
+          },
+          "dailyWork": {
+            "0": "Running A/B and multivariate tests to find winning variations.",
+            "1": "Analyzing heatmaps, session recordings, and analytics reports.",
+            "2": "Working closely with designers and developers to implement improvements.",
+            "3": "Developing hypotheses and structured testing roadmaps.",
+            "4": "Reporting results and advising clients on optimization opportunities."
+          },
+          "weExpect": {
+            "0": "Experience in CRO, analytics, or UX optimization.",
+            "1": "Familiarity with tools like Google Analytics, Hotjar, Optimizely, or VWO.",
+            "2": "Strong understanding of digital funnels and user journeys.",
+            "3": "Ability to communicate insights in simple, actionable terms."
+          },
+          "whatYouGet": {
+            "0": "Projects across industries: e-commerce, SaaS, travel, lifestyle, and more.",
+            "1": "The opportunity to turn small changes into massive growth results.",
+            "2": "A team culture that thrives on experimentation and improvement."
+          }
+        }
+      }
+    }
+  },
+  "applyToJobDialog": {
+    "success": {
+      "title": "Thanks for reaching out!",
+      "description": "Our team will review your details and get back to you shortly."
+    },
+    "close": "Close",
+    "title": "Work With Us",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "position": "Position You’re Applying For",
+    "cv": "Attach Your CV",
+    "message": "A Few Words About Why You’d Like to Work With Us",
+    "cancel": "Cancel",
+    "submit": "Submit Request",
+    "submitting": "Submitting..."
   }
 }

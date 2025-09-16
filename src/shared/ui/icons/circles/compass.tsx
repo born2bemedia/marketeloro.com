@@ -1,13 +1,15 @@
 'use client';
 
-export const CompassCircleIcon = () => (
+import { cn } from '@/shared/lib/utils/cn';
+
+export const CompassCircleIcon = ({ className }: { className?: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="100"
     height="100"
     viewBox="0 0 100 100"
     fill="none"
-    className="shrink-0 max-md:h-[50px] max-md:w-[50px]"
+    className={cn('shrink-0 max-md:h-[50px] max-md:w-[50px]', className)}
   >
     <rect
       width="100"

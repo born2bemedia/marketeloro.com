@@ -3,6 +3,7 @@
 :root {
   --jaguar-color: #030213;
   --storm-grey-color: #717182;
+  --cold-grey-color: #0a0a0a;
   --trjn-davinci-font: trjnDaVinci, trjnDaVinci Fallback;
 }
 @theme inline {
@@ -10,4 +11,5 @@
   --font-trjn-davinci: var(--trjn-davinci-font);
   --color-jaguar: var(--jaguar-color);
   --color-storm-grey: var(--storm-grey-color);
+  --color-cold-grey: var(--cold-grey-color);
 }

@@ -144,7 +144,7 @@ const Card = ({
 }: {
   title: string;
   list: string[];
-  icon: () => JSX.Element;
+  icon: ({ className }: { className?: string }) => JSX.Element;
 }) => (
   <article className="flex gap-10 border-b border-[#D9D9D9] pb-10">
     <Icon />
