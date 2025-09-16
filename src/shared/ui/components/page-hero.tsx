@@ -18,8 +18,10 @@ export const PageHero = ({
   description,
   imgUrl,
   metaButtons,
+  customContent,
   className,
   overlayClassName,
+  imgClassName,
 }: {
   title?: ReactNode;
   description?: ReactNode;
@@ -30,8 +32,10 @@ export const PageHero = ({
     variant: ButtonVariants['variant'];
     icon?: (props: IconProps) => JSX.Element;
   }[];
+  customContent?: ReactNode;
   className?: string;
   overlayClassName?: string;
+  imgClassName?: string;
 }) => {
   return (
     <section
@@ -40,7 +44,12 @@ export const PageHero = ({
         className,
       )}
     >
-      <Image className="object-cover" src={imgUrl} alt="hero-img" fill />
+      <Image
+        className={cn('object-cover', imgClassName)}
+        src={imgUrl}
+        alt="hero-img"
+        fill
+      />
       <div className={cn('absolute inset-0 bg-black/30', overlayClassName)} />
       {title && (
         <Title as="h1" className="z-10 w-[80%] max-md:w-full">
@@ -68,6 +77,7 @@ export const PageHero = ({
           ))}
         </div>
       )}
+      {customContent && customContent}
     </section>
   );
 };
