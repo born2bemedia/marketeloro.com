@@ -1685,5 +1685,251 @@
       "title": "Policy Changes",
       "0": "Marketeloro reserves the right to update this Refund Policy at any time. Revised versions will be published here and considered effective immediately. Clients are encouraged to check this page periodically for updates."
     }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "0": {
+      "0": {
+        "0": "This Policy explains how",
+        "1": "(“Company,” “we,” or “our”) collects, processes, and safeguards personal data when you visit",
+        "2": "request marketing services, download materials, or otherwise engage with our team and platform (together, the “Site”).",
+        "3": "Marketeloro is operated by",
+        "4": "company registered under the laws of [insert jurisdiction]. The Company conducts its activities under the brand name"
+      },
+      "1": "We take your privacy seriously and are committed to handling all personal data in a lawful, transparent, and secure manner. By using the Marketeloro website or services, you confirm that you have read and accepted the practices outlined in this Policy.",
+      "2": "For any questions or concerns regarding data management, you may reach us at"
+    },
+    "3": {
+      "title": "Personal Details You Provide",
+      "0": "We collect personal information that you voluntarily share with us in various ways, for example when you:",
+      "list": {
+        "0": {
+          "0": "Fill out a contact form or submit a consultation request",
+          "1": "providing the details necessary for us to respond to your inquiry."
+        },
+        "1": {
+          "0": "Purchase services, subscriptions, or tailored packages",
+          "1": "which requires us to gather payment information and essential billing data."
+        },
+        "2": {
+          "0": "Subscribe to newsletters, updates, or case studies",
+          "1": "allowing us to keep you informed about marketing insights, offers, and company news."
+        },
+        "3": {
+          "0": "Engage in direct communication with our consultants or support staff",
+          "1": "whether by email, phone, or chat, in the course of receiving assistance."
+        },
+        "4": {
+          "0": "Provide responses through surveys, questionnaires, or structured feedback forms",
+          "1": "helping us refine our services and better understand your needs."
+        },
+        "5": {
+          "0": "Apply for open positions, internships, or collaborative opportunities",
+          "1": "where we may request additional details such as your CV, portfolio, or professional background."
+        }
+      },
+      "1": "The types of personal information we may collect or store include, but are not limited to:",
+      "list2": {
+        "0": {
+          "0": "Your full name, email address, and contact phone number",
+          "1": "which are used to identify and reach you."
+        },
+        "1": {
+          "0": "Billing information, payment details, and postal address",
+          "1": "required for processing orders and issuing invoices."
+        },
+        "2": {
+          "0": "Company or brand details",
+          "1": "including the name of your business and relevant identifiers, to ensure proper service alignment."
+        },
+        "3": {
+          "0": "Business stage, industry sector, and growth objectives",
+          "1": "which help us tailor strategies to your specific situation."
+        },
+        "4": {
+          "0": "Preferences and interests regarding services, content, or communication frequency",
+          "1": "which allow us to customize your experience."
+        },
+        "5": {
+          "0": "Any additional information you voluntarily provide",
+          "1": "such as notes about your project, special requirements, or context for collaboration."
+        }
+      },
+      "2": "This data is used exclusively for the purposes of delivering services, fulfilling contractual obligations, maintaining accurate internal records, and complying with applicable legal or regulatory requirements."
+    },
+    "4": {
+      "title": "Information Collected Automatically",
+      "0": "When you visit the Marketeloro website, certain technical data may be logged automatically, such as:",
+      "list": {
+        "0": "IP address and approximate geolocation",
+        "1": "Browser type, device model, and operating system",
+        "2": "Language preferences",
+        "3": "Pages visited, time spent, and navigation patterns",
+        "4": "Entry sources (ads, search results, referral links)",
+        "5": "Session data including clicks and on-site interactions"
+      },
+      "1": {
+        "0": "This data is gathered through cookies, tracking tools, and analytics software. It helps us improve performance, understand user behavior, and enhance your browsing experience.",
+        "1": "See our Cookie Policy for full details."
+      }
+    },
+    "5": {
+      "title": "Managing Cookies and Tracking",
+      "0": "You can decide how cookies are used on your device by adjusting browser settings or using the cookie-consent options available on our Site.",
+      "1": {
+        "0": "Please note:",
+        "1": "turning off certain cookies may limit functionality or prevent parts of the website from working properly. Our system does not currently recognize browser “Do Not Track” signals."
+      }
+    },
+    "6": {
+      "title": "Data Combination for Better Services",
+      "0": "We may merge data from different interactions (e.g., forms, communications, and website activity) in order to customize your experience, improve service quality, and better align our work with your objectives."
+    },
+    "7": {
+      "title": "When Information Is Missing",
+      "0": "Certain data is necessary for us to process services effectively. For instance, without a valid email address or payment details, we may not be able to confirm your booking or fulfill your request.",
+      "1": "You are responsible for making sure the information you provide is accurate and up to date."
+    },
+    "8": {
+      "title": "Protection of Minors",
+      "0": "Marketeloro does not intentionally collect or store personal information from individuals who are considered minors under the applicable laws of their country of residence. If we become aware that personal data has been submitted by someone who does not meet the minimum legal age for providing consent in their jurisdiction, and such submission was made without verified parental or guardian approval, we will take appropriate steps to remove that information from our systems."
+    },
+    "9": {
+      "title": "How We Use Collected Data",
+      "0": "We handle your personal information based on one or more legal grounds, depending on the nature of your interaction with Marketeloro:",
+      "1": "1. Contractual Necessity",
+      "2": "To fulfill our agreement with you and deliver requested services, we may use your information to:",
+      "list": {
+        "0": "Process service bookings, invoices, and payments",
+        "1": "Grant access to deliverables or project materials",
+        "2": "Verify your identity to secure account access",
+        "3": "Send important service-related notices or updates about your order, campaign, or consultation"
+      },
+      "3": "These activities allow us to maintain a reliable and professional collaboration with you.",
+      "4": "2. Legitimate Business Purposes",
+      "5": {
+        "0": "We may process your data to operate, improve, and protect",
+        "1": "platform and services, such as by:"
+      },
+      "list2": {
+        "0": "Enhancing navigation and usability on our website",
+        "1": "Personalizing content and recommendations based on your preferences",
+        "2": "Providing client support and responding to inquiries",
+        "3": "Suggesting relevant resources, services, or updates",
+        "4": "Tracking engagement to evaluate and improve services",
+        "5": "Safeguarding against fraud or unauthorized use",
+        "6": "Conducting surveys, research, or usability testing"
+      },
+      "6": "Where permitted by law, we may also use your contact details to send updates or marketing content. You may opt out of promotional messages at any time. All such use is carefully balanced with your privacy rights."
+    },
+    "10": {
+      "title": "Aggregated & Anonymized Data",
+      "0": "We may process information in an anonymized or combined form to generate insights, reports, or strategic analysis. Such data does not personally identify you and may be shared with external partners where legally permissible. This approach allows us to improve services without compromising individual privacy."
+    },
+    "11": {
+      "title": "Sharing of Information",
+      "0": "We do not sell, trade, or lease your personal information. Data is shared only under specific circumstances:",
+      "1": "1. Trusted Service Providers",
+      "2": "We partner with third parties that support the operation of Marketeloro, such as:",
+      "list": {
+        "0": "Hosting and cloud infrastructure services",
+        "1": "Payment gateways and billing systems",
+        "2": "CRM and email marketing platforms",
+        "3": "Analytics and performance tracking tools",
+        "4": "Scheduling, communication, and project management solutions",
+        "5": "Professional advisors (legal, financial, or compliance-related)"
+      },
+      "3": "Each of these providers is carefully vetted and bound by contractual obligations to safeguard your data.",
+      "4": "2. Legal & Regulatory Requirements",
+      "5": "We may disclose information if legally required to do so, including for:",
+      "list2": {
+        "0": "Responding to government or regulatory authority requests",
+        "1": "Complying with tax, financial reporting, or audit obligations",
+        "2": "Investigating potential violations of our Terms and Conditions",
+        "3": "Protecting the safety, rights, or property of our users, staff, or partners"
+      },
+      "6": "Such disclosures occur only when strictly necessary and in compliance with applicable law.",
+      "7": "3. Security & Fraud Prevention",
+      "8": "We may access, monitor, or share data when needed to:",
+      "list3": {
+        "0": "Detect or prevent fraudulent activity",
+        "1": "Investigate abuse, misuse, or technical vulnerabilities",
+        "2": "Respond to security risks or incidents"
+      },
+      "9": "These actions are taken solely to protect both you and our platform from harm.",
+      "10": "4. With Your Authorization",
+      "11": "We will share your information in additional ways only if:",
+      "list4": {
+        "0": "You provide explicit consent, or",
+        "1": "You were informed at the time of collection that such sharing would occur"
+      },
+      "12": "Your consent-based sharing is always optional, and you retain the right to withdraw it at any time."
+    },
+    "12": {
+      "title": "Safeguarding Your Information and Data Storage",
+      "0": "We take the protection of your personal data seriously. Marketeloro uses a combination of technical, physical, and administrative measures to reduce the risk of unauthorized access, alteration, or misuse of information.",
+      "1": "These may include:",
+      "list": {
+        "0": "SSL encryption of data transfers",
+        "1": "Role-based permissions and restricted access",
+        "2": "Secure hosting environments with regular backups",
+        "3": "Internal protocols and employee training on data handling"
+      },
+      "13": "While we strive to apply industry best practices, no system is entirely immune from security risks. You are responsible for maintaining the confidentiality of your login credentials and should never share your password or account access with others.",
+      "14": "We keep personal data only for as long as it is necessary to:",
+      "list5": {
+        "0": "Deliver contracted services",
+        "1": "Meet legal, tax, or compliance obligations",
+        "2": "Resolve disputes or enforce agreements"
+      },
+      "15": "Once data is no longer required, it is either deleted securely or anonymized for analytical use."
+    },
+    "13": {
+      "title": "Managing and Accessing Your Information",
+      "0": {
+        "0": "If you maintain an account with",
+        "1": "you can view or update your details through your account dashboard or by contacting us directly.",
+        "2": "Depending on your jurisdiction and applicable data protection laws, you may have the right to:"
+      },
+      "list": {
+        "0": "Request a copy of the personal data we hold about you",
+        "1": "Ask us to update or delete incorrect information",
+        "2": "Restrict or object to certain types of processing",
+        "3": "Request a machine-readable copy of your data (data portability)"
+      },
+      "16": "Please note that some data is essential for delivering our services. If you request deletion of such information, certain features may become unavailable. In cases where we cannot comply with your request, we will provide a clear explanation."
+    },
+    "14": {
+      "title": "Public Contributions and Shared Content",
+      "0": "If you choose to participate in community features such as webinars, workshops, feedback sessions, or group discussions, any content you share may be visible to other participants.",
+      "1": "We encourage caution when disclosing personal or sensitive details in such spaces. For files, media, or documents uploaded, we recommend removing hidden metadata or unnecessary private information before submission.",
+      "2": "Unless otherwise requested, we may retain contributed content as part of our service records."
+    },
+    "15": {
+      "title": "Policy Updates",
+      "0": {
+        "0": "This Privacy Policy may be revised periodically to reflect changes in",
+        "1": "services, business practices, or legal obligations."
+      },
+      "1": "When material updates occur, we will notify users via our website or through official communication channels. Continued use of our services after such updates indicates acceptance of the revised policy."
+    },
+    "16": {
+      "title": "Age Verification and Eligibility",
+      "0": {
+        "0": "Our services are intended only for individuals who are legally permitted to enter into binding agreements under applicable law. By accessing or using the Marketeloro website, you confirm that you are at least",
+        "1": "18 years of age",
+        "2": "(or the age of majority in your jurisdiction, if higher)."
+      },
+      "1": "We may request proof of age or other verification documents where required by law or if we suspect a violation of this requirement. If such information is not provided upon request, we reserve the right to suspend or terminate access to our services.",
+      "2": "Marketeloro does not knowingly enter into agreements or collect personal information from individuals who fail to meet the age requirement. If we become aware that we have inadvertently collected data from someone under the required age without valid consent, we will promptly delete such data."
+    },
+    "17": {
+      "title": "Contacting Us",
+      "0": "If you have questions regarding this Privacy Policy, or if you wish to exercise your data protection rights, please contact us using the details below:",
+      "list": {
+        "0": "Website:"
+      },
+      "1": "We aim to respond to all requests in a timely and respectful manner."
+    }
   }
 }
