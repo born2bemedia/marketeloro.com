@@ -22,6 +22,7 @@ export const PageHero = ({
   className,
   overlayClassName,
   imgClassName,
+  titleClassName,
 }: {
   title?: ReactNode;
   description?: ReactNode;
@@ -36,6 +37,7 @@ export const PageHero = ({
   className?: string;
   overlayClassName?: string;
   imgClassName?: string;
+  titleClassName?: string;
 }) => {
   return (
     <section
@@ -52,7 +54,10 @@ export const PageHero = ({
       />
       <div className={cn('absolute inset-0 bg-black/30', overlayClassName)} />
       {title && (
-        <Title as="h1" className="z-10 w-[80%] max-md:w-full">
+        <Title
+          as="h1"
+          className={cn('z-10 w-[80%] max-md:w-full', titleClassName)}
+        >
           {title}
         </Title>
       )}

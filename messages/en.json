@@ -2107,5 +2107,15 @@
     "cancel": "Cancel",
     "submit": "Submit Request",
     "submitting": "Submitting..."
+  },
+  "services": {
+    "hero": {
+      "title": "Everything We Offer to Help Your Brand Get Seen and Grow"
+    },
+    "footer": {
+      "title": "Looking for a full-service approach?",
+      "description": "See our tailored packages designed for complete growth.",
+      "explorePackages": "Explore Packages"
+    }
   }
 }
