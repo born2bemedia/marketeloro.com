@@ -1,7 +1,5 @@
 'use client';
 
-import dynamic from 'next/dynamic';
-
 import { useApplyToJobStore } from '@/features/jobs/model/apply-to-job.store';
 import { ApplyToJobDialog } from '@/features/jobs/ui/apply-to-job-dialog';
 

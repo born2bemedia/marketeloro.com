@@ -1,8 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 
 import { PageHero } from '@/shared/ui/components/page-hero';
-import { ArrowRightIcon } from '@/shared/ui/icons/arrow-right';
-import { Button } from '@/shared/ui/kit/button';
 
 import { Apply, GreatCampaigns, OurOpenings, WorkWith } from './components';
 
