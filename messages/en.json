@@ -1187,5 +1187,749 @@
         "2": "Be remembered, or be ignored. The choice is yours!"
       }
     }
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "0": {
+      "0": "This Cookie Policy applies to the website",
+      "1": "which is operated by",
+      "2": "a company registered under the laws of",
+      "3": "and conducting business under the brand name",
+      "4": "with its registered office at",
+      "5": "By browsing or using the Site, you consent to the use of cookies and similar tracking technologies that help us ensure functionality, improve performance, and personalize your experience. Some cookies are essential for core features such as login and checkout, while others support analytics, preferences, or marketing activities.",
+      "6": "You may manage or disable cookies at any time through your browser settings, though certain features of the Site may not function properly as a result."
+    },
+    "1": {
+      "0": "Cookies are small data files that are placed on your device (desktop, laptop, smartphone, or tablet) when you visit a website. They allow websites to identify returning visitors, remember preferences, and improve the browsing experience across multiple sessions.",
+      "1": "There are two main categories:",
+      "list": {
+        "0": {
+          "0": "Session cookies",
+          "1": "Temporary files that disappear once you close your browser."
+        },
+        "1": {
+          "0": "Persistent cookies",
+          "1": "Remain stored on your device until deleted by you or until their expiration date."
+        }
+      },
+      "2": {
+        "0": "Cookies on the",
+        "1": "site may be placed by us directly or by authorized third parties that provide tools and integrations."
+      }
+    },
+    "2": {
+      "title": "Why We Use Cookies",
+      "0": {
+        "0": "Cookies help ensure the smooth operation of our platform, improve performance, and deliver more relevant experiences to visitors.",
+        "1": "Specifically, they are used to:"
+      },
+      "list": {
+        "0": "Maintain secure login sessions and essential site functionality",
+        "1": "Recognize repeat users and apply stored preferences (e.g., language or location)",
+        "2": "Measure engagement with different sections of the website",
+        "3": "Optimize speed, design, and navigation based on user behavior",
+        "4": "Support advertising and promotional campaigns across partner platforms"
+      },
+      "1": "By enabling cookies, we can continuously adapt and improve how the website serves your needs."
+    },
+    "3": {
+      "title": "Categories of Cookies We Apply",
+      "0": {
+        "0": "1. Essential Cookies",
+        "1": "These are fundamental for the website to function. They enable login processes, checkout steps, secure form submissions, and other core features. If disabled, the Site may not operate as intended."
+      },
+      "1": {
+        "0": "2. Analytics & Performance Cookies",
+        "1": "Used to understand how visitors interact with our pages. Tools like Google Analytics help track statistics such as session duration, navigation flows, and bounce rates. This information allows us to refine our services and enhance usability."
+      },
+      "2": {
+        "0": "3. Preference Cookies",
+        "1": "These cookies save your choices — such as language, location, or autofill data, and provide a more personalized browsing experience during future visits."
+      },
+      "3": {
+        "0": "4. Marketing & Targeting Cookies",
+        "1": "Set by us or third-party advertising partners, these cookies deliver tailored promotions on external platforms. They may also limit ad frequency and help us measure the success of campaigns."
+      }
+    },
+    "4": {
+      "title": "Use of Third-Party Cookies",
+      "0": "Some features of our Site rely on integrations with external providers, which may use their own cookies. These services may track interactions across multiple websites and devices.",
+      "1": "Examples include:",
+      "list": {
+        "0": {
+          "0": "Google Analytics",
+          "1": "website traffic insights and visitor behavior analysis"
+        },
+        "1": {
+          "0": "Meta (Facebook) Pixel",
+          "1": "tracking advertising effectiveness and conversions"
+        },
+        "2": {
+          "0": "YouTube / Vimeo",
+          "1": "enabling embedded video playback"
+        }
+      },
+      "2": "Each third party is responsible for its own cookie practices. For further details, please review their respective policies."
+    },
+    "5": {
+      "title": "Managing Cookie Settings",
+      "0": {
+        "0": "You can manage or disable cookies at any time through your browser controls.",
+        "1": "Most browsers allow you to:"
+      },
+      "list": {
+        "0": "View existing cookies",
+        "1": "Block cookies from specific websites",
+        "2": "Delete cookies manually",
+        "3": "Prevent all cookies from being saved"
+      },
+      "1": {
+        "0": "Please note: blocking or removing cookies may affect website performance, prevent login, or disable preference saving.",
+        "1": "When you first visit",
+        "2": ", you will see a cookie banner. This allows you to adjust your cookie preferences before proceeding to use the Site."
+      }
+    },
+    "6": {
+      "title": "“Do Not Track” Signals",
+      "0": {
+        "0": "Some browsers allow you to send “Do Not Track” (DNT) requests. At present,",
+        "1": "does not respond to DNT signals, as no global technical standard has yet been adopted for honoring such requests."
+      }
+    },
+    "7": {
+      "title": "Age Verification and Cookie Use",
+      "0": {
+        "0": {
+          "0": "The Marketeloro platform is intended for use only by individuals who are",
+          "1": "18 years of age or older",
+          "2": "(or the age of majority under applicable law in their jurisdiction). By using this Site, you confirm that you meet the required age threshold."
+        },
+        "1": "We do not knowingly place cookies or collect personal data from minors. If we become aware that cookies have been used to track activity of a user under the required age, we will take immediate steps to disable tracking and delete related data.",
+        "2": "In certain cases, we may request proof of age or apply verification tools before providing access to services, accounts, or promotional features that rely on cookies and related technologies."
+      }
+    },
+    "8": {
+      "title": "Updates to This Policy",
+      "0": "We may revise this Cookie Policy occasionally to reflect changes in technology, applicable regulations, or how we use cookies. The “Last Updated” date will always indicate the most recent version.",
+      "1": "In case of significant modifications, we will notify users via our website or through other appropriate communication channels."
+    },
+    "9": {
+      "title": "Contact Information",
+      "0": "If you have questions or concerns about how cookies are used on our Site, please contact us:",
+      "1": "Website"
+    }
+  },
+  "termsAndConditions": {
+    "title": "Terms and Conditions",
+    "0": {
+      "0": {
+        "0": "Welcome to Marketeloro.",
+        "1": "These Terms and Conditions (“Terms”) establish the guidelines under which you (“you,” “client,” or “user”) may browse our website and access any marketing or strategic services offered by us.",
+        "2": "By visiting our site, submitting a request, purchasing a service, or engaging with materials published by Marketeloro, you confirm that you have read, understood, and agreed to comply with these Terms in full. If you do not agree with these Terms, please discontinue use of the website and our services."
+      },
+      "1": {
+        "0": "Disclaimer:",
+        "1": "Any examples, visuals, testimonials, or case studies presented on the Marketeloro website are provided for demonstration and informational purposes only. They are not promises of identical results and may not always represent actual clients or internal team members."
+      }
+    },
+    "1": {
+      "title": "Definition",
+      "list": {
+        "0": {
+          "0": "Company",
+          "1": "“we,” “our,” or “us” refers to"
+        },
+        "1": {
+          "0": "Device",
+          "1": "Any digital medium used to access the website, such as a smartphone, tablet, laptop, or desktop computer."
+        },
+        "2": {
+          "0": "Services",
+          "1": "Any marketing, consulting, creative, or strategic solutions provided via the website or as part of a direct engagement with clients."
+        },
+        "3": {
+          "0": "Third-Party Services",
+          "1": "Any external platforms, tools, or vendors not managed by Marketeloro, which may be referenced or integrated during service delivery."
+        },
+        "4": {
+          "0": "Website",
+          "1": "The official domain operated by the Company"
+        },
+        "5": {
+          "0": "You",
+          "1": "Any person or entity accessing the website, making inquiries, submitting a form, purchasing services, or otherwise interacting with Marketeloro."
+        }
+      }
+    },
+    "2": {
+      "title": "Governing Law",
+      "0": "These Terms are governed by and interpreted according to the laws. Any disputes arising under these Terms shall fall within the exclusive jurisdiction of the competent courts of that location.",
+      "1": "By continuing to use our website and services, you accept the latest version of these Terms. We reserve the right to amend or update them at any time without prior notice."
+    },
+    "3": {
+      "title": "Cookies",
+      "0": "Marketeloro uses cookies (small data files stored on your device) to enhance functionality, analyze performance, and improve your browsing experience. By continuing to navigate our website, you consent to our use of cookies as described in our Cookie Policy."
+    },
+    "4": {
+      "title": "Intellectual Property",
+      "0": "All content available on the Marketeloro website, including text, visuals, creative materials, frameworks, downloadable resources, and design elements, is the property of Marketeloro or its licensors.",
+      "1": "Such materials are protected under copyright, trademark, and intellectual property regulations. Copying, redistribution, or use of these materials for commercial purposes without prior written permission is prohibited, unless explicitly authorized by a specific service contract or license."
+    },
+    "5": {
+      "title": "Payments and Billing",
+      "0": {
+        "0": "Any transactions processed through",
+        "1": "will appear on your billing statement under",
+        "2": "or",
+        "3": "depending on your chosen payment method and regional processing."
+      },
+      "1": "Submitting payment confirms your agreement to the scope and terms of the corresponding service description or contract."
+    },
+    "6": {
+      "title": "Copyright Complaints",
+      "0": "If you believe that content published by Marketeloro infringes upon your intellectual property rights, you may file a formal notice containing the following information:",
+      "list": {
+        "0": "Your full legal name along with a physical or digital signature.",
+        "1": "A clear description of the copyrighted work you claim has been infringed.",
+        "2": "The exact location (URL) of the material in question.",
+        "3": "Your contact details, including address, email, and phone number.",
+        "4": "A statement confirming your good faith belief that the disputed use is not authorized by the copyright holder, their representative, or the law.",
+        "5": "A declaration, under penalty of perjury, that all information provided is accurate and that you are the rightful owner (or authorized agent)."
+      },
+      "1": "Please send copyright-related inquiries to: hello@marketeloro.com."
+    },
+    "7": {
+      "title": "Promotions and Special Offers",
+      "0": "Occasionally, Marketeloro may run promotional campaigns — such as discounts, giveaways, contests, or limited-time offers. Participation in such activities may require the submission of personal information, testimonials, or feedback.",
+      "1": "Each promotion will include its own eligibility rules, conditions, and requirements (e.g., age, region, or other restrictions).",
+      "2": "By joining any of these campaigns, you agree to follow the relevant rules and conditions. It is your responsibility to review promotion-specific details before participating."
+    },
+    "8": {
+      "title": "Updates to These Terms",
+      "0": {
+        "0": "We may update these Terms and Conditions from time to time to reflect changes in our services, legal requirements, or internal processes.",
+        "1": "If substantial modifications are made, we will inform users through a notice on our website, by email, or within the client dashboard."
+      },
+      "1": {
+        "0": "Your continued use of",
+        "1": "following such updates will be considered acceptance of the revised Terms. If you do not agree with the changes, you must discontinue use of our site and services."
+      }
+    },
+    "9": {
+      "title": "Modifications to the Service",
+      "0": "reserves the right to adjust, suspend, or discontinue any part of its services at any moment, with or without prior notice. This may include introducing new features, updating the platform, restricting access, or deactivating certain accounts.",
+      "1": "Should your access be restricted or terminated, you may lose related resources, files, or communications previously made available through our services."
+    },
+    "10": {
+      "title": "Entire Agreement",
+      "0": {
+        "0": "These Terms represent the full and exclusive agreement between you and",
+        "1": "concerning the use of the Marketeloro website and services. They supersede any prior communications, whether written, oral, or implied, related to this subject."
+      }
+    },
+    "11": {
+      "title": "Amendments",
+      "0": "We may revise these Terms at any point. If we determine that a change is significant, we will provide advance notice — typically no less than 30 days — before the updated version becomes effective.",
+      "1": "The definition of a “material change” will be determined solely at our discretion. Continued use of the website or services after publication of changes constitutes acceptance of the revised Terms."
+    },
+    "12": {
+      "title": "Platform Changes and Technical Updates",
+      "0": {
+        "0": "To improve user experience, service reliability, and security,",
+        "1": "may introduce technical enhancements or platform changes. These updates can include new features, design changes, system optimizations, or backend improvements."
+      },
+      "1": "We reserve the right to update, limit, restrict, or remove functionality on the website at any time, either temporarily or permanently, without prior notice and without liability to users."
+    },
+    "13": {
+      "title": "External Links",
+      "0": "The Marketeloro website may include links to third-party websites or services for convenience. We do not control or endorse the content, practices, or accuracy of these external sites. Once you leave our domain, these Terms and our Privacy Policy no longer apply."
+    },
+    "14": {
+      "title": "Third-Party Services",
+      "0": "In the course of delivering our marketing and consulting services, we may integrate or recommend third-party platforms, software, or providers. Your use of such tools is voluntary and subject to the external provider’s own terms and policies.",
+      "1": "accepts no responsibility for the availability, legality, performance, or reliability of third-party services."
+    },
+    "15": {
+      "title": "Term and Termination",
+      "0": "These Terms remain in effect for 90 days after your service purchase, unless terminated earlier by either party.",
+      "1": "You may terminate your relationship with Marketeloro at any time by ceasing use of the website and deleting stored data.",
+      "2": "We reserve the right to suspend or revoke access to our services if misuse, policy violations, or unauthorized activities are detected."
+    },
+    "16": {
+      "title": "No Warranties",
+      "0": {
+        "0": "Our website and services are provided on an",
+        "1": "“as is”",
+        "2": "and",
+        "3": "“as available”",
+        "4": "basis, without warranties of any kind.",
+        "5": "This includes, but is not limited to, warranties regarding:"
+      },
+      "list": {
+        "0": "Merchantability",
+        "1": "Fitness for a particular purpose",
+        "2": "Non-infringement",
+        "3": "Uninterrupted access or performance",
+        "4": "Accuracy or reliability of information",
+        "5": "Protection against errors, malware, or harmful code",
+        "6": "Non-infringement",
+        "7": "Uninterrupted access or performance",
+        "8": "Accuracy or reliability of information",
+        "9": "Protection against errors, malware, or harmful code"
+      },
+      "1": "We do not guarantee that our website or services will meet every expectation or operate without interruptions. Some warranty exclusions may not apply in jurisdictions where limitations are restricted by law."
+    },
+    "17": {
+      "title": "Limitation of Liability",
+      "0": {
+        "0": "To the maximum extent allowed under applicable law,",
+        "1": "its affiliates, partners, and contractors will not be liable for any indirect, incidental, or consequential damages that result from your use of the website or services."
+      },
+      "1": "Our total liability under any claim is limited to the amount you paid for the specific service involved."
+    },
+    "18": {
+      "title": "Indemnification",
+      "0": "You agree to indemnify and hold harmless",
+      "1": "its employees, affiliates, and partners against any claims, damages, or expenses (including reasonable legal fees) arising from:",
+      "list": {
+        "0": "Your use of our website or services",
+        "1": "Your breach of these Terms",
+        "2": "Your violation of laws or regulations",
+        "3": "Any infringement of third-party rights"
+      }
+    },
+    "19": {
+      "title": "Validity of Provisions",
+      "0": "If any clause within these Terms is ruled invalid, unlawful, or unenforceable by a court, that clause will be adapted or removed as needed. The rest of the Terms will remain fully effective.",
+      "1": {
+        "0": "Any legal claim relating to your use of",
+        "1": "must be initiated within",
+        "2": "one (1) year",
+        "3": "from the date the issue arose."
+      }
+    },
+    "20": {
+      "title": "No Waiver of Rights",
+      "0": "If either party does not immediately enforce a right or condition under these Terms, it does not mean that the right is waived. A single waiver will not extend to future cases or similar circumstances."
+    },
+    "21": {
+      "title": "Resolving Disputes",
+      "0": {
+        "0": "Commitment to Arbitration",
+        "1": "Any disputes, disagreements, or claims tied to these Terms or your use of",
+        "2": "(except matters involving intellectual property or urgent legal remedies) shall be handled through binding arbitration."
+      },
+      "1": {
+        "0": "Arbitration Process",
+        "1": "If informal negotiations do not resolve the issue, both parties agree to arbitration under the commercial arbitration rules.",
+        "2": "By agreeing to these Terms, both you and",
+        "3": "give up the right to court proceedings or jury trials. Temporary legal remedies may be pursued during arbitration to safeguard rights."
+      },
+      "2": "The party that does not prevail may be required to cover reasonable legal and administrative fees of the winning side.",
+      "3": {
+        "title": "Initiating a Dispute",
+        "0": "To begin the process, a Notice of Dispute must be provided, including:",
+        "list": {
+          "0": "Full name and contact details",
+          "1": "A clear explanation of the issue",
+          "2": "A proposed resolution"
+        }
+      },
+      "4": "Send notices to:",
+      "5": {
+        "0": "Both parties agree to attempt resolution for up to",
+        "1": "60 days",
+        "2": "before moving to arbitration."
+      },
+      "6": {
+        "title": "Service Disclaimer",
+        "0": {
+          "0": "The",
+          "1": "platform, its tools, and related services are provided strictly on an",
+          "2": "“as is”",
+          "3": "and",
+          "4": "“as available”",
+          "5": "basis."
+        },
+        "1": "We do not guarantee:",
+        "list": {
+          "0": "Uninterrupted operation or flawless performance",
+          "1": "Accuracy, timeliness, or completeness of any content",
+          "2": "Compatibility with all devices and browsers",
+          "3": "Complete protection from bugs, malware, or technical faults"
+        },
+        "2": "We may adjust, update, or discontinue features and services at our discretion, without prior notice."
+      },
+      "7": {
+        "title": "Eligibility and Age Verification",
+        "0": "To use the",
+        "1": "website or engage with our services, you must confirm that you are at least",
+        "2": "18 years old",
+        "3": "(or the legal age of majority in your jurisdiction).",
+        "4": "By creating an account, submitting a form, or purchasing any service, you represent and warrant that you meet the minimum age requirement and have the legal capacity to enter into binding agreements.",
+        "5": "If we discover that a user has provided false information regarding their age, or is otherwise not legally permitted to use our services,",
+        "6": "reserves the right to restrict or terminate access immediately, without liability.",
+        "7": "Parents or legal guardians who believe a minor has engaged with Marketeloro’s services should contact us directly at [insert support email], so that we can take appropriate action, including removal of data if applicable."
+      },
+      "8": {
+        "title": "Acceptance of Terms",
+        "0": "By browsing our site, submitting forms, or purchasing services, you confirm that you have read, understood, and fully agreed to these Terms and Conditions."
+      },
+      "9": {
+        "title": "Feedback and Complaints",
+        "0": "If you experience issues with our services, please reach out and provide all relevant details (service name, date, correspondence, etc.) along with your proposed solution.",
+        "list": {
+          "0": "Website"
+        },
+        "1": "We aim to resolve all concerns fairly, promptly, and with professionalism."
+      }
+    }
+  },
+  "refundPolicy": {
+    "title": "Refund Policy",
+    "0": {
+      "0": {
+        "0": "At",
+        "1": "operated by",
+        "2": "a company registered under the laws of [Insert Country of Registration], with its registered office at [Insert Registered Address] and registration number [Insert Company Number], we are committed to providing clients with professional marketing solutions designed for measurable growth."
+      },
+      "1": {
+        "0": "By purchasing our services, you acknowledge and accept that all completed transactions are",
+        "1": "final and non-refundable",
+        "2": "as our work commences immediately upon order confirmation."
+      }
+    },
+    "1": {
+      "0": "Before placing an order, we encourage you to make well-informed decisions.",
+      "1": "Please be sure to:",
+      "list": {
+        "0": "Review service descriptions, packages, and pricing carefully.",
+        "1": "Reach out to our team for any clarifications prior to making payment.",
+        "2": "Understand that completing a purchase indicates your acceptance of this Refund Policy."
+      }
+    },
+    "2": {
+      "title": "Possible Exceptions",
+      "0": "While our standard approach does not include refunds, we may consider them under certain exceptional circumstances, including:",
+      "list": {
+        "0": {
+          "0": "Duplicate or Accidental Payments",
+          "1": "if you were mistakenly charged more than once."
+        },
+        "1": {
+          "0": "Billing Errors",
+          "1": "where an overcharge has occurred due to our mistake."
+        },
+        "2": {
+          "0": "Technical Failures",
+          "1": "failed or incomplete transactions caused by system errors."
+        },
+        "3": {
+          "0": "Service Non-Delivery",
+          "1": "if a purchased service cannot be provided due to reasons directly attributable to Marketeloro."
+        }
+      }
+    },
+    "3": {
+      "title": "Requesting a Refund",
+      "0": "If you believe your case qualifies for an exception, please send us a written request containing:",
+      "list": {
+        "0": {
+          "0": "Your",
+          "1": "full name",
+          "2": "and",
+          "3": "email",
+          "4": "used for the order"
+        },
+        "1": {
+          "0": "Date",
+          "1": "and",
+          "2": "proof of transaction",
+          "3": "(ID, receipt, or invoice)"
+        },
+        "2": "A short explanation of the issue"
+      }
+    },
+    "4": {
+      "title": "Review Procedure",
+      "list": {
+        "0": {
+          "0": "Assessment",
+          "1": "Each request will be evaluated by our billing team."
+        },
+        "1": {
+          "0": "Verification",
+          "1": "We will check payment records and service logs."
+        },
+        "2": {
+          "0": "Response Time",
+          "1": "A decision will be provided within",
+          "2": "7 working days",
+          "3": "of receiving your request."
+        }
+      }
+    },
+    "5": {
+      "title": "Outcome Notification",
+      "0": "Once our review is complete, you will be informed of the result by email. Refund approvals are strictly case-based and guided by this policy."
+    },
+    "6": {
+      "title": "Contact Us",
+      "0": "For questions or assistance regarding this policy, you can contact us at:",
+      "list": {
+        "0": "Contact Form"
+      },
+      "1": "Our support team is available during business hours to assist with any concerns."
+    },
+    "7": {
+      "title": "Policy Changes",
+      "0": "Marketeloro reserves the right to update this Refund Policy at any time. Revised versions will be published here and considered effective immediately. Clients are encouraged to check this page periodically for updates."
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "0": {
+      "0": {
+        "0": "This Policy explains how",
+        "1": "(“Company,” “we,” or “our”) collects, processes, and safeguards personal data when you visit",
+        "2": "request marketing services, download materials, or otherwise engage with our team and platform (together, the “Site”).",
+        "3": "Marketeloro is operated by",
+        "4": "company registered under the laws of [insert jurisdiction]. The Company conducts its activities under the brand name"
+      },
+      "1": "We take your privacy seriously and are committed to handling all personal data in a lawful, transparent, and secure manner. By using the Marketeloro website or services, you confirm that you have read and accepted the practices outlined in this Policy.",
+      "2": "For any questions or concerns regarding data management, you may reach us at"
+    },
+    "3": {
+      "title": "Personal Details You Provide",
+      "0": "We collect personal information that you voluntarily share with us in various ways, for example when you:",
+      "list": {
+        "0": {
+          "0": "Fill out a contact form or submit a consultation request",
+          "1": "providing the details necessary for us to respond to your inquiry."
+        },
+        "1": {
+          "0": "Purchase services, subscriptions, or tailored packages",
+          "1": "which requires us to gather payment information and essential billing data."
+        },
+        "2": {
+          "0": "Subscribe to newsletters, updates, or case studies",
+          "1": "allowing us to keep you informed about marketing insights, offers, and company news."
+        },
+        "3": {
+          "0": "Engage in direct communication with our consultants or support staff",
+          "1": "whether by email, phone, or chat, in the course of receiving assistance."
+        },
+        "4": {
+          "0": "Provide responses through surveys, questionnaires, or structured feedback forms",
+          "1": "helping us refine our services and better understand your needs."
+        },
+        "5": {
+          "0": "Apply for open positions, internships, or collaborative opportunities",
+          "1": "where we may request additional details such as your CV, portfolio, or professional background."
+        }
+      },
+      "1": "The types of personal information we may collect or store include, but are not limited to:",
+      "list2": {
+        "0": {
+          "0": "Your full name, email address, and contact phone number",
+          "1": "which are used to identify and reach you."
+        },
+        "1": {
+          "0": "Billing information, payment details, and postal address",
+          "1": "required for processing orders and issuing invoices."
+        },
+        "2": {
+          "0": "Company or brand details",
+          "1": "including the name of your business and relevant identifiers, to ensure proper service alignment."
+        },
+        "3": {
+          "0": "Business stage, industry sector, and growth objectives",
+          "1": "which help us tailor strategies to your specific situation."
+        },
+        "4": {
+          "0": "Preferences and interests regarding services, content, or communication frequency",
+          "1": "which allow us to customize your experience."
+        },
+        "5": {
+          "0": "Any additional information you voluntarily provide",
+          "1": "such as notes about your project, special requirements, or context for collaboration."
+        }
+      },
+      "2": "This data is used exclusively for the purposes of delivering services, fulfilling contractual obligations, maintaining accurate internal records, and complying with applicable legal or regulatory requirements."
+    },
+    "4": {
+      "title": "Information Collected Automatically",
+      "0": "When you visit the Marketeloro website, certain technical data may be logged automatically, such as:",
+      "list": {
+        "0": "IP address and approximate geolocation",
+        "1": "Browser type, device model, and operating system",
+        "2": "Language preferences",
+        "3": "Pages visited, time spent, and navigation patterns",
+        "4": "Entry sources (ads, search results, referral links)",
+        "5": "Session data including clicks and on-site interactions"
+      },
+      "1": {
+        "0": "This data is gathered through cookies, tracking tools, and analytics software. It helps us improve performance, understand user behavior, and enhance your browsing experience.",
+        "1": "See our Cookie Policy for full details."
+      }
+    },
+    "5": {
+      "title": "Managing Cookies and Tracking",
+      "0": "You can decide how cookies are used on your device by adjusting browser settings or using the cookie-consent options available on our Site.",
+      "1": {
+        "0": "Please note:",
+        "1": "turning off certain cookies may limit functionality or prevent parts of the website from working properly. Our system does not currently recognize browser “Do Not Track” signals."
+      }
+    },
+    "6": {
+      "title": "Data Combination for Better Services",
+      "0": "We may merge data from different interactions (e.g., forms, communications, and website activity) in order to customize your experience, improve service quality, and better align our work with your objectives."
+    },
+    "7": {
+      "title": "When Information Is Missing",
+      "0": "Certain data is necessary for us to process services effectively. For instance, without a valid email address or payment details, we may not be able to confirm your booking or fulfill your request.",
+      "1": "You are responsible for making sure the information you provide is accurate and up to date."
+    },
+    "8": {
+      "title": "Protection of Minors",
+      "0": "Marketeloro does not intentionally collect or store personal information from individuals who are considered minors under the applicable laws of their country of residence. If we become aware that personal data has been submitted by someone who does not meet the minimum legal age for providing consent in their jurisdiction, and such submission was made without verified parental or guardian approval, we will take appropriate steps to remove that information from our systems."
+    },
+    "9": {
+      "title": "How We Use Collected Data",
+      "0": "We handle your personal information based on one or more legal grounds, depending on the nature of your interaction with Marketeloro:",
+      "1": "1. Contractual Necessity",
+      "2": "To fulfill our agreement with you and deliver requested services, we may use your information to:",
+      "list": {
+        "0": "Process service bookings, invoices, and payments",
+        "1": "Grant access to deliverables or project materials",
+        "2": "Verify your identity to secure account access",
+        "3": "Send important service-related notices or updates about your order, campaign, or consultation"
+      },
+      "3": "These activities allow us to maintain a reliable and professional collaboration with you.",
+      "4": "2. Legitimate Business Purposes",
+      "5": {
+        "0": "We may process your data to operate, improve, and protect",
+        "1": "platform and services, such as by:"
+      },
+      "list2": {
+        "0": "Enhancing navigation and usability on our website",
+        "1": "Personalizing content and recommendations based on your preferences",
+        "2": "Providing client support and responding to inquiries",
+        "3": "Suggesting relevant resources, services, or updates",
+        "4": "Tracking engagement to evaluate and improve services",
+        "5": "Safeguarding against fraud or unauthorized use",
+        "6": "Conducting surveys, research, or usability testing"
+      },
+      "6": "Where permitted by law, we may also use your contact details to send updates or marketing content. You may opt out of promotional messages at any time. All such use is carefully balanced with your privacy rights."
+    },
+    "10": {
+      "title": "Aggregated & Anonymized Data",
+      "0": "We may process information in an anonymized or combined form to generate insights, reports, or strategic analysis. Such data does not personally identify you and may be shared with external partners where legally permissible. This approach allows us to improve services without compromising individual privacy."
+    },
+    "11": {
+      "title": "Sharing of Information",
+      "0": "We do not sell, trade, or lease your personal information. Data is shared only under specific circumstances:",
+      "1": "1. Trusted Service Providers",
+      "2": "We partner with third parties that support the operation of Marketeloro, such as:",
+      "list": {
+        "0": "Hosting and cloud infrastructure services",
+        "1": "Payment gateways and billing systems",
+        "2": "CRM and email marketing platforms",
+        "3": "Analytics and performance tracking tools",
+        "4": "Scheduling, communication, and project management solutions",
+        "5": "Professional advisors (legal, financial, or compliance-related)"
+      },
+      "3": "Each of these providers is carefully vetted and bound by contractual obligations to safeguard your data.",
+      "4": "2. Legal & Regulatory Requirements",
+      "5": "We may disclose information if legally required to do so, including for:",
+      "list2": {
+        "0": "Responding to government or regulatory authority requests",
+        "1": "Complying with tax, financial reporting, or audit obligations",
+        "2": "Investigating potential violations of our Terms and Conditions",
+        "3": "Protecting the safety, rights, or property of our users, staff, or partners"
+      },
+      "6": "Such disclosures occur only when strictly necessary and in compliance with applicable law.",
+      "7": "3. Security & Fraud Prevention",
+      "8": "We may access, monitor, or share data when needed to:",
+      "list3": {
+        "0": "Detect or prevent fraudulent activity",
+        "1": "Investigate abuse, misuse, or technical vulnerabilities",
+        "2": "Respond to security risks or incidents"
+      },
+      "9": "These actions are taken solely to protect both you and our platform from harm.",
+      "10": "4. With Your Authorization",
+      "11": "We will share your information in additional ways only if:",
+      "list4": {
+        "0": "You provide explicit consent, or",
+        "1": "You were informed at the time of collection that such sharing would occur"
+      },
+      "12": "Your consent-based sharing is always optional, and you retain the right to withdraw it at any time."
+    },
+    "12": {
+      "title": "Safeguarding Your Information and Data Storage",
+      "0": "We take the protection of your personal data seriously. Marketeloro uses a combination of technical, physical, and administrative measures to reduce the risk of unauthorized access, alteration, or misuse of information.",
+      "1": "These may include:",
+      "list": {
+        "0": "SSL encryption of data transfers",
+        "1": "Role-based permissions and restricted access",
+        "2": "Secure hosting environments with regular backups",
+        "3": "Internal protocols and employee training on data handling"
+      },
+      "13": "While we strive to apply industry best practices, no system is entirely immune from security risks. You are responsible for maintaining the confidentiality of your login credentials and should never share your password or account access with others.",
+      "14": "We keep personal data only for as long as it is necessary to:",
+      "list5": {
+        "0": "Deliver contracted services",
+        "1": "Meet legal, tax, or compliance obligations",
+        "2": "Resolve disputes or enforce agreements"
+      },
+      "15": "Once data is no longer required, it is either deleted securely or anonymized for analytical use."
+    },
+    "13": {
+      "title": "Managing and Accessing Your Information",
+      "0": {
+        "0": "If you maintain an account with",
+        "1": "you can view or update your details through your account dashboard or by contacting us directly.",
+        "2": "Depending on your jurisdiction and applicable data protection laws, you may have the right to:"
+      },
+      "list": {
+        "0": "Request a copy of the personal data we hold about you",
+        "1": "Ask us to update or delete incorrect information",
+        "2": "Restrict or object to certain types of processing",
+        "3": "Request a machine-readable copy of your data (data portability)"
+      },
+      "16": "Please note that some data is essential for delivering our services. If you request deletion of such information, certain features may become unavailable. In cases where we cannot comply with your request, we will provide a clear explanation."
+    },
+    "14": {
+      "title": "Public Contributions and Shared Content",
+      "0": "If you choose to participate in community features such as webinars, workshops, feedback sessions, or group discussions, any content you share may be visible to other participants.",
+      "1": "We encourage caution when disclosing personal or sensitive details in such spaces. For files, media, or documents uploaded, we recommend removing hidden metadata or unnecessary private information before submission.",
+      "2": "Unless otherwise requested, we may retain contributed content as part of our service records."
+    },
+    "15": {
+      "title": "Policy Updates",
+      "0": {
+        "0": "This Privacy Policy may be revised periodically to reflect changes in",
+        "1": "services, business practices, or legal obligations."
+      },
+      "1": "When material updates occur, we will notify users via our website or through official communication channels. Continued use of our services after such updates indicates acceptance of the revised policy."
+    },
+    "16": {
+      "title": "Age Verification and Eligibility",
+      "0": {
+        "0": "Our services are intended only for individuals who are legally permitted to enter into binding agreements under applicable law. By accessing or using the Marketeloro website, you confirm that you are at least",
+        "1": "18 years of age",
+        "2": "(or the age of majority in your jurisdiction, if higher)."
+      },
+      "1": "We may request proof of age or other verification documents where required by law or if we suspect a violation of this requirement. If such information is not provided upon request, we reserve the right to suspend or terminate access to our services.",
+      "2": "Marketeloro does not knowingly enter into agreements or collect personal information from individuals who fail to meet the age requirement. If we become aware that we have inadvertently collected data from someone under the required age without valid consent, we will promptly delete such data."
+    },
+    "17": {
+      "title": "Contacting Us",
+      "0": "If you have questions regarding this Privacy Policy, or if you wish to exercise your data protection rights, please contact us using the details below:",
+      "list": {
+        "0": "Website:"
+      },
+      "1": "We aim to respond to all requests in a timely and respectful manner."
+    }
   }
 }
