@@ -15,11 +15,9 @@ import {
   Trigger,
 } from '@radix-ui/react-dialog';
 
-import { PhoneIcon } from '../icons/phone';
 import { SmsIcon } from '../icons/sms';
 import { Text } from '../kit/text';
 import { LangSwitcher } from './lang-switcher';
-import { SocialNetworks } from './social-networks';
 import { Link as NavLink } from '@/i18n/navigation';
 
 export const BurgerMenu = () => {
@@ -92,13 +90,13 @@ export const BurgerMenu = () => {
               </section>
               <div className="flex flex-col gap-5">
                 <div className="flex flex-col gap-4 px-2.5">
-                  <Link
+                  {/* <Link
                     href="tel:+15551234567"
                     className="flex items-center gap-1"
                   >
                     <PhoneIcon />
                     +1 (555) 123-4567
-                  </Link>
+                  </Link> */}
                   <Link
                     href="mailto:info@marketeloro.com"
                     className="flex items-center gap-1"
@@ -107,9 +105,7 @@ export const BurgerMenu = () => {
                     info@marketeloro.com
                   </Link>
                 </div>
-                <div className="flex flex-col gap-5">
-                  <SocialNetworks />
-                </div>
+                {/* <SocialNetworks /> */}
               </div>
             </section>
           </Description>

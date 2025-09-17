@@ -16,14 +16,14 @@ export default async function RefundPolicy() {
       <PolicyHero title={t('title', { fallback: 'Refund Policy' })} />
       <PolicyLayout>
         <PolicySection>
-          {/* <Text size="base">
+          <Text size="base">
             {t('0.0.0', { fallback: 'At' })} <span>Marketeloro</span>,{' '}
             {t('0.0.1', { fallback: 'operated by' })}{' '}
-            <span className="font-bold">Reserve INTELORO LIMITED</span>,{' '}
+            <span className="font-bold">Reserve Inteloro Limited</span>,{' '}
             {t('0.0.2', {
               fallback: 'a company registered under the laws of',
             })}
-          </Text> */}
+          </Text>
           <Text size="base">
             {t('0.1.0', {
               fallback:
@@ -154,6 +154,12 @@ export default async function RefundPolicy() {
               t('3.list.2', { fallback: 'A short explanation of the issue' }),
             ]}
           />
+          <Text size="base">
+            {t('3.1', { fallback: 'Requests should be submitted via email:' })}{' '}
+            <Link href="mailto:info@marketeloro.com" className="underline">
+              info@marketeloro.com
+            </Link>
+          </Text>
         </PolicySection>
         <PolicySection title={t('4.title', { fallback: 'Review Procedure' })}>
           <List
@@ -214,6 +220,12 @@ export default async function RefundPolicy() {
           </Text>
           <List
             values={[
+              <span key="0">
+                {t('6.list.1', { fallback: 'Email' })}:{' '}
+                <Link href="mailto:info@marketeloro.com" className="underline">
+                  info@marketeloro.com
+                </Link>
+              </span>,
               <span key="1">
                 {t('6.list.0', { fallback: 'Contact Form' })}:{' '}
                 <Link href="/contact-us" className="underline">

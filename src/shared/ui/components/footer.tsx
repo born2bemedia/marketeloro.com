@@ -8,8 +8,7 @@ import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 
 import { MailIcon } from '../icons/mail';
-import { PhoneIcon } from '../icons/phone';
-import { SocialNetworks } from './social-networks';
+import { Link as NavLink } from '@/i18n/navigation';
 
 export const Footer = () => {
   const t = useTranslations('footer');
@@ -27,20 +26,24 @@ export const Footer = () => {
         />
         <section className="flex w-[444px] flex-col gap-5 max-[1040px]:w-full">
           <div className="flex flex-col gap-2.5">
-            <Link href="tel:+15551234567" className="flex items-center gap-1">
+            {/* <Link href="tel:+15551234567" className="flex items-center gap-1">
               <PhoneIcon color="white" />
               <Text color="white">+1 (555) 123-4567</Text>
-            </Link>
+            </Link> */}
             <Link
-              href="mailto:hello@marketeloro.com"
+              href="mailto:info@marketeloro.com"
               className="flex items-center gap-1"
             >
               <MailIcon color="white" />
-              <Text color="white">hello@marketeloro.com</Text>
+              <Text color="white">info@marketeloro.com</Text>
             </Link>
           </div>
-          <SocialNetworks iconsColor="white" />
-          <nav className="flex flex-col gap-2">
+          {/* <SocialNetworks iconsColor="white" /> */}
+          <Text color="white">
+            {t('officeAddress', { fallback: 'Office Address:' })}
+            <br /> 2-8 Anton St, Lower Clapton, London, United Kingdom, E8 2AD
+          </Text>
+          {/* <nav className="flex flex-col gap-2">
             <Link href="/storytime">
               <Text color="white">
                 {t('storytime', { fallback: 'StoryTime' })}
@@ -51,7 +54,7 @@ export const Footer = () => {
                 {t('contactUs', { fallback: 'Contact Us' })}
               </Text>
             </Link>
-          </nav>
+          </nav> */}
           {/* <div className="flex flex-col gap-1">
             <Text color="white">Office address: [Office Address Here]</Text>
             <Text color="white">
@@ -77,6 +80,14 @@ export const Footer = () => {
               {
                 text: t('workWithUs', { fallback: 'Work with us' }),
                 href: '/work-with-us',
+              },
+              {
+                text: t('storytime', { fallback: 'StoryTime' }),
+                href: '/story-time',
+              },
+              {
+                text: t('contactUs', { fallback: 'Contact Us' }),
+                href: '/contact-us',
               },
             ]}
             title={t('company', { fallback: 'COMPANY' })}
@@ -142,11 +153,11 @@ const Navigation = ({
     </Text>
     <nav className="flex flex-col gap-1.5">
       {links.map(link => (
-        <Link href={link.href} key={link.href}>
+        <NavLink href={link.href} key={link.href}>
           <Text color="white" size="base">
             {link.text}
           </Text>
-        </Link>
+        </NavLink>
       ))}
     </nav>
   </div>

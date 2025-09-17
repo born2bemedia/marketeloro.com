@@ -49,7 +49,11 @@ export default async function TermsAndConditions() {
                 {t('1.list.0.1', {
                   fallback: '“we,” “our,” or “us” refers to',
                 })}{' '}
-                <span className="font-bold">Reserve INTELORO LIMITED</span>.
+                <span className="font-bold">Reserve Inteloro Limited</span>.{' '}
+                {t('1.list.0.2', {
+                  fallback:
+                    'a registered company operating under the laws of the United Kingdom. The company’s registered office is located at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, registration number 16381595.',
+                })}
               </span>,
               <span key="1">
                 <span className="font-bold">
@@ -128,10 +132,16 @@ export default async function TermsAndConditions() {
         </PolicySection>
         <PolicySection title={t('3.title', { fallback: 'Cookies' })}>
           <Text size="base">
-            {t('3.0', {
+            {t('3.0.0', {
               fallback:
-                'Marketeloro uses cookies (small data files stored on your device) to enhance functionality, analyze performance, and improve your browsing experience. By continuing to navigate our website, you consent to our use of cookies as described in our Cookie Policy.',
-            })}
+                'Marketeloro uses cookies (small data files stored on your device) to enhance functionality, analyze performance, and improve your browsing experience. By continuing to navigate our website, you consent to our use of cookies as described in our',
+            })}{' '}
+            <Link href="/cookie-policy" className="underline">
+              {t('3.0.1', {
+                fallback: 'Cookie Policy',
+              })}
+            </Link>
+            .
           </Text>
         </PolicySection>
         <PolicySection
@@ -171,7 +181,7 @@ export default async function TermsAndConditions() {
             {t('5.0.2', {
               fallback: 'or',
             })}{' '}
-            <span>Reserve INTELORO LIMITED</span>,{' '}
+            <span>Reserve Inteloro Limited</span>,{' '}
             {t('5.0.3', {
               fallback:
                 'depending on your chosen payment method and regional processing.',
@@ -224,7 +234,7 @@ export default async function TermsAndConditions() {
           <Text size="base">
             {t('6.1', {
               fallback:
-                'Please send copyright-related inquiries to: hello@marketeloro.com.',
+                'Please send copyright-related inquiries to: info@marketeloro.com.',
             })}
           </Text>
         </PolicySection>
@@ -298,7 +308,7 @@ export default async function TermsAndConditions() {
               fallback:
                 'These Terms represent the full and exclusive agreement between you and',
             })}{' '}
-            <span className="font-bold">Reserve INTELORO LIMITED</span>{' '}
+            <span className="font-bold">Reserve Inteloro Limited</span>{' '}
             {t('10.0.1', {
               fallback:
                 'concerning the use of the Marketeloro website and services. They supersede any prior communications, whether written, oral, or implied, related to this subject.',
@@ -560,7 +570,7 @@ export default async function TermsAndConditions() {
             <Text size="base">
               {t('21.1.1', {
                 fallback:
-                  'If informal negotiations do not resolve the issue, both parties agree to arbitration under the commercial arbitration rules.',
+                  'If informal negotiations do not resolve the issue, both parties agree to arbitration under the commercial arbitration rules of the United Kingdom.',
               })}{' '}
               <br />
               {t('21.1.2', {
@@ -604,7 +614,7 @@ export default async function TermsAndConditions() {
             />
           </div>
           <Text size="base">
-            {t('21.4', { fallback: 'Send notices to:' })} hello@marketeloro.com.
+            {t('21.4', { fallback: 'Send notices to:' })} info@marketeloro.com.
           </Text>
           <Text size="base">
             {t('21.5.0', {
@@ -724,6 +734,12 @@ export default async function TermsAndConditions() {
           </Text>
           <List
             values={[
+              <span key="1">
+                {t('21.9.list.1', { fallback: 'Email' })}:{' '}
+                <Link href="mailto:info@marketeloro.com" className="underline">
+                  info@marketeloro.com
+                </Link>
+              </span>,
               <span key="0">
                 {t('21.9.list.0', { fallback: 'Website' })}:{' '}
                 <Link href="https://marketeloro.com" className="underline">
