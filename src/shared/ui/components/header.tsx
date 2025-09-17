@@ -10,6 +10,7 @@ import { PhoneIcon } from '@/shared/ui/icons/phone';
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 
+import { BurgerMenu } from './burger-menu';
 import { SocialNetworks } from './social-networks';
 
 export const Header = () => {
@@ -36,20 +37,17 @@ export const Header = () => {
             <Text>+1 (555) 123-4567</Text>
           </Link>
           <Link
-            href="mailto:hello@marketeloro.com"
+            href="mailto:info@marketeloro.com"
             className="flex items-center gap-1"
           >
             <MailIcon />
-            <Text>hello@marketeloro.com</Text>
+            <Text>info@marketeloro.com</Text>
           </Link>
         </div>
         <SocialNetworks />
-        <Button>
-          {t('cart', { fallback: 'Cart' })} <CartIcon />
-        </Button>
       </section>
       <section className="hidden max-md:flex">
-        <Text>{t('menu', { fallback: 'Menu' })}</Text>
+        <BurgerMenu />
       </section>
     </header>
   );
