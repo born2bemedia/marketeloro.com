@@ -2285,5 +2285,15 @@
         }
       }
     }
+  },
+  "cookieConsent": {
+    "title": "Cookie settings",
+    "description": "Cookies help us improve our website. By clicking 'Accept,' you agree to our use of cookies for functionality, analytics, and personalized content. Learn more in our Cookie Policy.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "servicesSlider": {
+    "next": "Next",
+    "order": "Order"
   }
 }

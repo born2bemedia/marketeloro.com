@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback } from 'react';
+import { useTranslations } from 'next-intl';
 import useEmblaCarousel from 'embla-carousel-react';
 
 import { useRequestDialogStore } from '@/features/request-form/model/request-dialog.store';
@@ -25,6 +26,8 @@ export const ServicesSlider = ({
   color?: 'jaguar' | 'white';
 }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'start' });
+
+  const t = useTranslations('servicesSlider');
 
   const scrollNext = useCallback(() => {
     if (emblaApi) emblaApi.scrollNext();
@@ -56,7 +59,7 @@ export const ServicesSlider = ({
             className="gap-3"
             onClick={scrollNext}
           >
-            Next{' '}
+            {t('next', { fallback: 'Next' })}
             <ArrowRightIcon color={color === 'jaguar' ? '#030213' : '#fff'} />
           </Button>
         </div>
@@ -73,6 +76,8 @@ const ServiceCard = ({
 }: Service & { color: 'jaguar' | 'white' }) => {
   const { setOpen, setPackageName, setIsShowSubtitle } =
     useRequestDialogStore();
+
+  const t = useTranslations('servicesSlider');
 
   return (
     <article className="flex h-full w-full max-w-[300px] flex-col justify-between rounded-[40px] bg-[rgba(227,227,227,0.30)] p-5 backdrop-blur-xl">
@@ -97,7 +102,7 @@ const ServiceCard = ({
             setIsShowSubtitle(false);
           }}
         >
-          Order <PlayIcon />
+          {t('order', { fallback: 'Order' })} <PlayIcon />
         </Button>
       </div>
     </article>
