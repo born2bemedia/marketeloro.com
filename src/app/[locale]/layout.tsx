@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import { NextIntlClientProvider } from 'next-intl';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 import { RequestDialog } from '@/features/request-form/ui/request-dialog';
 
@@ -62,6 +63,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="G-QY0JG07K55" />
       <body
         className={cn(
           trjnDaVinci.className,
