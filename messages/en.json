@@ -4,7 +4,11 @@
     "aboutUs": "About Us",
     "contact": "Contact",
     "cart": "Cart",
-    "menu": "Menu"
+    "menu": "Menu",
+    "close": "Close",
+    "plans": "Plans",
+    "storyTime": "Story Time",
+    "contactUs": "Contact Us"
   },
   "footer": {
     "storytime": "StoryTime",
