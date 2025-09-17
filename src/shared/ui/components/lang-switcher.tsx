@@ -54,7 +54,7 @@ export const LangSwitcher = () => {
       <DropdownMenuPortal>
         <DropdownMenuContent
           sideOffset={10}
-          className="z-[900] flex w-[118px] animate-[slideDownAndFade_400ms_cubic-bezier(0.16,1,0.3,1)] flex-col overflow-hidden rounded-3xl border border-[rgba(3,2,19,0.05)] bg-white data-[side=bottom]:animate-[slideUpAndFade_400ms_cubic-bezier(0.16,1,0.3,1)] data-[side=left]:animate-[slideRightAndFade_400ms_cubic-bezier(0.16,1,0.3,1)] data-[side=right]:animate-[slideLeftAndFade_400ms_cubic-bezier(0.16,1,0.3,1)] data-[side=top]:animate-[slideDownAndFade_400ms_cubic-bezier(0.16,1,0.3,1)]"
+          className="z-[999] flex w-[118px] animate-[slideDownAndFade_400ms_cubic-bezier(0.16,1,0.3,1)] flex-col overflow-hidden rounded-3xl border border-[rgba(3,2,19,0.05)] bg-white data-[side=bottom]:animate-[slideUpAndFade_400ms_cubic-bezier(0.16,1,0.3,1)] data-[side=left]:animate-[slideRightAndFade_400ms_cubic-bezier(0.16,1,0.3,1)] data-[side=right]:animate-[slideLeftAndFade_400ms_cubic-bezier(0.16,1,0.3,1)] data-[side=top]:animate-[slideDownAndFade_400ms_cubic-bezier(0.16,1,0.3,1)]"
         >
           {languages.map(({ icon: Icon, label, value }) => (
             <DropdownMenuItem

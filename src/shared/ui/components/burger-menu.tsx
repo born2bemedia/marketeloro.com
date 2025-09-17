@@ -18,6 +18,7 @@ import {
 import { PhoneIcon } from '../icons/phone';
 import { SmsIcon } from '../icons/sms';
 import { Text } from '../kit/text';
+import { LangSwitcher } from './lang-switcher';
 import { SocialNetworks } from './social-networks';
 import { Link as NavLink } from '@/i18n/navigation';
 
@@ -46,14 +47,15 @@ export const BurgerMenu = () => {
         </section>
       </Trigger>
       <Portal>
-        <Content className="fixed bottom-0 left-0 z-[995] h-screen w-screen animate-[menuOpen_0.3s_ease-out_forwards] overflow-y-auto bg-white">
+        <Content className="fixed bottom-0 left-0 z-[998] h-screen w-screen animate-[menuOpen_0.3s_ease-out_forwards] overflow-x-hidden overflow-y-auto bg-white">
           <Title />
           <Description asChild>
             <section className="flex h-full flex-col justify-between gap-5 px-2 pt-2 pb-4">
               <section className="flex flex-col gap-5">
                 <section className="flex items-center justify-between">
                   <Image src="/logo.svg" alt="Logo" width={37} height={40} />
-                  <div className="flex items-center">
+                  <div className="flex items-center gap-5">
+                    <LangSwitcher />
                     <Close>
                       <Text>{t('close', { fallback: 'Close' })}</Text>
                     </Close>
