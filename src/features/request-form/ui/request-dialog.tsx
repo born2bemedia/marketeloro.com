@@ -30,7 +30,8 @@ import { requestFormSchema } from '../model/schema';
 export const RequestDialog = () => {
   const t = useTranslations('requestDialog');
 
-  const { open, setOpen, packageName } = useRequestDialogStore();
+  const { open, setOpen, packageName, isShowSubtitle, setIsShowSubtitle } =
+    useRequestDialogStore();
 
   const {
     handleSubmit,
@@ -60,7 +61,13 @@ export const RequestDialog = () => {
   const firstError = getFirstError();
 
   return (
-    <Root open={open} onOpenChange={setOpen}>
+    <Root
+      open={open}
+      onOpenChange={v => {
+        setOpen(v);
+        setIsShowSubtitle(true);
+      }}
+    >
       <Trigger />
       <Portal>
         <Overlay className="animate-overlayShow fixed inset-0 z-[998] bg-black/50" />
@@ -82,9 +89,11 @@ export const RequestDialog = () => {
               >
                 <div className="flex items-end gap-4">
                   <Title>{packageName}</Title>
-                  <Text color="white" size="base">
-                    {t('title', { fallback: 'Request Form' })}
-                  </Text>
+                  {isShowSubtitle && (
+                    <Text color="white" size="base">
+                      {t('title', { fallback: 'Request Form' })}
+                    </Text>
+                  )}
                 </div>
                 <section className="flex flex-col gap-10">
                   <section className="flex gap-4 max-md:flex-col">
