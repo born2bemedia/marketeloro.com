@@ -6,6 +6,7 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 import { RequestDialog } from '@/features/request-form/ui/request-dialog';
 
 import { cn } from '@/shared/lib/utils/cn';
+import { CookieConsent } from '@/shared/ui/components/cookie-consent';
 import { Footer } from '@/shared/ui/components/footer';
 import { Header } from '@/shared/ui/components/header';
 
@@ -75,6 +76,7 @@ export default function RootLayout({
           <Header />
           {children}
           <RequestDialog />
+          <CookieConsent />
           <Footer />
         </NextIntlClientProvider>
       </body>
