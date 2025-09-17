@@ -2107,5 +2107,183 @@
     "cancel": "Cancel",
     "submit": "Submit Request",
     "submitting": "Submitting..."
+  },
+  "services": {
+    "hero": {
+      "title": "Everything We Offer to Help Your Brand Get Seen and Grow"
+    },
+    "footer": {
+      "title": "Looking for a full-service approach?",
+      "description": "See our tailored packages designed for complete growth.",
+      "explorePackages": "Explore Packages"
+    },
+    "strategyAndConsulting": {
+      "title": "Strategy & Consulting",
+      "products": {
+        "0": {
+          "name": "Marketing Strategy Development",
+          "description": "We create a detailed marketing roadmap aligned with your goals, audience, and budget — built to deliver real results."
+        },
+        "1": {
+          "name": "Competitive Analysis",
+          "description": "We break down your competitors’ strategies to identify gaps, strengths, and areas where your brand can lead."
+        },
+        "2": {
+          "name": "Brand Positioning & Messaging",
+          "description": "We help define how your brand should be perceived and craft messaging that resonates with your target audience."
+        },
+        "3": {
+          "name": "Go-to-Market Strategy",
+          "description": "We develop a smart, step-by-step launch or re-launch strategy that brings your brand to market effectively."
+        },
+        "4": {
+          "name": "Market Research & Consumer Insights",
+          "description": "We analyze your market, trends, and audience behavior to uncover the opportunities that matter most."
+        },
+        "5": {
+          "name": "Campaign Planning & Roadmapping",
+          "description": "We design strategic campaign blueprints with clear goals, channels, timelines, and KPIs to ensure every step drives impact."
+        }
+      }
+    },
+    "socialMediaAndDigitalMarketing": {
+      "title": "Social Media & Community",
+      "title2": "Digital Marketing",
+      "products": {
+        "0": {
+          "name": "Social Media Management",
+          "description": "We handle posting, scheduling, engagement, and performance tracking across all your social platforms."
+        },
+        "1": {
+          "name": "Community Engagement & Moderation",
+          "description": "We keep your audience active and engaged by responding to comments, messages, and mentions while protecting your brand's reputation."
+        },
+        "2": {
+          "name": "Content Creation for Social Media (posts, stories, reels)",
+          "description": "We design and produce scroll-stopping content that fits your brand style and drives engagement."
+        },
+        "3": {
+          "name": "Social Media Audit & Optimization",
+          "description": "We review your current social presence and apply proven strategies to improve reach, engagement, and conversions."
+        },
+        "4": {
+          "name": "Influencer Marketing & Partnerships",
+          "description": "We connect your brand with the right influencers and partners to boost awareness and credibility."
+        },
+        "5": {
+          "name": "Paid Social Media Campaigns",
+          "description": "We create, manage, and optimize paid campaigns on platforms like Meta, TikTok, and LinkedIn for maximum ROI."
+        }
+      },
+      "products2": {
+        "0": {
+          "name": "Search Engine Optimization (SEO)",
+          "description": "We optimize your website content, structure, and keywords to improve search rankings and attract organic traffic."
+        },
+        "1": {
+          "name": "Email Marketing Campaigns",
+          "description": "We design and send targeted email campaigns that engage subscribers and turn them into loyal customers."
+        },
+        "2": {
+          "name": "Pay-Per-Click Advertising (Google Ads, Bing Ads)",
+          "description": "We create and manage high-converting ad campaigns that deliver instant visibility and measurable ROI."
+        },
+        "3": {
+          "name": "Marketing Automation",
+          "description": "We set up smart automation systems to streamline campaigns, nurture leads, and save you time."
+        },
+        "4": {
+          "name": "Social Media Advertising (Meta Ads, TikTok Ads, LinkedIn Ads)",
+          "description": "We run targeted ad campaigns on major social platforms to grow your audience and boost conversions."
+        },
+        "5": {
+          "name": "Retargeting & Remarketing Campaigns",
+          "description": "We re-engage visitors who didn't convert the first time, bringing them back to complete the sale."
+        }
+      }
+    },
+    "darkServices": {
+      "title": "Content & Creative",
+      "products": {
+        "0": {
+          "name": "Content Marketing Strategy",
+          "description": "We develop a content plan tailored to your audience, goals, and brand voice to drive consistent engagement."
+        },
+        "1": {
+          "name": "Video Production (short-form, ads, brand videos)",
+          "description": "We produce professional videos that showcase your brand, products, and story in a compelling way."
+        },
+        "2": {
+          "name": "Copywriting & Storytelling",
+          "description": "We craft persuasive copy and authentic brand stories that resonate with your audience and inspire action."
+        },
+        "3": {
+          "name": "Graphic Design & Visual Branding",
+          "description": "We design eye-catching graphics and cohesive visuals that strengthen your brand's identity across all platforms."
+        },
+        "4": {
+          "name": "Blog & Article Writing",
+          "description": "We write informative, SEO-friendly articles that position your brand as an authority in your niche."
+        },
+        "5": {
+          "name": "Photography for Products & Lifestyle",
+          "description": "We capture high-quality product and lifestyle images that showcase your brand at its best."
+        }
+      },
+      "title2": "Branding & Design",
+      "products2": {
+        "0": {
+          "name": "Brand Identity Development (logo, color palette, typography)",
+          "description": "We design a complete visual identity that reflects your brand's personality and stands out in the market."
+        },
+        "1": {
+          "name": "Creative Direction",
+          "description": "We oversee and guide the creative process to ensure every asset matches your brand vision and goals."
+        },
+        "2": {
+          "name": "Brand Guidelines Creation",
+          "description": "We create a detailed style guide that keeps your brand visuals and messaging consistent across all platforms."
+        },
+        "3": {
+          "name": "Visual Campaign Concepts",
+          "description": "We develop unique visual ideas and themes for campaigns that grab attention and drive engagement."
+        },
+        "4": {
+          "name": "Rebranding Services",
+          "description": "We refresh or completely transform your brand's identity to better align with your current vision and market position."
+        },
+        "5": {
+          "name": "Marketing Collateral Design",
+          "description": "We design brochures, flyers, banners, and other materials that make your brand look professional and persuasive."
+        }
+      },
+      "title3": "Web & Digital Experience",
+      "products3": {
+        "0": {
+          "name": "Website Design & Development",
+          "description": "We create modern, responsive, and user-friendly websites tailored to your brand and goals."
+        },
+        "1": {
+          "name": "UX/UI Design for Digital Campaigns",
+          "description": "We design intuitive, visually engaging interfaces that make your campaigns easy to navigate and enjoyable to use."
+        },
+        "2": {
+          "name": "Landing Page Creation & Optimization",
+          "description": "We build and optimize landing pages designed to convert visitors into leads or customers."
+        },
+        "3": {
+          "name": "E-commerce Marketing Strategy",
+          "description": "We develop targeted strategies to drive traffic, boost sales, and build customer loyalty for your online store."
+        },
+        "4": {
+          "name": "Conversion Rate Optimization (CRO)",
+          "description": "We analyze user behavior and make data-driven changes to increase the percentage of visitors who take action."
+        },
+        "5": {
+          "name": "Website Speed Optimization",
+          "description": "We improve your site's loading times to enhance user experience and search engine rankings."
+        }
+      }
+    }
   }
 }
