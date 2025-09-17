@@ -16,7 +16,7 @@ export default async function CookiePolicy() {
       <PolicyHero title={t('title', { fallback: 'Cookie Policy' })} />
       <PolicyLayout>
         <PolicySection>
-          {/* <Text size="base">
+          <Text size="base">
             {t('0.0', {
               fallback: 'This Cookie Policy applies to the website',
             })}{' '}
@@ -28,16 +28,14 @@ export default async function CookiePolicy() {
               https://marketeloro.com
             </Link>
             , {t('0.1', { fallback: 'which is operated by' })}{' '}
-            <span className="font-bold">Reserve INTELORO LIMITED</span>,{' '}
+            <span className="font-bold">Reserve Inteloro Limited</span>,{' '}
             {t('0.2', { fallback: 'a company registered under the laws of' })}{' '}
-            [insert jurisdiction]{' '}
             {t('0.3', {
               fallback: 'and conducting business under the brand name',
             })}{' '}
             <span className="font-bold">Marketeloro</span>,{' '}
-            {t('0.4', { fallback: 'with its registered office at' })} [insert
-            full registered address].
-          </Text> */}
+            {t('0.4', { fallback: 'with its registered office at' })}
+          </Text>
           <Text size="base">
             {t('0.5', {
               fallback:
@@ -352,6 +350,12 @@ export default async function CookiePolicy() {
           </Text>
           <List
             values={[
+              <span key="1">
+                {t('9.2', { fallback: 'Email' })}:{' '}
+                <Link href="mailto:info@marketeloro.com" className="underline">
+                  info@marketeloro.com
+                </Link>
+              </span>,
               <span key="0">
                 {t('9.1', { fallback: 'Website' })}:{' '}
                 <Link

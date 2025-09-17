@@ -16,7 +16,7 @@ export default async function PrivacyPolicy() {
       <PolicyHero title={t('title', { fallback: 'Privacy Policy' })} />
       <PolicyLayout>
         <PolicySection>
-          {/* <Text size="base">
+          <Text size="base">
             {t('0.0.0', {
               fallback: 'This Policy explains how',
             })}{' '}
@@ -34,26 +34,40 @@ export default async function PrivacyPolicy() {
             {t('0.0.3', {
               fallback: 'Marketeloro is operated by',
             })}{' '}
-            <span className="font-bold">Reserve INTELORO LIMITED</span>, a
+            <span className="font-bold">Reserve Inteloro Limited</span>, a
             {t('0.0.4', {
               fallback:
                 'company registered under the laws of [insert jurisdiction]. The Company conducts its activities under the brand name',
             })}{' '}
             <span className="font-bold">“Marketeloro”.</span>
-          </Text> */}
+          </Text>
+          <Text size="base">
+            {t('0.3', {
+              fallback:
+                'Registered Address: 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE.',
+            })}
+          </Text>
+          <Text size="base">
+            {t('0.4', {
+              fallback: 'Registered number: 16381595',
+            })}
+          </Text>
           <Text size="base">
             {t('0.1', {
               fallback:
                 'We take your privacy seriously and are committed to handling all personal data in a lawful, transparent, and secure manner. By using the Marketeloro website or services, you confirm that you have read and accepted the practices outlined in this Policy.',
             })}
           </Text>
-          {/* <Text size="base">
+          <Text size="base">
             {t('0.2', {
               fallback:
                 'For any questions or concerns regarding data management, you may reach us at',
             })}{' '}
-            [insert support email].
-          </Text> */}
+            <Link href="mailto:info@marketeloro.com" className="underline">
+              info@marketeloro.com
+            </Link>
+            .
+          </Text>
         </PolicySection>
         <PolicySection
           title={t('3.title', { fallback: 'Personal Details You Provide' })}
@@ -786,6 +800,12 @@ export default async function PrivacyPolicy() {
           </Text>
           <List
             values={[
+              <span key="0">
+                {t('17.list.1', { fallback: 'Email' })}:{' '}
+                <Link href="mailto:info@marketeloro.com" className="underline">
+                  info@marketeloro.com
+                </Link>
+              </span>,
               <span key="1">
                 {t('17.list.0', { fallback: 'Website:' })}{' '}
                 <Link

@@ -16,6 +16,7 @@
     "italian": "Italian"
   },
   "footer": {
+    "officeAddress": "Office Address:",
     "storytime": "StoryTime",
     "contactUs": "Contact Us",
     "aboutOurAgency": "About Our Agency",
@@ -28,7 +29,7 @@
     "refundPolicy": "Refund Policy",
     "company": "COMPANY",
     "legal": "LEGAL",
-    "copyright": "Reserve INTELORO LIMITED. All Rights Reserved."
+    "copyright": "Reserve Inteloro Limited. All Rights Reserved."
   },
   "home": {
     "hero": {
@@ -699,6 +700,7 @@
     },
     "footer": {
       "title": "Your story matters too!",
+      "share": "Share your story:",
       "description": {
         "0": "StoryTime is a space for bold ideas and real experiences from our community.",
         "1": "if you’ve got a story worth telling — a big win, a tough lesson, or a creative breakthrough — send it to us by email.",
@@ -1202,9 +1204,9 @@
     "0": {
       "0": "This Cookie Policy applies to the website",
       "1": "which is operated by",
-      "2": "a company registered under the laws of",
+      "2": "a company registered under the laws of the United Kingdom",
       "3": "and conducting business under the brand name",
-      "4": "with its registered office at",
+      "4": "with its registered office at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, and registered number 16381595.",
       "5": "By browsing or using the Site, you consent to the use of cookies and similar tracking technologies that help us ensure functionality, improve performance, and personalize your experience. Some cookies are essential for core features such as login and checkout, while others support analytics, preferences, or marketing activities.",
       "6": "You may manage or disable cookies at any time through your browser settings, though certain features of the Site may not function properly as a result."
     },
@@ -1325,7 +1327,8 @@
     "9": {
       "title": "Contact Information",
       "0": "If you have questions or concerns about how cookies are used on our Site, please contact us:",
-      "1": "Website"
+      "1": "Website",
+      "2": "Email"
     }
   },
   "termsAndConditions": {
@@ -1346,7 +1349,8 @@
       "list": {
         "0": {
           "0": "Company",
-          "1": "“we,” “our,” or “us” refers to"
+          "1": "“we,” “our,” or “us” refers to",
+          "2": "a registered company operating under the laws of the United Kingdom. The company’s registered office is located at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, registration number 16381595."
         },
         "1": {
           "0": "Device",
@@ -1372,12 +1376,15 @@
     },
     "2": {
       "title": "Governing Law",
-      "0": "These Terms are governed by and interpreted according to the laws. Any disputes arising under these Terms shall fall within the exclusive jurisdiction of the competent courts of that location.",
+      "0": "These Terms are governed by and interpreted according to the laws of the United Kingdom. Any disputes arising under these Terms shall fall within the exclusive jurisdiction of the competent courts of that location.",
       "1": "By continuing to use our website and services, you accept the latest version of these Terms. We reserve the right to amend or update them at any time without prior notice."
     },
     "3": {
       "title": "Cookies",
-      "0": "Marketeloro uses cookies (small data files stored on your device) to enhance functionality, analyze performance, and improve your browsing experience. By continuing to navigate our website, you consent to our use of cookies as described in our Cookie Policy."
+      "0": {
+        "0": "Marketeloro uses cookies (small data files stored on your device) to enhance functionality, analyze performance, and improve your browsing experience. By continuing to navigate our website, you consent to our use of cookies as described in our",
+        "1": "Cookie Policy"
+      }
     },
     "4": {
       "title": "Intellectual Property",
@@ -1405,7 +1412,7 @@
         "4": "A statement confirming your good faith belief that the disputed use is not authorized by the copyright holder, their representative, or the law.",
         "5": "A declaration, under penalty of perjury, that all information provided is accurate and that you are the rightful owner (or authorized agent)."
       },
-      "1": "Please send copyright-related inquiries to: hello@marketeloro.com."
+      "1": "Please send copyright-related inquiries to: info@marketeloro.com."
     },
     "7": {
       "title": "Promotions and Special Offers",
@@ -1588,7 +1595,8 @@
         "title": "Feedback and Complaints",
         "0": "If you experience issues with our services, please reach out and provide all relevant details (service name, date, correspondence, etc.) along with your proposed solution.",
         "list": {
-          "0": "Website"
+          "0": "Website",
+          "1": "Email"
         },
         "1": "We aim to resolve all concerns fairly, promptly, and with professionalism."
       }
@@ -1600,7 +1608,7 @@
       "0": {
         "0": "At",
         "1": "operated by",
-        "2": "a company registered under the laws of [Insert Country of Registration], with its registered office at [Insert Registered Address] and registration number [Insert Company Number], we are committed to providing clients with professional marketing solutions designed for measurable growth."
+        "2": "a company registered under the laws of the United Kingdom, with its registered office at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE and registration number 16381595, we are committed to providing clients with professional marketing solutions designed for measurable growth."
       },
       "1": {
         "0": "By purchasing our services, you acknowledge and accept that all completed transactions are",
@@ -1657,7 +1665,8 @@
           "3": "(ID, receipt, or invoice)"
         },
         "2": "A short explanation of the issue"
-      }
+      },
+      "1": "Requests should be submitted via email:"
     },
     "4": {
       "title": "Review Procedure",
@@ -1686,7 +1695,8 @@
       "title": "Contact Us",
       "0": "For questions or assistance regarding this policy, you can contact us at:",
       "list": {
-        "0": "Contact Form"
+        "0": "Contact Form",
+        "1": "Email"
       },
       "1": "Our support team is available during business hours to assist with any concerns."
     },
@@ -1703,10 +1713,12 @@
         "1": "(“Company,” “we,” or “our”) collects, processes, and safeguards personal data when you visit",
         "2": "request marketing services, download materials, or otherwise engage with our team and platform (together, the “Site”).",
         "3": "Marketeloro is operated by",
-        "4": "company registered under the laws of [insert jurisdiction]. The Company conducts its activities under the brand name"
+        "4": "company registered under the laws of the United Kingdom. The Company conducts its activities under the brand name"
       },
       "1": "We take your privacy seriously and are committed to handling all personal data in a lawful, transparent, and secure manner. By using the Marketeloro website or services, you confirm that you have read and accepted the practices outlined in this Policy.",
-      "2": "For any questions or concerns regarding data management, you may reach us at"
+      "2": "For any questions or concerns regarding data management, you may reach us at",
+      "3": "Registered Address: 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE.",
+      "4": "Registered number: 16381595"
     },
     "3": {
       "title": "Personal Details You Provide",
@@ -1936,7 +1948,8 @@
       "title": "Contacting Us",
       "0": "If you have questions regarding this Privacy Policy, or if you wish to exercise your data protection rights, please contact us using the details below:",
       "list": {
-        "0": "Website:"
+        "0": "Website:",
+        "1": "Email"
       },
       "1": "We aim to respond to all requests in a timely and respectful manner."
     }

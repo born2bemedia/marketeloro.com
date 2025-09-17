@@ -44,8 +44,8 @@ export default async function ContactUs() {
           </Text>
         </section>
       </section>
-      <section className="flex gap-10 bg-[rgba(236,236,240,0.20)] px-10 py-20 max-md:px-2">
-        <div className="flex flex-col gap-3.5">
+      <section className="flex gap-10 bg-[rgba(236,236,240,0.20)] px-10 py-20 max-md:flex-col max-md:px-2">
+        <div className="flex w-1/2 flex-col gap-3.5 max-md:w-full">
           <Title size="4xl" color="jaguar">
             {t('title3', { fallback: 'Visit Us Offline' })}
           </Title>
@@ -70,6 +70,23 @@ export default async function ContactUs() {
               })}
             </Text>
           </div>
+        </div>
+        <div className="flex w-1/2 flex-col gap-5 rounded-[40px] bg-[rgba(227,227,227,0.30)] p-5 max-md:w-full">
+          <section className="flex flex-col">
+            <Text size="base">Office Address:</Text>
+            <Text size="4xl" weight={700} className="max-md:text-[34px]">
+              2-8 Anton St, Lower Clapton, London, United Kingdom, E8 2AD
+            </Text>
+          </section>
+          <iframe
+            className="h-[300px] w-full rounded-[40px]"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12823.406546867214!2d-0.07686789944884048!3d51.55107306037358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cf145cdafd3%3A0x313426daea342a9c!2sAnton%20Studios%2C%202-8%20Anton%20St%2C%20Lower%20Clapton%2C%20London%20E8%202AD%2C%20UK!5e0!3m2!1sen!2sua!4v1758124300630!5m2!1sen!2sua"
+            width="600"
+            height="300"
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
         </div>
       </section>
     </main>

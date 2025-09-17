@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 import { Text } from '@/shared/ui/kit/text';
@@ -29,6 +30,10 @@ export const Footer = () => {
         {t('description.2', {
           fallback: 'We’ll review it, and your story could be published here.',
         })}
+        <br />
+        <br />
+        {t('share', { fallback: 'Share your story:' })}{' '}
+        <Link href="mailto:info@marketeloro.com">info@marketeloro.com</Link>
       </Text>
     </footer>
   );
