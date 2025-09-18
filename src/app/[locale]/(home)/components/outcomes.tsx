@@ -16,7 +16,7 @@ const getCards = (t: ReturnType<typeof useTranslations>) => [
         '"Marketeloro didn\'t just run ads — they built a strategy that finally unlocked our growth."',
     }),
     person: {
-      avatarUrl: '/images/reviews/emma-r.png',
+      avatarUrl: '/images/reviews/emma-r.svg',
       name: 'Emma R.',
       position: t('cards.0.position', { fallback: 'E-commerce Brand Owner' }),
     },
@@ -42,7 +42,7 @@ const getCards = (t: ReturnType<typeof useTranslations>) => [
         '"The team\'s SEO expertise is next-level — we went from invisible to unavoidable."',
     }),
     person: {
-      avatarUrl: '/images/reviews/daniel-p.png',
+      avatarUrl: '/images/reviews/daniel-p.svg',
       name: 'Daniel P.',
       position: t('cards.1.position', { fallback: 'Tech Startup Founder' }),
     },
@@ -62,7 +62,7 @@ const getCards = (t: ReturnType<typeof useTranslations>) => [
       fallback: '"Their campaigns turned our low season into a profit season."',
     }),
     person: {
-      avatarUrl: '/images/reviews/sofia-l.png',
+      avatarUrl: '/images/reviews/sofia-l.svg',
       name: 'Sofia L.',
       position: t('cards.2.position', { fallback: 'Boutique Hotel Managers' }),
     },
@@ -83,7 +83,7 @@ const getCards = (t: ReturnType<typeof useTranslations>) => [
         '"Marketeloro helped me refine my brand voice and attract the right audience."',
     }),
     person: {
-      avatarUrl: '/images/reviews/sofia-l.png',
+      avatarUrl: '/images/reviews/mark-t.svg',
       name: 'Mark T.',
       position: t('cards.3.position', { fallback: 'Lifestyle Influencer' }),
     },
@@ -111,7 +111,7 @@ const getCards = (t: ReturnType<typeof useTranslations>) => [
         '"It felt like they became part of our in-house team — fully invested in our success."',
     }),
     person: {
-      avatarUrl: '/images/reviews/sofia-l.png',
+      avatarUrl: '/images/reviews/claire-j.svg',
       name: 'Claire J.',
       position: t('cards.4.position', { fallback: 'Fashion Label CEO' }),
     },
@@ -138,7 +138,7 @@ const getCards = (t: ReturnType<typeof useTranslations>) => [
       fallback: '"Their go-to-market strategy was a game changer for us."',
     }),
     person: {
-      avatarUrl: '/images/reviews/sofia-l.png',
+      avatarUrl: '/images/reviews/anthony-s.svg',
       name: 'Anthony S.',
       position: t('cards.5.position', { fallback: 'Fitness App Founder' }),
     },
@@ -165,7 +165,7 @@ const getCards = (t: ReturnType<typeof useTranslations>) => [
       fallback: '"They brought structure, creativity, and real returns."',
     }),
     person: {
-      avatarUrl: '/images/reviews/sofia-l.png',
+      avatarUrl: '/images/reviews/laura-k.svg',
       name: 'Laura K.',
       position: t('cards.6.position', {
         fallback: 'Luxury Skincare Brand Owner',
@@ -195,7 +195,7 @@ const getCards = (t: ReturnType<typeof useTranslations>) => [
         '"They knew exactly which levers to pull to turn interest into revenue."',
     }),
     person: {
-      avatarUrl: '/images/reviews/sofia-l.png',
+      avatarUrl: '/images/reviews/ben-m.svg',
       name: 'Ben M.',
       position: t('cards.7.position', {
         fallback: 'E-learning Platform Director',
@@ -235,6 +235,7 @@ export const Outcomes = () => {
         alt="outcomes"
         width={1026}
         height={1186}
+        unoptimized
       />
       <Title color="jaguar">Proven Collaboration Outcomes</Title>
       <div className="cursor-grab overflow-hidden" ref={emblaRef}>

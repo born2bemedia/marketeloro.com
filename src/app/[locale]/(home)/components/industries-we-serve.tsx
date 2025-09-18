@@ -24,7 +24,7 @@ const getSlides = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'Creating demand, increasing bookings, and enhancing guest engagement',
     }),
-    imgUrl: '/images/home/slides/e-commerce.webp',
+    imgUrl: '/images/home/slides/travel.jpg',
   },
   {
     category: t('slides.2.category', { fallback: 'Technology & SaaS' }),
@@ -32,7 +32,7 @@ const getSlides = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'Positioning complex solutions clearly and generating qualified leads',
     }),
-    imgUrl: '/images/home/slides/e-commerce.webp',
+    imgUrl: '/images/home/slides/tech.jpg',
   },
   {
     category: t('slides.3.category', { fallback: 'Lifestyle & Wellness' }),
@@ -40,7 +40,7 @@ const getSlides = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'Building aspirational brands and fostering community connections',
     }),
-    imgUrl: '/images/home/slides/e-commerce.webp',
+    imgUrl: '/images/home/slides/life.jpg',
   },
   {
     category: t('slides.4.category', { fallback: 'Fashion & Beauty' }),
@@ -48,14 +48,14 @@ const getSlides = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'Elevating style-driven brands through impactful storytelling and visuals',
     }),
-    imgUrl: '/images/home/slides/e-commerce.webp',
+    imgUrl: '/images/home/slides/fashion.jpg',
   },
   {
     category: t('slides.5.category', { fallback: 'Food & Beverage' }),
     text: t('slides.5.text', {
       fallback: 'Strengthening brand presence and driving repeat purchases',
     }),
-    imgUrl: '/images/home/slides/e-commerce.webp',
+    imgUrl: '/images/home/slides/food.jpg',
   },
   {
     category: t('slides.6.category', { fallback: 'Education & e-Learning' }),
@@ -63,7 +63,7 @@ const getSlides = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'Attracting students, increasing enrollments, and building trust',
     }),
-    imgUrl: '/images/home/slides/e-commerce.webp',
+    imgUrl: '/images/home/slides/edu.jpg',
   },
   {
     category: t('slides.7.category', { fallback: 'Real Estate' }),
@@ -71,14 +71,14 @@ const getSlides = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'Generating qualified inquiries and showcasing properties effectively',
     }),
-    imgUrl: '/images/home/slides/e-commerce.webp',
+    imgUrl: '/images/home/slides/estate.jpg',
   },
   {
     category: t('slides.8.category', { fallback: 'Entertainment & Media' }),
     text: t('slides.8.text', {
       fallback: 'Expanding reach and boosting audience engagement',
     }),
-    imgUrl: '/images/home/slides/e-commerce.webp',
+    imgUrl: '/images/home/slides/media.jpg',
   },
 ];
 
@@ -86,7 +86,11 @@ export const IndustriesWeServe = () => {
   const t = useTranslations('home.industriesWeServe');
 
   const autoplay = useRef(
-    Autoplay({ delay: 4000, stopOnInteraction: false, stopOnMouseEnter: true }),
+    Autoplay({
+      delay: 10000,
+      stopOnInteraction: false,
+      stopOnMouseEnter: true,
+    }),
   );
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
@@ -147,7 +151,7 @@ export const IndustriesWeServe = () => {
       <div className="flex gap-12 max-lg:flex-col">
         <ul
           ref={listRef}
-          className="flex h-[450px] w-max shrink-0 flex-col gap-4 overflow-y-auto pr-4 text-white max-md:w-full"
+          className="flex h-[450px] w-max shrink-0 flex-col gap-4 overflow-y-auto pr-4 text-white [-ms-overflow-style:none] [scrollbar-width:none] max-md:w-full"
         >
           {slides.map((s, i) => (
             <button
