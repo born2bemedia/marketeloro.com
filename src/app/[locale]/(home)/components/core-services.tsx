@@ -77,7 +77,7 @@ export const CoreServices = () => {
 
   return (
     <section className="flex flex-col gap-[60px] p-10 max-md:px-2">
-      <Title color="jaguar">
+      <Title color="jaguar" capitalize>
         {t('title.0', { fallback: 'Marketeloro' })} <br />
         {t('title.1', { fallback: 'Core Services' })}
       </Title>

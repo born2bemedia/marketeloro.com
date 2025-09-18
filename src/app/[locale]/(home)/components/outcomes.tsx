@@ -230,14 +230,16 @@ export const Outcomes = () => {
   return (
     <section className="relative flex flex-col gap-[56px] overflow-hidden pt-[70px] pb-[120px] pl-10 max-md:pb-[90px] max-md:pl-2">
       <Image
-        className="absolute -top-42 -right-30 max-md:hidden"
+        className="absolute -top-30 -right-70 max-md:hidden"
         src="/images/home/reviews.webp"
         alt="outcomes"
-        width={1026}
-        height={1186}
+        width={926}
+        height={1086}
         unoptimized
       />
-      <Title color="jaguar">Proven Collaboration Outcomes</Title>
+      <Title color="jaguar" className="z-10" capitalize>
+        {t('title', { fallback: 'Proven Collaboration Outcomes' })}
+      </Title>
       <div className="cursor-grab overflow-hidden" ref={emblaRef}>
         <div className="flex gap-5">
           {cards.map((card, idx) => (

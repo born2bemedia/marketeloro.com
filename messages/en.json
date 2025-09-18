@@ -1,7 +1,7 @@
 {
   "header": {
     "services": "Services",
-    "aboutUs": "About Us",
+    "aboutUs": "About Our Agency",
     "contact": "Contact",
     "cart": "Cart",
     "menu": "Menu",
@@ -29,7 +29,7 @@
     "refundPolicy": "Refund Policy",
     "company": "COMPANY",
     "legal": "LEGAL",
-    "copyright": "Reserve Inteloro Limited. All Rights Reserved."
+    "copyright": "Inteloro Limited. All Rights Reserved."
   },
   "home": {
     "hero": {
@@ -362,7 +362,7 @@
     "principles": {
       "title": "Principles in Action",
       "text": {
-        "0": "Our principles guide every project, every meeting, and every client relationship ",
+        "0": "Our principles guide every project, every meeting, and every client relationship",
         "1": "These principles are not words on a slide — they are actions we take daily:"
       },
       "cards": {

@@ -143,7 +143,7 @@ export const IndustriesWeServe = () => {
 
   return (
     <section className="mx-5 my-20 flex flex-col gap-[56px] rounded-xl bg-[#030213] px-10 py-20 max-md:mx-2 max-md:px-5">
-      <Title color="white">
+      <Title color="white" capitalize>
         {t('title', {
           fallback: 'Industries We Serve',
         })}

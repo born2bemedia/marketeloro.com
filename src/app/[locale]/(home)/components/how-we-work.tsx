@@ -70,7 +70,7 @@ export const HowWeWork = () => {
   return (
     <section className="flex flex-col gap-[56px] px-10 py-[70px] max-md:px-2">
       <div className="relative flex flex-col gap-3.5">
-        <Title color="jaguar">
+        <Title color="jaguar" capitalize>
           {t('title', {
             fallback: 'How We Work to Deliver Lasting Success',
           })}

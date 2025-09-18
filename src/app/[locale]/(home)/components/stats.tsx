@@ -40,7 +40,7 @@ export const Stats = () => {
         width={509}
         height={509}
       />
-      <Title className="w-[65%] max-md:w-full">
+      <Title className="w-[65%] max-md:w-full" capitalize>
         {t('title', {
           fallback: 'Big wins, bold moves, and measurable impact',
         })}
