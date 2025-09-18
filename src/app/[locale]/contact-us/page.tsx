@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PageHero } from '@/shared/ui/components/page-hero';
@@ -5,6 +6,25 @@ import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
 import { Contact } from './components';
+
+export const metadata: Metadata = {
+  title: 'Contact  Full-Stack Marketing Agency | Marketeloro',
+  description:
+    'Ready to grow your brand? Contact Marketeloro for tailored strategies, proven campaigns, and marketing support that delivers results.',
+  openGraph: {
+    title: 'Contact  Full-Stack Marketing Agency | Marketeloro',
+    description:
+      'Ready to grow your brand? Contact Marketeloro for tailored strategies, proven campaigns, and marketing support that delivers results.',
+    images: 'https://marketeloro.com/meta.jpg',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact  Full-Stack Marketing Agency | Marketeloro',
+    description:
+      'Ready to grow your brand? Contact Marketeloro for tailored strategies, proven campaigns, and marketing support that delivers results.',
+    images: ['https://marketeloro.com/meta.jpg'],
+  },
+};
 
 export default async function ContactUs() {
   const t = await getTranslations('contactUs');

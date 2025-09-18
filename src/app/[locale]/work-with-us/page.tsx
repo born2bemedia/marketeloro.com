@@ -1,8 +1,28 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PageHero } from '@/shared/ui/components/page-hero';
 
 import { Apply, GreatCampaigns, OurOpenings, WorkWith } from './components';
+
+export const metadata: Metadata = {
+  title: 'Careers: Join a Bold Marketing Agency |  Marketeloro',
+  description:
+    'Build your career with Marketeloro. We’re hiring PPC managers, designers, CRO specialists, and more. Join a team that blends creativity with data-driven impact.',
+  openGraph: {
+    title: 'Careers: Join a Bold Marketing Agency |  Marketeloro',
+    description:
+      'Build your career with Marketeloro. We’re hiring PPC managers, designers, CRO specialists, and more. Join a team that blends creativity with data-driven impact.',
+    images: 'https://marketeloro.com/meta.jpg',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Careers: Join a Bold Marketing Agency |  Marketeloro',
+    description:
+      'Build your career with Marketeloro. We’re hiring PPC managers, designers, CRO specialists, and more. Join a team that blends creativity with data-driven impact.',
+    images: ['https://marketeloro.com/meta.jpg'],
+  },
+};
 
 export default async function WorkWithUs() {
   const t = await getTranslations('workWithUs');

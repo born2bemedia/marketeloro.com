@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 
@@ -7,6 +8,29 @@ import { PolicySection } from '@/features/policies/ui/policy-section';
 
 import { List } from '@/shared/ui/kit/list';
 import { Text } from '@/shared/ui/kit/text';
+
+export const metadata: Metadata = {
+  title: 'Cookie Policy | Marketeloro',
+  description:
+    'Learn how Marketeloro uses cookies to improve user experience, analytics, and campaign performance tracking.',
+  openGraph: {
+    title: 'Cookie Policy | Marketeloro',
+    description:
+      'Learn how Marketeloro uses cookies to improve user experience, analytics, and campaign performance tracking.',
+    images: 'https://marketeloro.com/meta.jpg',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cookie Policy | Marketeloro',
+    description:
+      'Learn how Marketeloro uses cookies to improve user experience, analytics, and campaign performance tracking.',
+    images: ['https://marketeloro.com/meta.jpg'],
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function CookiePolicy() {
   const t = await getTranslations('cookiePolicy');
