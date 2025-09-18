@@ -1,6 +1,6 @@
 'use client';
 
-import type { ReactNode } from 'react';
+import { type ReactNode, useState } from 'react';
 import { Controller, useForm } from 'react-hook-form';
 import { useTranslations } from 'next-intl';
 import { valibotResolver } from '@hookform/resolvers/valibot';
@@ -14,6 +14,7 @@ import {
   Title as DTitle,
   Trigger,
 } from '@radix-ui/react-dialog';
+import { toast } from 'sonner';
 
 import { CloseCircleIcon } from '@/shared/ui/icons/close-circle';
 import { PlayIcon } from '@/shared/ui/icons/play';
@@ -24,10 +25,13 @@ import { TextArea } from '@/shared/ui/kit/text-area';
 import { TextField } from '@/shared/ui/kit/text-field';
 import { Title } from '@/shared/ui/kit/title';
 
+import { submitRequestForm } from '../api/send-request-form';
 import { useRequestDialogStore } from '../model/request-dialog.store';
 import { requestFormSchema } from '../model/schema';
 
 export const RequestDialog = () => {
+  const [isSuccess, setIsSuccess] = useState(false);
+
   const t = useTranslations('requestDialog');
 
   const { open, setOpen, packageName, isShowSubtitle, setIsShowSubtitle } =
@@ -37,6 +41,7 @@ export const RequestDialog = () => {
     handleSubmit,
     register,
     control,
+    reset,
     formState: { isSubmitting, errors },
   } = useForm({
     defaultValues: {
@@ -49,8 +54,17 @@ export const RequestDialog = () => {
     resolver: valibotResolver(requestFormSchema),
   });
 
-  const onSubmit = handleSubmit(data => {
-    console.log(data);
+  const onSubmit = handleSubmit(async data => {
+    const { success } = await submitRequestForm({ ...data, packageName });
+
+    if (success) {
+      setIsSuccess(true);
+      reset();
+    } else {
+      toast.warning(
+        'Hmm, something went wrong. Please try again or contact us directly at info@marketeloro.com.',
+      );
+    }
   });
 
   const getFirstError = () => {
@@ -77,90 +91,113 @@ export const RequestDialog = () => {
         >
           <DTitle />
           <Description asChild>
-            <section className="flex flex-col items-center gap-3">
-              {firstError && (
-                <div className="flex w-max flex-col rounded-[40px] bg-[#C70000] p-5 text-sm text-white">
-                  <p>{firstError}</p>
+            {isSuccess ? (
+              <section className="flex w-full flex-col gap-10 rounded-[40px] bg-[#030213] p-5">
+                <div className="flex flex-col gap-4">
+                  <Title as="h3">
+                    {t('success.title', {
+                      fallback: 'Your request has been sent!',
+                    })}
+                  </Title>
+                  <Text size="base" color="white">
+                    {t('success.description', {
+                      fallback:
+                        'Thanks for reaching out - our marketing team will review your details and get back to you shortly.',
+                    })}
+                  </Text>
                 </div>
-              )}
-              <form
-                className="flex w-full flex-col gap-10 rounded-[40px] bg-[#030213] p-5"
-                onSubmit={onSubmit}
-              >
-                <div className="flex items-end gap-4">
-                  <Title>{packageName}</Title>
-                  {isShowSubtitle && (
-                    <Text color="white" size="base">
-                      {t('title', { fallback: 'Request Form' })}
-                    </Text>
-                  )}
-                </div>
-                <section className="flex flex-col gap-10">
-                  <section className="flex gap-4 max-md:flex-col">
-                    <FormColumn>
-                      <TextField
-                        placeholder={t('fullName', { fallback: 'Full Name' })}
-                        {...register('fullName')}
-                      />
-                      <TextField
-                        placeholder={t('email', { fallback: 'Email' })}
-                        {...register('email')}
-                      />
-                    </FormColumn>
-                    <FormColumn>
-                      <Controller
-                        control={control}
-                        name="phone"
-                        render={({ field }) => (
-                          <PhoneField
-                            name={field.name}
-                            placeholder={t('phone', { fallback: 'Phone' })}
-                            value={String(field.value)}
-                            onBlur={field.onBlur}
-                            onChange={value => field.onChange(value)}
-                          />
-                        )}
-                      />
-                      <TextField
-                        placeholder={t('aboutProject', {
-                          fallback: 'Tell us about your project',
-                        })}
-                        {...register('aboutProject')}
-                      />
-                    </FormColumn>
-                    <TextArea
-                      placeholder={t('message', {
-                        fallback: 'Your message (optional)',
-                      })}
-                      {...register('message')}
-                    />
-                  </section>
-                  <div className="flex gap-5">
-                    <Close asChild>
-                      <Button variant="reversed" size="md">
-                        {t('cancel', { fallback: 'Cancel' })}{' '}
-                        <CloseCircleIcon />
-                      </Button>
-                    </Close>
-                    <Button
-                      type="submit"
-                      disabled={isSubmitting}
-                      variant="reversed"
-                      size="md"
-                    >
-                      {isSubmitting ? (
-                        t('submitting', { fallback: 'Submitting...' })
-                      ) : (
-                        <>
-                          {t('submit', { fallback: 'Submit Request' })}{' '}
-                          <PlayIcon />
-                        </>
-                      )}
-                    </Button>
+                <Close asChild>
+                  <Button variant="reversed" size="md">
+                    {t('close', { fallback: 'Close' })} <PlayIcon />
+                  </Button>
+                </Close>
+              </section>
+            ) : (
+              <section className="flex flex-col items-center gap-3">
+                {firstError && (
+                  <div className="flex w-max flex-col rounded-[40px] bg-[#C70000] p-5 text-sm text-white">
+                    <p>{firstError}</p>
                   </div>
-                </section>
-              </form>
-            </section>
+                )}
+                <form
+                  className="flex w-full flex-col gap-10 rounded-[40px] bg-[#030213] p-5"
+                  onSubmit={onSubmit}
+                >
+                  <div className="flex items-end gap-4">
+                    <Title>{packageName}</Title>
+                    {isShowSubtitle && (
+                      <Text color="white" size="base">
+                        {t('title', { fallback: 'Request Form' })}
+                      </Text>
+                    )}
+                  </div>
+                  <section className="flex flex-col gap-10">
+                    <section className="flex gap-4 max-md:flex-col">
+                      <FormColumn>
+                        <TextField
+                          placeholder={t('fullName', { fallback: 'Full Name' })}
+                          {...register('fullName')}
+                        />
+                        <TextField
+                          placeholder={t('email', { fallback: 'Email' })}
+                          {...register('email')}
+                        />
+                      </FormColumn>
+                      <FormColumn>
+                        <Controller
+                          control={control}
+                          name="phone"
+                          render={({ field }) => (
+                            <PhoneField
+                              name={field.name}
+                              placeholder={t('phone', { fallback: 'Phone' })}
+                              value={String(field.value)}
+                              onBlur={field.onBlur}
+                              onChange={value => field.onChange(value)}
+                            />
+                          )}
+                        />
+                        <TextField
+                          placeholder={t('aboutProject', {
+                            fallback: 'Tell us about your project',
+                          })}
+                          {...register('aboutProject')}
+                        />
+                      </FormColumn>
+                      <TextArea
+                        placeholder={t('message', {
+                          fallback: 'Your message (optional)',
+                        })}
+                        {...register('message')}
+                      />
+                    </section>
+                    <div className="flex gap-5">
+                      <Close asChild>
+                        <Button variant="reversed" size="md">
+                          {t('cancel', { fallback: 'Cancel' })}{' '}
+                          <CloseCircleIcon />
+                        </Button>
+                      </Close>
+                      <Button
+                        type="submit"
+                        disabled={isSubmitting}
+                        variant="reversed"
+                        size="md"
+                      >
+                        {isSubmitting ? (
+                          t('submitting', { fallback: 'Submitting...' })
+                        ) : (
+                          <>
+                            {t('submit', { fallback: 'Submit Request' })}{' '}
+                            <PlayIcon />
+                          </>
+                        )}
+                      </Button>
+                    </div>
+                  </section>
+                </form>
+              </section>
+            )}
           </Description>
         </Content>
       </Portal>

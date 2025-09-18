@@ -559,7 +559,13 @@
     "message": "Your message (optional)",
     "cancel": "Cancel",
     "submit": "Submit Request",
-    "submitting": "Submitting..."
+    "submitting": "Submitting...",
+    "error": "Hmm, something went wrong. Please try again or contact us directly at info@marketeloro.com.",
+    "success": {
+      "title": "Your request has been sent!",
+      "description": "Thanks for reaching out - our marketing team will review your details and get back to you shortly."
+    },
+    "close": "Close"
   },
   "contactUs": {
     "title": "Let’s Get to Work",
@@ -608,7 +614,9 @@
     "email": "Email",
     "companyName": "Company Name",
     "submit": "Send Message",
-    "submitting": "Sending..."
+    "submitting": "Sending...",
+    "success": "Thank you! Your request has been received. We’ll get back to you shortly to schedule your consultation.",
+    "error": "Hmm, something went wrong. Please try again or contact us directly at info@marketeloro.com."
   },
   "storyTime": {
     "hero": {

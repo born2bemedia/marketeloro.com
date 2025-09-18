@@ -19,3 +19,5 @@ export const requestFormSchema = v.object({
   ),
   message: v.pipe(v.string()),
 });
+
+export type RequestFormSchema = v.InferOutput<typeof requestFormSchema>;

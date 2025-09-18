@@ -29,3 +29,5 @@ export const contactFormSchema = v.object({
     ),
   ),
 });
+
+export type ContactFormSchema = v.InferOutput<typeof contactFormSchema>;

@@ -14,6 +14,7 @@ import {
   Title as DTitle,
   Trigger,
 } from '@radix-ui/react-dialog';
+import { toast } from 'sonner';
 
 import { CloseCircleIcon } from '@/shared/ui/icons/close-circle';
 import { PlayIcon } from '@/shared/ui/icons/play';
@@ -26,6 +27,7 @@ import { TextArea } from '@/shared/ui/kit/text-area';
 import { TextField } from '@/shared/ui/kit/text-field';
 import { Title } from '@/shared/ui/kit/title';
 
+import { sendJobApplication } from '../api/send-job-application';
 import { useApplyToJobStore } from '../model/apply-to-job.store';
 import { applyToJobSchema } from '../model/schema';
 
@@ -40,6 +42,7 @@ export const ApplyToJobDialog = () => {
     handleSubmit,
     register,
     control,
+    reset,
     formState: { isSubmitting, errors },
   } = useForm({
     defaultValues: {
@@ -53,9 +56,17 @@ export const ApplyToJobDialog = () => {
     resolver: valibotResolver(applyToJobSchema),
   });
 
-  const onSubmit = handleSubmit(data => {
-    console.log(data);
-    setIsSuccess(true);
+  const onSubmit = handleSubmit(async data => {
+    const { success } = await sendJobApplication(data);
+
+    if (success) {
+      setIsSuccess(true);
+      reset();
+    } else {
+      toast.warning(
+        'Oops! Something went wrong. Please try again in a few moments or contact us directly at info@marketeloro.com',
+      );
+    }
   });
 
   const getFirstError = () => {
