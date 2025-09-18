@@ -9,6 +9,8 @@ import { PolicySection } from '@/features/policies/ui/policy-section';
 import { List } from '@/shared/ui/kit/list';
 import { Text } from '@/shared/ui/kit/text';
 
+import { Link as NavLink } from '@/i18n/navigation';
+
 export const metadata: Metadata = {
   title: 'Privacy Policy | Marketeloro',
   description:
@@ -58,7 +60,7 @@ export default async function PrivacyPolicy() {
             {t('0.0.3', {
               fallback: 'Marketeloro is operated by',
             })}{' '}
-            <span className="font-bold">Reserve Inteloro Limited</span>, a
+            <span className="font-bold">Inteloro Limited</span>, a
             {t('0.0.4', {
               fallback:
                 'company registered under the laws of [insert jurisdiction]. The Company conducts its activities under the brand name',
@@ -312,9 +314,19 @@ export default async function PrivacyPolicy() {
                 'This data is gathered through cookies, tracking tools, and analytics software. It helps us improve performance, understand user behavior, and enhance your browsing experience.',
             })}
             <br />
-            {t('4.1.1', {
-              fallback: 'See our Cookie Policy for full details.',
-            })}
+            <span>
+              {t('4.1.1.0', {
+                fallback: 'See our',
+              })}{' '}
+              <NavLink href="/cookie-policy" className="underline">
+                {t('4.1.1.1', {
+                  fallback: 'Cookie Policy',
+                })}
+              </NavLink>{' '}
+              {t('4.1.1.2', {
+                fallback: 'See our Cookie Policy for full details.',
+              })}
+            </span>
           </Text>
         </PolicySection>
         <PolicySection

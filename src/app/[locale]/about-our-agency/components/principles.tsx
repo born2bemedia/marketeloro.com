@@ -61,14 +61,15 @@ export const Principles = () => {
   return (
     <section className="flex flex-col gap-[56px] px-10 py-[70px] max-md:px-2">
       <div className="flex flex-col gap-6">
-        <Title color="jaguar">
+        <Title color="jaguar" capitalize>
           {t('title', { fallback: 'Principles in Action' })}
         </Title>
         <Text size="base" color="stormGrey">
           {t('text.0', {
             fallback:
-              'Our principles guide every project, every meeting, and every client relationship ',
-          })}{' '}
+              'Our principles guide every project, every meeting, and every client relationship',
+          })}
+          .
           <br />
           {t('text.1', {
             fallback:

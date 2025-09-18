@@ -28,6 +28,13 @@ export const contactFormSchema = v.object({
       'We need a bit more information. Please fill in all required fields to send your message',
     ),
   ),
+  message: v.pipe(
+    v.string(),
+    v.minLength(
+      1,
+      'We need a bit more information. Please fill in all required fields to send your message',
+    ),
+  ),
 });
 
 export type ContactFormSchema = v.InferOutput<typeof contactFormSchema>;

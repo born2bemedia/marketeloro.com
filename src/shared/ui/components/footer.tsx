@@ -111,7 +111,7 @@ export const Footer = () => {
           <Text color="white">
             © {new Date().getFullYear()}{' '}
             {t('copyright', {
-              fallback: 'Reserve INTELORO LIMITED. All Rights Reserved.',
+              fallback: 'Inteloro Limited. All Rights Reserved.',
             })}
           </Text>
           <Image

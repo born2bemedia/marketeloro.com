@@ -52,7 +52,7 @@ export default async function CookiePolicy() {
               https://marketeloro.com
             </Link>
             , {t('0.1', { fallback: 'which is operated by' })}{' '}
-            <span className="font-bold">Reserve Inteloro Limited</span>,{' '}
+            <span className="font-bold">Inteloro Limited</span>,{' '}
             {t('0.2', { fallback: 'a company registered under the laws of' })}{' '}
             {t('0.3', {
               fallback: 'and conducting business under the brand name',

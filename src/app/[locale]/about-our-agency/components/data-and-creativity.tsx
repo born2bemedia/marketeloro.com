@@ -64,7 +64,7 @@ export const DataAndCreativity = () => {
     <section className="py-20g px-10 max-md:px-2">
       <section className="flex flex-col gap-14 rounded-[12px] bg-[#030213] px-10 py-20 max-md:px-2">
         <div className="flex flex-col gap-3.5 text-center">
-          <Title>
+          <Title capitalize>
             {t('title', {
               fallback:
                 'Data x Creativity – Connecting Numbers and Imagination',

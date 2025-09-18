@@ -1,7 +1,7 @@
 {
   "header": {
     "services": "Services",
-    "aboutUs": "About Us",
+    "aboutUs": "About Our Agency",
     "contact": "Contact",
     "cart": "Cart",
     "menu": "Menu",
@@ -29,7 +29,7 @@
     "refundPolicy": "Refund Policy",
     "company": "COMPANY",
     "legal": "LEGAL",
-    "copyright": "Reserve Inteloro Limited. All Rights Reserved."
+    "copyright": "Inteloro Limited. All Rights Reserved."
   },
   "home": {
     "hero": {
@@ -362,7 +362,7 @@
     "principles": {
       "title": "Principles in Action",
       "text": {
-        "0": "Our principles guide every project, every meeting, and every client relationship ",
+        "0": "Our principles guide every project, every meeting, and every client relationship",
         "1": "These principles are not words on a slide — they are actions we take daily:"
       },
       "cards": {
@@ -612,6 +612,7 @@
     "lastName": "Last Name",
     "email": "Email",
     "companyName": "Company Name",
+    "message": "Message",
     "submit": "Send Message",
     "submitting": "Sending...",
     "success": "Thank you! Your request has been received. We’ll get back to you shortly to schedule your consultation.",
@@ -623,7 +624,7 @@
       "description": "Marketing changes fast. StoryTime is where we push limits, test ideas, break rules, and share what truly works in the real world."
     },
     "overview": {
-      "title": "One Team With You",
+      "title": "What To Expect Here",
       "items": {
         "0": {
           "title": "Wins & Fails",
@@ -667,12 +668,12 @@
           "btnLabel": "See the Insights",
           "footer": {
             "title": {
-              "0": "Ready to ",
-              "1": "Boost Your Conversions?"
+              "0": "Want to Cut",
+              "1": "Wasted Ad Spend Too?"
             },
             "buttons": {
               "0": "Our Services",
-              "1": "Talk to Marketeloro"
+              "1": "Reach Out Today"
             }
           }
         },
@@ -682,12 +683,12 @@
           "btnLabel": "Read More",
           "footer": {
             "title": {
-              "0": "Want to Cut ",
-              "1": "Wasted Ad Spend Too?"
+              "0": "Ready to",
+              "1": "Boost Your Conversions?"
             },
             "buttons": {
               "0": "Our Services",
-              "1": "Reach Out Today"
+              "1": "Talk to Marketeloro"
             }
           }
         },
@@ -1465,7 +1466,11 @@
     },
     "13": {
       "title": "External Links",
-      "0": "The Marketeloro website may include links to third-party websites or services for convenience. We do not control or endorse the content, practices, or accuracy of these external sites. Once you leave our domain, these Terms and our Privacy Policy no longer apply."
+      "0": {
+        "0": "The Marketeloro website may include links to third-party websites or services for convenience. We do not control or endorse the content, practices, or accuracy of these external sites. Once you leave our domain, these Terms and our",
+        "1": "Privacy Policy",
+        "2": "no longer apply."
+      }
     },
     "14": {
       "title": "Third-Party Services",
@@ -1798,7 +1803,11 @@
       },
       "1": {
         "0": "This data is gathered through cookies, tracking tools, and analytics software. It helps us improve performance, understand user behavior, and enhance your browsing experience.",
-        "1": "See our Cookie Policy for full details."
+        "1": {
+          "0": "See our",
+          "1": "Cookie Policy",
+          "2": "for full details."
+        }
       }
     },
     "5": {
@@ -2063,7 +2072,10 @@
             "0": "Global clients across industries.",
             "1": "The freedom to test and innovate.",
             "2": "A team that values performance as much as creativity."
-          }
+          },
+          "dailyWorkLabel": "Your daily work will involve:",
+          "weExpectLabel": "What we expect:",
+          "whatYouGetLabel": "What you get with us:"
         },
         "1": {
           "title": "Graphic Designer",
@@ -2089,7 +2101,10 @@
             "0": "The chance to build visuals seen by global audiences.",
             "1": "Creative freedom within structured campaigns.",
             "2": "A collaborative environment that values bold ideas."
-          }
+          },
+          "dailyWorkLabel": "In this role, you will:",
+          "weExpectLabel": "What we expect:",
+          "whatYouGetLabel": "What you get with us:"
         },
         "2": {
           "title": "Conversion Rate Optimization (CRO) Specialist",
@@ -2115,7 +2130,10 @@
             "0": "Projects across industries: e-commerce, SaaS, travel, lifestyle, and more.",
             "1": "The opportunity to turn small changes into massive growth results.",
             "2": "A team culture that thrives on experimentation and improvement."
-          }
+          },
+          "dailyWorkLabel": "Your role will include:",
+          "weExpectLabel": "What we expect:",
+          "whatYouGetLabel": "What you get with us:"
         }
       }
     }

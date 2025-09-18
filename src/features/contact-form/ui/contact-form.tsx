@@ -8,6 +8,7 @@ import { toast } from 'sonner';
 
 import { PlayIcon } from '@/shared/ui/icons/play';
 import { Button } from '@/shared/ui/kit/button';
+import { TextArea } from '@/shared/ui/kit/text-area';
 import { TextField } from '@/shared/ui/kit/text-field';
 import { Title } from '@/shared/ui/kit/title';
 
@@ -71,27 +72,33 @@ export const ContactForm = () => {
         </div>
       )}
       <Title>{t('title', { fallback: 'Contact Form' })}</Title>
-      <section className="flex gap-4">
-        <FormColumn>
-          <TextField
-            placeholder={t('firstName', { fallback: 'First Name' })}
-            {...register('firstName')}
-          />
-          <TextField
-            placeholder={t('email', { fallback: 'Email' })}
-            {...register('email')}
-          />
-        </FormColumn>
-        <FormColumn>
-          <TextField
-            placeholder={t('lastName', { fallback: 'Last Name' })}
-            {...register('lastName')}
-          />
-          <TextField
-            placeholder={t('companyName', { fallback: 'Company Name' })}
-            {...register('companyName')}
-          />
-        </FormColumn>
+      <section className="flex flex-col gap-4">
+        <section className="flex gap-4">
+          <FormColumn>
+            <TextField
+              placeholder={t('firstName', { fallback: 'First Name' })}
+              {...register('firstName')}
+            />
+            <TextField
+              placeholder={t('email', { fallback: 'Email' })}
+              {...register('email')}
+            />
+          </FormColumn>
+          <FormColumn>
+            <TextField
+              placeholder={t('lastName', { fallback: 'Last Name' })}
+              {...register('lastName')}
+            />
+            <TextField
+              placeholder={t('companyName', { fallback: 'Company Name' })}
+              {...register('companyName')}
+            />
+          </FormColumn>
+        </section>
+        <TextArea
+          placeholder={t('message', { fallback: 'Message' })}
+          {...register('message')}
+        />
       </section>
       <Button
         variant="reversed"

@@ -47,7 +47,7 @@ export const BlueprintThinking = () => {
       </div>
       <section className="flex w-1/2 flex-col justify-between gap-3.5 max-lg:w-full">
         <div className="flex flex-col gap-3.5">
-          <Title color="jaguar">
+          <Title color="jaguar" capitalize>
             {t('title', { fallback: 'Blueprint Thinking' })}
           </Title>
           <Text color="stormGrey" size="base">

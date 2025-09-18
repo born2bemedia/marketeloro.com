@@ -91,14 +91,18 @@ export const Method = () => {
       <section className="flex w-1/2 flex-col justify-between max-lg:w-full">
         <div className="relative flex flex-col gap-3.5">
           <Image
-            className="absolute -top-50 -right-25 hidden max-lg:block"
+            className="absolute -top-55 -right-50 hidden max-lg:block"
             src="/images/about/method.png"
             alt="method"
             width={319}
             height={148}
             unoptimized
           />
-          <Title color="jaguar" className="max-md:text-[80px]">
+          <Title
+            color="jaguar"
+            className="max-md:text-[40px] max-md:leading-12"
+            capitalize
+          >
             {t('title', { fallback: 'The Marketeloro Method' })}
           </Title>
           <Text color="stormGrey">
@@ -109,19 +113,13 @@ export const Method = () => {
           </Text>
         </div>
         <Image
-          className="absolute top-1/2 -left-20 -translate-y-1/2 max-lg:hidden"
+          className="absolute top-[55%] -left-20 -translate-y-1/2 max-lg:hidden"
           src="/images/about/method.png"
           alt="method"
           width={719}
           height={648}
           unoptimized
         />
-        <Text color="stormGrey">
-          {t('text3', {
-            fallback:
-              'This method has already helped clients achieve triple-digit growth within months.',
-          })}
-        </Text>
       </section>
       <section className="flex w-1/2 flex-col gap-10 max-lg:w-full">
         {getCards(t).map(item => (

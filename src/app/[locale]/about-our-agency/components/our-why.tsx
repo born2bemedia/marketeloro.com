@@ -55,7 +55,7 @@ export const OurWhy = () => {
         <div className="flex gap-20 max-lg:flex-col max-lg:gap-10">
           <section className="flex flex-col justify-between">
             <div className="flex flex-col gap-4">
-              <Title>{t('title', { fallback: 'Our Why' })}</Title>
+              <Title capitalize>{t('title', { fallback: 'Our Why' })}</Title>
               <Text color="white">
                 {t('text.0', {
                   fallback:

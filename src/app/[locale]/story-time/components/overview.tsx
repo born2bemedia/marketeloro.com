@@ -33,7 +33,9 @@ export const Overview = () => {
 
   return (
     <section className="mx-5 mt-5 mb-20 flex flex-col gap-6 rounded-2xl bg-[#030213] px-10 pt-20 pb-10 max-md:px-5 max-md:py-10">
-      <Title size="4xl">{t('title', { fallback: 'One Team With You' })}</Title>
+      <Title size="4xl">
+        {t('title', { fallback: 'What To Expect Here' })}
+      </Title>
       <section className="flex gap-6 max-md:flex-col">
         {getItems(t).map(item => (
           <Item key={item.title} {...item} />

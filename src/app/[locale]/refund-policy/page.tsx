@@ -43,7 +43,7 @@ export default async function RefundPolicy() {
           <Text size="base">
             {t('0.0.0', { fallback: 'At' })} <span>Marketeloro</span>,{' '}
             {t('0.0.1', { fallback: 'operated by' })}{' '}
-            <span className="font-bold">Reserve Inteloro Limited</span>,{' '}
+            <span className="font-bold">Inteloro Limited</span>,{' '}
             {t('0.0.2', {
               fallback: 'a company registered under the laws of',
             })}

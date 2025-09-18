@@ -16,7 +16,7 @@ export const Plans = () => {
     <section className="bg-[rgba(236,236,240,0.2)] py-20">
       <section className="mx-5 flex flex-col gap-[56px] rounded-xl bg-[#030213] px-10 pt-20 pb-10 max-md:mx-2 max-md:px-5">
         <div className="flex flex-col gap-3.5 text-center">
-          <Title>
+          <Title capitalize>
             {t('title.0', { fallback: 'Tailored Plans That' })} <br />
             {t('title.1', { fallback: 'Fit Your Growth Stage' })}
           </Title>
