@@ -51,7 +51,9 @@ export const BurgerMenu = () => {
             <section className="flex h-full flex-col justify-between gap-5 px-2 pt-2 pb-4">
               <section className="flex flex-col gap-5">
                 <section className="flex items-center justify-between">
-                  <Image src="/logo.svg" alt="Logo" width={37} height={40} />
+                  <NavLink href="/">
+                    <Image src="/logo.svg" alt="Logo" width={148} height={24} />
+                  </NavLink>
                   <div className="flex items-center gap-5">
                     <LangSwitcher />
                     <Close>
