@@ -2,8 +2,11 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PageHero } from '@/shared/ui/components/page-hero';
+import { ArrowRightIcon } from '@/shared/ui/icons/arrow-right';
+import { Button } from '@/shared/ui/kit/button';
 
 import { Apply, GreatCampaigns, OurOpenings, WorkWith } from './components';
+import { Link } from '@/i18n/navigation';
 
 export const metadata: Metadata = {
   title: 'Careers: Join a Bold Marketing Agency |  Marketeloro',
@@ -38,6 +41,14 @@ export default async function WorkWithUs() {
           fallback:
             'We’re inviting ambitious talent to redefine what’s possible. Big ideas matter, but execution is everything. Here, you’ll do both.',
         })}
+        customContent={
+          <Link href="#view-openings">
+            <Button size="md" variant="secondary">
+              View Openings
+              <ArrowRightIcon />
+            </Button>
+          </Link>
+        }
       />
       <GreatCampaigns />
       <WorkWith />

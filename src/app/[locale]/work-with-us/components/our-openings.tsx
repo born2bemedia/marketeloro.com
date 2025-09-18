@@ -77,6 +77,15 @@ const getJobs = (t: ReturnType<typeof useTranslations>) => [
         fallback: 'A team that values performance as much as creativity.',
       }),
     ],
+    dailyWorkLabel: t('cards.0.dailyWorkLabel', {
+      fallback: 'Your daily work will involve:',
+    }),
+    weExpectLabel: t('cards.0.weExpectLabel', {
+      fallback: 'What we expect:',
+    }),
+    whatYouGetLabel: t('cards.0.whatYouGetLabel', {
+      fallback: 'What you get with us:',
+    }),
   },
   {
     name: t('cards.1.title', {
@@ -149,6 +158,15 @@ const getJobs = (t: ReturnType<typeof useTranslations>) => [
         fallback: 'A collaborative environment that values bold ideas.',
       }),
     ],
+    dailyWorkLabel: t('cards.1.dailyWorkLabel', {
+      fallback: 'In this role, you will:',
+    }),
+    weExpectLabel: t('cards.1.weExpectLabel', {
+      fallback: 'What we expect:',
+    }),
+    whatYouGetLabel: t('cards.1.whatYouGetLabel', {
+      fallback: 'What you get with us:',
+    }),
   },
   {
     name: t('cards.2.title', {
@@ -222,6 +240,15 @@ const getJobs = (t: ReturnType<typeof useTranslations>) => [
           'A team culture that thrives on experimentation and improvement.',
       }),
     ],
+    dailyWorkLabel: t('cards.2.dailyWorkLabel', {
+      fallback: 'Your role will include:',
+    }),
+    weExpectLabel: t('cards.2.weExpectLabel', {
+      fallback: 'What we expect:',
+    }),
+    whatYouGetLabel: t('cards.2.whatYouGetLabel', {
+      fallback: 'What you get with us:',
+    }),
   },
 ];
 
@@ -229,7 +256,10 @@ export const OurOpenings = () => {
   const t = useTranslations('workWithUs.ourOpenings');
 
   return (
-    <section className="relative flex gap-10 px-10 py-[70px] max-md:flex-col max-md:px-2">
+    <section
+      className="relative flex gap-10 px-10 py-[70px] max-md:flex-col max-md:px-2"
+      id="view-openings"
+    >
       <div className="sticky top-2 self-start max-md:relative max-md:top-0">
         <Title color="jaguar">
           {t('title.0', {
@@ -256,12 +286,18 @@ const JobCard = ({
   dailyWork,
   weExpect,
   whatYouGet,
+  dailyWorkLabel,
+  weExpectLabel,
+  whatYouGetLabel,
 }: {
   name: string;
   description: ReactNode;
   dailyWork: string[];
   weExpect: string[];
   whatYouGet: string[];
+  dailyWorkLabel: string;
+  weExpectLabel: string;
+  whatYouGetLabel: string;
 }) => {
   const t = useTranslations('workWithUs.ourOpenings');
 
@@ -276,20 +312,20 @@ const JobCard = ({
       <section className="flex gap-5 max-md:flex-col">
         <div className="flex w-1/2 flex-col gap-2 p-5 max-md:w-full">
           <Text size="base" color="stormGrey">
-            {t('yourDailyWork', { fallback: 'Your daily work will involve:' })}
+            {dailyWorkLabel}
           </Text>
           <List values={dailyWork} />
         </div>
         <section className="flex w-1/2 flex-col gap-6 rounded-[40px] bg-[#030213] p-5 max-md:w-full">
           <div className="flex flex-col gap-2">
             <Text size="base" color="white" className="opacity-50">
-              {t('whatWeExpect', { fallback: 'What we expect:' })}
+              {weExpectLabel}
             </Text>
             <List values={weExpect} color="white" />
           </div>
           <div className="flex flex-col gap-2">
             <Text size="base" color="white" className="opacity-50">
-              {t('whatYouGet', { fallback: 'What you get with us:' })}
+              {whatYouGetLabel}
             </Text>
             <List values={whatYouGet} color="white" />
           </div>

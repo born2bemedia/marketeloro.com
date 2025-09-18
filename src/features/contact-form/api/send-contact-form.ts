@@ -10,7 +10,7 @@ export const submitContactForm = async (data: ContactFormSchema) => {
   try {
     sgMail.setApiKey(SENDGRID_API_KEY);
 
-    const { firstName, lastName, email, companyName } = data;
+    const { firstName, lastName, email, companyName, message } = data;
 
     const msg = {
       to: ADMIN_EMAIL,
@@ -21,6 +21,7 @@ export const submitContactForm = async (data: ContactFormSchema) => {
       <p><strong>Name:</strong> ${firstName} ${lastName}</p>
       <p><strong>Email:</strong> ${email}</p>
       <p><strong>Company:</strong> ${companyName ?? 'N/A'}</p>
+      <p><strong>Message:</strong> ${message}</p>
     `,
     };
 

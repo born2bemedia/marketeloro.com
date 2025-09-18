@@ -9,6 +9,8 @@ import { PolicySection } from '@/features/policies/ui/policy-section';
 import { List } from '@/shared/ui/kit/list';
 import { Text } from '@/shared/ui/kit/text';
 
+import { Link as NavLink } from '@/i18n/navigation';
+
 export const metadata: Metadata = {
   title: 'Terms and Conditions | Marketeloro',
   description:
@@ -160,11 +162,11 @@ export default async function TermsAndConditions() {
               fallback:
                 'Marketeloro uses cookies (small data files stored on your device) to enhance functionality, analyze performance, and improve your browsing experience. By continuing to navigate our website, you consent to our use of cookies as described in our',
             })}{' '}
-            <Link href="/cookie-policy" className="underline">
+            <NavLink href="/cookie-policy" className="underline">
               {t('3.0.1', {
                 fallback: 'Cookie Policy',
               })}
-            </Link>
+            </NavLink>
             .
           </Text>
         </PolicySection>
@@ -205,7 +207,7 @@ export default async function TermsAndConditions() {
             {t('5.0.2', {
               fallback: 'or',
             })}{' '}
-            <span>Reserve Inteloro Limited</span>,{' '}
+            <span>Inteloro Limited</span>,{' '}
             {t('5.0.3', {
               fallback:
                 'depending on your chosen payment method and regional processing.',
@@ -332,7 +334,7 @@ export default async function TermsAndConditions() {
               fallback:
                 'These Terms represent the full and exclusive agreement between you and',
             })}{' '}
-            <span className="font-bold">Reserve Inteloro Limited</span>{' '}
+            <span className="font-bold">Inteloro Limited</span>{' '}
             {t('10.0.1', {
               fallback:
                 'concerning the use of the Marketeloro website and services. They supersede any prior communications, whether written, oral, or implied, related to this subject.',
@@ -378,9 +380,17 @@ export default async function TermsAndConditions() {
         </PolicySection>
         <PolicySection title={t('13.title', { fallback: 'External Links' })}>
           <Text size="base">
-            {t('13.0', {
+            {t('13.0.0', {
               fallback:
                 'The Marketeloro website may include links to third-party websites or',
+            })}{' '}
+            <NavLink href="/privacy-policy" className="underline">
+              {t('13.0.1', {
+                fallback: 'Privacy Policy',
+              })}
+            </NavLink>{' '}
+            {t('13.0.2', {
+              fallback: 'no longer apply.',
             })}
           </Text>
         </PolicySection>
