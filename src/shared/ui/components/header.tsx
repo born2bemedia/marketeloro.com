@@ -18,7 +18,7 @@ export const Header = () => {
   return (
     <header className="flex items-center justify-between px-10 pt-2 pb-3.5 max-md:px-2">
       <NavLink href="/">
-        <Image src="/logo.svg" alt="Logo" width={37} height={40} />
+        <Image src="/logo.svg" alt="Logo" width={148} height={24} />
       </NavLink>
       <nav className="flex items-center gap-7 max-md:hidden">
         <NavLink href="/services">
