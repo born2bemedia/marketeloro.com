@@ -22,7 +22,7 @@ export const LookingFor = () => {
       <section className="flex w-[60%] flex-col gap-8 max-lg:w-full">
         <Title color="jaguar">
           {t('title', {
-            fallback: "If you're looking for a marketing partner who…",
+            fallback: "Inside Marketeloro",
           })}
         </Title>
         <div className="flex flex-col gap-6">

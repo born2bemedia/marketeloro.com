@@ -395,7 +395,7 @@
       }
     },
     "lookingFor": {
-      "title": "If you're looking for a marketing partner who…",
+      "title": "Inside Marketeloro",
       "text": {
         "0": "is a full-service B2C marketing agency, created to help brands grow with confidence and creativity.",
         "1": "We are a team of strategists, creators, analysts, and innovators who understand that marketing today is not about pushing messages but about creating experiences people care about.",
@@ -442,8 +442,7 @@
     },
     "method": {
       "title": "The Marketeloro Method",
-      "text": "Our principles guide every project, every meeting, and every client relationship",
-      "text2": "These principles are not words on a slide — they are actions we take daily:",
+      "text": "Our method is structured but flexible, designed to fit different industries and growth stages:",
       "text3": "This method has already helped clients achieve triple-digit growth within months.",
       "cards": {
         "0": {
@@ -547,7 +546,7 @@
       "text11": "This cycle of testing and learning ensures that we are never static. It keeps us, and our clients, ahead of competitors who rely on outdated “best practices.”",
       "title2": "Proof in Practice",
       "text12": "At Marketeloro, strategy only matters if it delivers in the real world. That’s why we test, measure, and share our results openly — every case study is proof that bold ideas backed by data drive real growth.",
-      "text13": "This approach has already helped clients achieve triple-digit growth within months."
+      "text13": "Now it’s your turn."
     }
   },
   "requestDialog": {

@@ -4,8 +4,11 @@ import type { ReactNode } from 'react';
 import { useTranslations } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils/cn';
+import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
+
+import { Link } from '@/i18n/navigation';
 
 const getOneTeamList = (t: ReturnType<typeof useTranslations>) => [
   <>
@@ -58,7 +61,7 @@ export const DataAndCreativity = () => {
   const t = useTranslations('aboutOurAgency.dataAndCreativity');
 
   return (
-    <section className="px-10 py-20g max-md:px-2">
+    <section className="py-20g px-10 max-md:px-2">
       <section className="flex flex-col gap-14 rounded-[12px] bg-[#030213] px-10 py-20 max-md:px-2">
         <div className="flex flex-col gap-3.5 text-center">
           <Title>
@@ -138,8 +141,7 @@ export const DataAndCreativity = () => {
             </Text>
             <Text size="base" color="white" weight={700}>
               {t('text13', {
-                fallback:
-                  'This approach has already helped clients achieve triple-digit growth within months.',
+                fallback: 'Now it’s your turn. ',
               })}
             </Text>
           </div>

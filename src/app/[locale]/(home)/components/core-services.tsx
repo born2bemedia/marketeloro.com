@@ -15,6 +15,8 @@ import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
+import { Link } from '@/i18n/navigation';
+
 const getCards = (t: ReturnType<typeof useTranslations>) => [
   {
     icon: AimCircleIcon,
@@ -91,9 +93,11 @@ export const CoreServices = () => {
               'Discover all our services and find the perfect match for your goals',
           })}
         </Title>
-        <Button size="md">
-          {t('exploreServices', { fallback: 'Explore Services' })}
-        </Button>
+        <Link href="/services">
+          <Button size="md">
+            {t('exploreServices', { fallback: 'Explore Services' })}
+          </Button>
+        </Link>
       </section>
     </section>
   );

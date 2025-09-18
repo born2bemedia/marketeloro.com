@@ -16,6 +16,7 @@ export const PackageSection = ({
   title,
   data,
   variant = 'primary',
+  id,
 }: {
   title: string;
   text: string;
@@ -25,13 +26,17 @@ export const PackageSection = ({
     startPrice: string;
   };
   variant?: 'primary' | 'secondary';
+  id?: string;
 }) => {
   const t = useTranslations('packageSection');
 
   const { setOpen, setPackageName } = useRequestDialogStore();
 
   return (
-    <section className="flex gap-10 px-10 py-[70px] max-md:flex-col max-md:gap-6 max-md:px-2">
+    <section
+      className="flex gap-10 px-10 py-[70px] max-md:flex-col max-md:gap-6 max-md:px-2"
+      id={id}
+    >
       <div className="flex flex-col gap-4">
         <Title color="jaguar">{title}</Title>
         <Text size="base" className="w-full max-w-[520px] max-md:w-full">
@@ -65,7 +70,7 @@ export const PackageSection = ({
                     {t('startingAt', { fallback: 'Starting at' })}
                   </Text>
                   <Text size="4xl" color="white" uppercase>
-                    ${data.startPrice}
+                    €{data.startPrice}
                   </Text>
                 </div>
                 <Button
@@ -99,7 +104,7 @@ export const PackageSection = ({
                   {t('startingAt', { fallback: 'Starting at' })}
                 </Text>
                 <Text size="4xl" color="white" uppercase>
-                  ${data.startPrice}
+                  €{data.startPrice}
                 </Text>
               </div>
               <Button
