@@ -3,7 +3,6 @@
 import type { JSX } from 'react';
 import type { ReactNode } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 
 import { cn } from '@/shared/lib/utils/cn';
 import type { ButtonVariants } from '@/shared/ui/kit/button';
@@ -12,6 +11,7 @@ import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
 import type { IconProps } from '../icons/types';
+import { Link } from '@/i18n/navigation';
 
 export const PageHero = ({
   title,
@@ -71,18 +71,16 @@ export const PageHero = ({
           {description}
         </Text>
       )}
-      {metaButtons && (
-        <div className="z-10 flex items-center gap-3.5">
-          {metaButtons.map(({ href, text, variant, icon: Icon }) => (
-            <Link key={href} href={href}>
-              <Button size="md" variant={variant}>
-                {text} {Icon && <Icon />}
-              </Button>
-            </Link>
-          ))}
-        </div>
-      )}
-      {customContent && customContent}
+      <div className="z-10 flex items-center gap-3.5">
+        {customContent}
+        {metaButtons?.map(({ href, text, variant, icon: Icon }) => (
+          <Link key={href} href={href}>
+            <Button size="md" variant={variant}>
+              {text} {Icon && <Icon />}
+            </Button>
+          </Link>
+        ))}
+      </div>
     </section>
   );
 };

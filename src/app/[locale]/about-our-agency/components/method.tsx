@@ -104,12 +104,7 @@ export const Method = () => {
           <Text color="stormGrey">
             {t('text', {
               fallback:
-                'Our principles guide every project, every meeting, and every client relationship',
-            })}
-            <br />
-            {t('text2', {
-              fallback:
-                'These principles are not words on a slide — they are actions we take daily:',
+                'Our method is structured but flexible, designed to fit different industries and growth stages:',
             })}
           </Text>
         </div>

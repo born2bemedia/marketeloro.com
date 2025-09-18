@@ -55,6 +55,7 @@ export default async function TailoredPlans() {
         }
       />
       <PackageSection
+        id="starter-plan"
         title={t('starterPlan.title', {
           fallback: 'Starter Plan',
         })}
@@ -99,6 +100,7 @@ export default async function TailoredPlans() {
         }}
       />
       <PackageSection
+        id="growth-plan"
         title={t('growthPlan.title', {
           fallback: 'Growth Plan',
         })}
@@ -164,6 +166,7 @@ export default async function TailoredPlans() {
         }}
       />
       <PackageSection
+        id="enterprise-plan"
         title={t('enterprisePlan.title', {
           fallback: 'Enterprise Plan',
         })}

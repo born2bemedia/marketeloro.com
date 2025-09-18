@@ -13,3 +13,7 @@
   --color-storm-grey: var(--storm-grey-color);
   --color-cold-grey: var(--cold-grey-color);
 }
+
+html {
+  scroll-behavior: smooth;
+}

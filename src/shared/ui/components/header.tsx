@@ -27,7 +27,7 @@ export const Header = () => {
         <NavLink href="/tailored-plans">
           <Text>{t('plans', { fallback: 'Plans' })}</Text>
         </NavLink>
-        <NavLink href="/about-us">
+        <NavLink href="/about-our-agency">
           <Text>{t('aboutUs', { fallback: 'About Us' })}</Text>
         </NavLink>
         <NavLink href="/story-time">

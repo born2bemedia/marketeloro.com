@@ -13,6 +13,8 @@ import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
+import { Link } from '@/i18n/navigation';
+
 const getCards = (t: ReturnType<typeof useTranslations>) => [
   {
     title: t('cards.0.title', { fallback: 'Discover' }),
@@ -123,11 +125,13 @@ export const HowWeWork = () => {
                 fallback: 'start getting measurable results?',
               })}
             </Title>
-            <Button size="md">
-              {t('button', {
-                fallback: 'Let&apos;s Discuss Your Project',
-              })}
-            </Button>
+            <Link href="/contact-us">
+              <Button size="md">
+                {t('button', {
+                  fallback: 'Let&apos;s Discuss Your Project',
+                })}
+              </Button>
+            </Link>
           </section>
         </div>
       </section>

@@ -62,7 +62,10 @@ export const RequestDialog = () => {
       reset();
     } else {
       toast.warning(
-        'Hmm, something went wrong. Please try again or contact us directly at info@marketeloro.com.',
+        t('error', {
+          fallback:
+            'Hmm, something went wrong. Please try again or contact us directly at info@marketeloro.com.',
+        }),
       );
     }
   });

@@ -9,6 +9,7 @@ import type { VariantProps } from 'class-variance-authority';
 import { cva } from 'class-variance-authority';
 
 import { excludedCountries } from '@/shared/lib/countries';
+import { useCountryCode } from '@/shared/lib/hooks/use-country-code';
 import { cn } from '@/shared/lib/utils/cn';
 
 import 'react-international-phone/style.css';
@@ -34,13 +35,12 @@ const phoneFieldVariants = cva(
 export type PhoneFieldVariants = VariantProps<typeof phoneFieldVariants>;
 
 export const PhoneField = ({
-  country,
   variant,
   intent,
   ...args
-}: PhoneInputProps & {
-  country?: string;
-} & PhoneFieldVariants) => {
+}: PhoneInputProps & PhoneFieldVariants) => {
+  const country = useCountryCode();
+
   return (
     <label className="relative w-full">
       <PhoneInput
@@ -49,7 +49,7 @@ export const PhoneField = ({
             ([, iso2]) => iso2 === country && !excludedCountries.includes(iso2),
           )
             ? country
-            : 'us'
+            : 'gb'
         }
         className={cn('!h-[50px] !rounded-[16px]')}
         inputClassName={cn(

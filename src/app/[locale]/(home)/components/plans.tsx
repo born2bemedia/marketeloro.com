@@ -7,6 +7,8 @@ import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
+import { Link } from '@/i18n/navigation';
+
 export const Plans = () => {
   const t = useTranslations('home.plans');
 
@@ -32,7 +34,8 @@ export const Plans = () => {
               fallback:
                 'Best for early-stage brands looking to launch with clarity and consistency',
             })}
-            price="$2,500"
+            price="€2,500"
+            href="/tailored-plans#starter-plan"
           />
           <PlanCard
             title={t('cards.1.title', { fallback: 'Growth Plan' })}
@@ -40,8 +43,9 @@ export const Plans = () => {
               fallback:
                 'Designed for growing brands seeking multi-channel expansion and measurable ROI',
             })}
-            price="$6,000"
+            price="€6,000"
             popular
+            href="/tailored-plans#growth-plan"
           />
           <PlanCard
             title={t('cards.2.title', { fallback: 'Enterprise Plan' })}
@@ -49,7 +53,8 @@ export const Plans = () => {
               fallback:
                 'Full-service support for established brands aiming for bold market leadership',
             })}
-            price="$10,500"
+            price="€10,500"
+            href="/tailored-plans#enterprise-plan"
           />
         </div>
       </section>
@@ -62,11 +67,13 @@ const PlanCard = ({
   text,
   title,
   popular,
+  href,
 }: {
   title: string;
   text: string;
   price: string;
   popular?: boolean;
+  href: string;
 }) => {
   const t = useTranslations('home.plans');
 
@@ -110,9 +117,11 @@ const PlanCard = ({
             </Text>
           </div>
         </div>
-        <Button size="md" variant="secondary">
-          {t('learnMore', { fallback: 'Learn more' })}
-        </Button>
+        <Link href={href}>
+          <Button size="md" variant="secondary">
+            {t('learnMore', { fallback: 'Learn more' })}
+          </Button>
+        </Link>
       </section>
     </article>
   );

@@ -58,7 +58,7 @@ export default async function AboutOurAgency() {
         metaButtons={[
           {
             text: t('button', { fallback: 'Visit StoryTime' }),
-            href: '/storytime',
+            href: '/story-time',
             variant: 'secondary',
             icon: ArrowRightIcon,
           },

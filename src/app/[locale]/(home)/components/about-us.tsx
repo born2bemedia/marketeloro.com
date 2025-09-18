@@ -8,6 +8,8 @@ import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
+import { Link } from '@/i18n/navigation';
+
 const getFeatures = (t: ReturnType<typeof useTranslations>) => [
   t('cards.0', { fallback: 'Creates experiences your audience talks about' }),
   t('cards.1', { fallback: 'Spots trends before they go mainstream' }),
@@ -39,14 +41,16 @@ export const AboutUs = () => {
               fallback: 'Curious about how we work and who we are?',
             })}
           </Text>
-          <Button
-            size="md"
-            variant="transparent"
-            className="hover:[&_svg]:fill-white"
-          >
-            {t('learnMore', { fallback: 'Learn more' })}{' '}
-            <PlayIcon color="black" />
-          </Button>
+          <Link href="/about-our-agency">
+            <Button
+              size="md"
+              variant="transparent"
+              className="hover:[&_svg]:fill-white"
+            >
+              {t('learnMore', { fallback: 'Learn more' })}{' '}
+              <PlayIcon color="black" />
+            </Button>
+          </Link>
         </div>
       </section>
       <section className="flex shrink-0 flex-col gap-5">
