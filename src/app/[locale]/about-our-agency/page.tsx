@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PageHero } from '@/shared/ui/components/page-hero';
@@ -11,6 +12,25 @@ import {
   OurWhy,
   Principles,
 } from './components';
+
+export const metadata: Metadata = {
+  title: 'Data-Driven Marketing Agency | Marketeloro',
+  description:
+    'Learn who we are at Marketeloro — strategists, creators, and innovators blending data, creativity, and speed to deliver measurable impact for brands worldwide.',
+  openGraph: {
+    title: 'Data-Driven Marketing Agency | Marketeloro',
+    description:
+      'Learn who we are at Marketeloro — strategists, creators, and innovators blending data, creativity, and speed to deliver measurable impact for brands worldwide.',
+    images: 'https://marketeloro.com/meta.jpg',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Data-Driven Marketing Agency | Marketeloro',
+    description:
+      'Learn who we are at Marketeloro — strategists, creators, and innovators blending data, creativity, and speed to deliver measurable impact for brands worldwide.',
+    images: ['https://marketeloro.com/meta.jpg'],
+  },
+};
 
 export default async function AboutOurAgency() {
   const t = await getTranslations('aboutOurAgency.hero');

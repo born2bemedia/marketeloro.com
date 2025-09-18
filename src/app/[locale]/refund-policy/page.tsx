@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 
@@ -7,6 +8,29 @@ import { PolicySection } from '@/features/policies/ui/policy-section';
 
 import { List } from '@/shared/ui/kit/list';
 import { Text } from '@/shared/ui/kit/text';
+
+export const metadata: Metadata = {
+  title: 'Refund Policy | Marketeloro',
+  description:
+    'Understand Marketeloro’s refund policy for services, packages, and transactions.',
+  openGraph: {
+    title: 'Refund Policy | Marketeloro',
+    description:
+      'Understand Marketeloro’s refund policy for services, packages, and transactions.',
+    images: 'https://marketeloro.com/meta.jpg',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Refund Policy | Marketeloro',
+    description:
+      'Understand Marketeloro’s refund policy for services, packages, and transactions.',
+    images: ['https://marketeloro.com/meta.jpg'],
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function RefundPolicy() {
   const t = await getTranslations('refundPolicy');

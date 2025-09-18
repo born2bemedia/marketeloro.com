@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 
@@ -7,6 +8,29 @@ import { PolicySection } from '@/features/policies/ui/policy-section';
 
 import { List } from '@/shared/ui/kit/list';
 import { Text } from '@/shared/ui/kit/text';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy | Marketeloro',
+  description:
+    'Your privacy matters. Read Marketeloro’s policy on data protection, GDPR compliance, and how we safeguard your information.',
+  openGraph: {
+    title: 'Privacy Policy | Marketeloro',
+    description:
+      'Your privacy matters. Read Marketeloro’s policy on data protection, GDPR compliance, and how we safeguard your information.',
+    images: 'https://marketeloro.com/meta.jpg',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy | Marketeloro',
+    description:
+      'Your privacy matters. Read Marketeloro’s policy on data protection, GDPR compliance, and how we safeguard your information.',
+    images: ['https://marketeloro.com/meta.jpg'],
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function PrivacyPolicy() {
   const t = await getTranslations('privacyPolicy');

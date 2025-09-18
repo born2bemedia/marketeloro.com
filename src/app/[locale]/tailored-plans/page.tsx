@@ -1,9 +1,29 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PageHero } from '@/shared/ui/components/page-hero';
 import { ArrowRightIcon } from '@/shared/ui/icons/arrow-right';
 
 import { PackageSection } from './components';
+
+export const metadata: Metadata = {
+  title: 'Tailored Marketing Plans |  Marketeloro',
+  description:
+    'Marketeloro offers flexible packages designed for every stage of growth. From startups to enterprises, choose the plan that matches your ambition.',
+  openGraph: {
+    title: 'Tailored Marketing Plans |  Marketeloro',
+    description:
+      'Marketeloro offers flexible packages designed for every stage of growth. From startups to enterprises, choose the plan that matches your ambition.',
+    images: 'https://marketeloro.com/meta.jpg',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tailored Marketing Plans |  Marketeloro',
+    description:
+      'Marketeloro offers flexible packages designed for every stage of growth. From startups to enterprises, choose the plan that matches your ambition.',
+    images: ['https://marketeloro.com/meta.jpg'],
+  },
+};
 
 export default async function TailoredPlans() {
   const t = await getTranslations('tailoredPlans');

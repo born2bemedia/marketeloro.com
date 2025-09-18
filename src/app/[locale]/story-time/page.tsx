@@ -1,9 +1,29 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
 import { Footer, LatestDrops, Overview } from './components';
+
+export const metadata: Metadata = {
+  title: 'StoryTime: Case Studies, Insights & Trends | Marketeloro',
+  description:
+    'Discover real-world case studies, trend forecasts, and bold insights at StoryTime — Marketeloro’s hub for practical marketing lessons and future signals.',
+  openGraph: {
+    title: 'StoryTime: Case Studies, Insights & Trends | Marketeloro',
+    description:
+      'Discover real-world case studies, trend forecasts, and bold insights at StoryTime — Marketeloro’s hub for practical marketing lessons and future signals.',
+    images: 'https://marketeloro.com/meta.jpg',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'StoryTime: Case Studies, Insights & Trends | Marketeloro',
+    description:
+      'Discover real-world case studies, trend forecasts, and bold insights at StoryTime — Marketeloro’s hub for practical marketing lessons and future signals.',
+    images: ['https://marketeloro.com/meta.jpg'],
+  },
+};
 
 export default async function StoryTime() {
   const t = await getTranslations('storyTime.hero');
