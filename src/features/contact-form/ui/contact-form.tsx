@@ -1,15 +1,17 @@
 'use client';
 
-import type { ReactNode } from 'react';
+import { type ReactNode } from 'react';
 import { useForm } from 'react-hook-form';
 import { useTranslations } from 'next-intl';
 import { valibotResolver } from '@hookform/resolvers/valibot';
+import { toast } from 'sonner';
 
 import { PlayIcon } from '@/shared/ui/icons/play';
 import { Button } from '@/shared/ui/kit/button';
 import { TextField } from '@/shared/ui/kit/text-field';
 import { Title } from '@/shared/ui/kit/title';
 
+import { submitContactForm } from '../api/send-contact-form';
 import { contactFormSchema } from '../model/schema';
 
 export const ContactForm = () => {
@@ -30,9 +32,25 @@ export const ContactForm = () => {
     resolver: valibotResolver(contactFormSchema),
   });
 
-  const onSubmit = handleSubmit(data => {
-    console.log(data);
-    reset();
+  const onSubmit = handleSubmit(async data => {
+    const { success } = await submitContactForm(data);
+
+    if (success) {
+      toast.success(
+        t('success', {
+          fallback:
+            'Thank you! Your request has been received. We’ll get back to you shortly to schedule your consultation.',
+        }),
+      );
+      reset();
+    } else {
+      toast.warning(
+        t('error', {
+          fallback:
+            'Hmm, something went wrong. Please try again or contact us directly at info@marketeloro.com.',
+        }),
+      );
+    }
   });
 
   const getFirstError = () => {

@@ -23,3 +23,5 @@ export const applyToJobSchema = v.object({
   ),
   cv: v.pipe(v.instance(File)),
 });
+
+export type ApplyToJobSchema = v.InferOutput<typeof applyToJobSchema>;

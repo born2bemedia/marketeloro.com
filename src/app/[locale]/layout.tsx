@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import { NextIntlClientProvider } from 'next-intl';
 import { GoogleAnalytics } from '@next/third-parties/google';
+import { Toaster } from 'sonner';
 
 import { RequestDialog } from '@/features/request-form/ui/request-dialog';
 
@@ -91,6 +92,7 @@ export default function RootLayout({
           {children}
           <RequestDialog />
           <CookieConsent />
+          <Toaster />
           <Footer />
         </NextIntlClientProvider>
       </body>
