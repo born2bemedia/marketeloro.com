@@ -6,7 +6,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '@/shared/lib/utils/cn';
 
 const btnVariants = cva(
-  'transition duration-300 font-medium ease-in-out cursor-pointer flex items-center gap-1',
+  'transition disabled:cursor-not-allowed disabled:opacity-50 duration-300 font-medium ease-in-out cursor-pointer flex items-center gap-1',
   {
     variants: {
       variant: {

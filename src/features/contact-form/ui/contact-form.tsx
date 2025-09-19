@@ -1,6 +1,7 @@
 'use client';
 
-import { type ReactNode } from 'react';
+import { type ReactNode, useState } from 'react';
+import ReCaptcha from 'react-google-recaptcha';
 import { useForm } from 'react-hook-form';
 import { useTranslations } from 'next-intl';
 import { valibotResolver } from '@hookform/resolvers/valibot';
@@ -16,6 +17,8 @@ import { submitContactForm } from '../api/send-contact-form';
 import { contactFormSchema } from '../model/schema';
 
 export const ContactForm = () => {
+  const [isReCaptchaVerified, setIsReCaptchaVerified] = useState(false);
+
   const t = useTranslations('contactForm');
 
   const {
@@ -53,6 +56,10 @@ export const ContactForm = () => {
       );
     }
   });
+
+  const onReCaptchaChange = (token: string | null) => {
+    setIsReCaptchaVerified(!!token);
+  };
 
   const getFirstError = () => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -100,17 +107,23 @@ export const ContactForm = () => {
           {...register('message')}
         />
       </section>
-      <Button
-        variant="reversed"
-        size="md"
-        type="submit"
-        disabled={isSubmitting}
-      >
-        {isSubmitting
-          ? t('submitting', { fallback: 'Sending...' })
-          : t('submit', { fallback: 'Send Message' })}{' '}
-        <PlayIcon />
-      </Button>
+      <div className="flex justify-between">
+        <Button
+          variant="reversed"
+          size="md"
+          type="submit"
+          disabled={isSubmitting || !isReCaptchaVerified}
+        >
+          {isSubmitting
+            ? t('submitting', { fallback: 'Sending...' })
+            : t('submit', { fallback: 'Send Message' })}{' '}
+          <PlayIcon />
+        </Button>
+        <ReCaptcha
+          sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? ''}
+          onChange={onReCaptchaChange}
+        />
+      </div>
     </form>
   );
 };
