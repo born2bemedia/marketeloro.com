@@ -50,8 +50,11 @@ export default async function PrivacyPolicy() {
             {t('0.0.1', {
               fallback:
                 '(“Company,” “we,” or “our”) collects, processes, and safeguards personal data when you visit',
-            })}
-            <Link href="https://marketeloro.com">https://marketeloro.com</Link>,
+            })}{' '}
+            <Link href="https://marketeloro.com" className="underline">
+              https://marketeloro.com
+            </Link>
+            ,{' '}
             {t('0.0.2', {
               fallback:
                 'request marketing services, download materials, or otherwise engage with our team and platform (together, the “Site”).',

@@ -75,7 +75,7 @@ export default async function TermsAndConditions() {
                 {t('1.list.0.1', {
                   fallback: '“we,” “our,” or “us” refers to',
                 })}{' '}
-                <span className="font-bold">Reserve Inteloro Limited</span>.{' '}
+                <span className="font-bold">Inteloro Limited</span>.{' '}
                 {t('1.list.0.2', {
                   fallback:
                     'a registered company operating under the laws of the United Kingdom. The company’s registered office is located at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, registration number 16381595.',
@@ -611,7 +611,7 @@ export default async function TermsAndConditions() {
                 fallback: 'By agreeing to these Terms, both you and',
               })}{' '}
               <span className="font-bold">Marketeloro</span>{' '}
-              {t('21.1.2', {
+              {t('21.1.3', {
                 fallback:
                   'give up the right to court proceedings or jury trials. Temporary legal remedies may be pursued during arbitration to safeguard rights.',
               })}
