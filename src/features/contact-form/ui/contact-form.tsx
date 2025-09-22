@@ -80,7 +80,7 @@ export const ContactForm = () => {
       )}
       <Title>{t('title', { fallback: 'Contact Form' })}</Title>
       <section className="flex flex-col gap-4">
-        <section className="flex gap-4">
+        <section className="flex gap-4 max-md:flex-col">
           <FormColumn>
             <TextField
               placeholder={t('firstName', { fallback: 'First Name' })}
@@ -107,7 +107,7 @@ export const ContactForm = () => {
           {...register('message')}
         />
       </section>
-      <div className="flex justify-between">
+      <div className="flex justify-between max-md:flex-col-reverse max-md:gap-4">
         <Button
           variant="reversed"
           size="md"

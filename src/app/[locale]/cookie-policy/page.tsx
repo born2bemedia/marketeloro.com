@@ -380,6 +380,12 @@ export default async function CookiePolicy() {
                   info@marketeloro.com
                 </Link>
               </span>,
+              <span key="2">
+                {t('9.3', { fallback: 'Phone' })}:{' '}
+                <Link href="tel:+447365579232" className="underline">
+                  +447365579232
+                </Link>
+              </span>,
               <span key="0">
                 {t('9.1', { fallback: 'Website' })}:{' '}
                 <Link

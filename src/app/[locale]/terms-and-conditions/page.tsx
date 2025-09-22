@@ -774,6 +774,12 @@ export default async function TermsAndConditions() {
                   info@marketeloro.com
                 </Link>
               </span>,
+              <span key="2">
+                {t('21.9.list.2', { fallback: 'Phone' })}:{' '}
+                <Link href="tel:+447365579232" className="underline">
+                  +447365579232
+                </Link>
+              </span>,
               <span key="0">
                 {t('21.9.list.0', { fallback: 'Website' })}:{' '}
                 <Link href="https://marketeloro.com" className="underline">

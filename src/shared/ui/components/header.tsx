@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import { MailIcon } from '@/shared/ui/icons/mail';
 import { Text } from '@/shared/ui/kit/text';
 
+import { PhoneIcon } from '../icons/phone';
 import { Button } from '../kit/button';
 import { BurgerMenu } from './burger-menu';
 import { LangSwitcher } from './lang-switcher';
@@ -36,16 +37,16 @@ export const Header = () => {
       </nav>
       <section className="flex items-center gap-6 max-md:hidden">
         <div className="flex items-center gap-4">
-          {/* <Link href="tel:+15551234567" className="flex items-center gap-1">
-            <PhoneIcon />
-            <Text>+1 (555) 123-4567</Text>
-          </Link> */}
           <Link
             href="mailto:info@marketeloro.com"
             className="flex items-center gap-1"
           >
             <MailIcon />
             <Text>info@marketeloro.com</Text>
+          </Link>
+          <Link href="tel:+447365579232" className="flex items-center gap-1">
+            <PhoneIcon />
+            <Text>+447365579232</Text>
           </Link>
         </div>
         {/* <SocialNetworks /> */}

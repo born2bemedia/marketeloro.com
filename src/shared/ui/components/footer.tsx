@@ -8,6 +8,7 @@ import { Divider } from '@/shared/ui/kit/divider';
 import { Text } from '@/shared/ui/kit/text';
 
 import { MailIcon } from '../icons/mail';
+import { PhoneIcon } from '../icons/phone';
 import { Link as NavLink } from '@/i18n/navigation';
 
 export const Footer = () => {
@@ -31,10 +32,13 @@ export const Footer = () => {
           </svg>
           <section className="flex w-[444px] flex-col gap-5 max-[1040px]:w-full">
             <div className="flex flex-col gap-2.5">
-              {/* <Link href="tel:+15551234567" className="flex items-center gap-1">
-              <PhoneIcon color="white" />
-              <Text color="white">+1 (555) 123-4567</Text>
-            </Link> */}
+              <Link
+                href="tel:+447365579232"
+                className="flex items-center gap-1"
+              >
+                <PhoneIcon color="white" />
+                <Text color="white">+447365579232</Text>
+              </Link>
               <Link
                 href="mailto:info@marketeloro.com"
                 className="flex items-center gap-1"
