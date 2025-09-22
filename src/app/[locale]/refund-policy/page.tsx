@@ -250,6 +250,12 @@ export default async function RefundPolicy() {
                   info@marketeloro.com
                 </Link>
               </span>,
+              <span key="2">
+                {t('6.list.2', { fallback: 'Phone' })}:{' '}
+                <Link href="tel:+447365579232" className="underline">
+                  +447365579232
+                </Link>
+              </span>,
               <span key="1">
                 {t('6.list.0', { fallback: 'Contact Form' })}:{' '}
                 <Link href="/contact-us" className="underline">

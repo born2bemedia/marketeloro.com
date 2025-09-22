@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
 import { ContactForm } from '@/features/contact-form/ui/contact-form';
@@ -25,6 +26,19 @@ export const Contact = () => {
             {t('description', {
               fallback: 'Prefer human-to-human over screen-to-screen?',
             })}
+          </Text>
+          <Text
+            size="base"
+            color="stormGrey"
+            className="flex items-center gap-1 max-md:flex-col max-md:items-start"
+          >
+            {t('callUs', { fallback: 'Call us directly:' })}{' '}
+            <Link
+              href="tel:+447365579232"
+              className="text-jaguar text-[32px] font-bold"
+            >
+              +447365579232
+            </Link>
           </Text>
         </div>
         <div className="flex flex-col rounded-[40px] bg-[rgba(227,227,227,0.30)] p-5">

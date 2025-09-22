@@ -582,6 +582,7 @@
     "businessHours": "Business Hours:",
     "businessHoursValue": "9:00 – 6:00 (Mon–Fri)",
     "contact": {
+      "callUs": "Call us directly:",
       "title": "Prefer a Call Instead?",
       "description": "Prefer human-to-human over screen-to-screen?",
       "responseTime": "Response Time",
@@ -1336,7 +1337,8 @@
       "title": "Contact Information",
       "0": "If you have questions or concerns about how cookies are used on our Site, please contact us:",
       "1": "Website",
-      "2": "Email"
+      "2": "Email",
+      "3": "Phone"
     }
   },
   "termsAndConditions": {
@@ -1608,7 +1610,8 @@
         "0": "If you experience issues with our services, please reach out and provide all relevant details (service name, date, correspondence, etc.) along with your proposed solution.",
         "list": {
           "0": "Website",
-          "1": "Email"
+          "1": "Email",
+          "2": "Phone"
         },
         "1": "We aim to resolve all concerns fairly, promptly, and with professionalism."
       }
@@ -1708,7 +1711,8 @@
       "0": "For questions or assistance regarding this policy, you can contact us at:",
       "list": {
         "0": "Contact Form",
-        "1": "Email"
+        "1": "Email",
+        "2": "Phone"
       },
       "1": "Our support team is available during business hours to assist with any concerns."
     },
@@ -1965,7 +1969,8 @@
       "0": "If you have questions regarding this Privacy Policy, or if you wish to exercise your data protection rights, please contact us using the details below:",
       "list": {
         "0": "Website:",
-        "1": "Email"
+        "1": "Email",
+        "2": "Phone"
       },
       "1": "We aim to respond to all requests in a timely and respectful manner."
     }
