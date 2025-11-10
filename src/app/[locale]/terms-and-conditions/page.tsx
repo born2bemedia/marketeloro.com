@@ -776,8 +776,8 @@ export default async function TermsAndConditions() {
               </span>,
               <span key="2">
                 {t('21.9.list.2', { fallback: 'Phone' })}:{' '}
-                <Link href="tel:+447365579232" className="underline">
-                  +447365579232
+                <Link href="tel:+447886083812" className="underline">
+                  +447886083812
                 </Link>
               </span>,
               <span key="0">

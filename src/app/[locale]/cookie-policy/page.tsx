@@ -382,8 +382,8 @@ export default async function CookiePolicy() {
               </span>,
               <span key="2">
                 {t('9.3', { fallback: 'Phone' })}:{' '}
-                <Link href="tel:+447365579232" className="underline">
-                  +447365579232
+                <Link href="tel:+447886083812" className="underline">
+                  +447886083812
                 </Link>
               </span>,
               <span key="0">

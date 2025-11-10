@@ -15,6 +15,7 @@ import {
   Trigger,
 } from '@radix-ui/react-dialog';
 
+import { PhoneIcon } from '../icons/phone';
 import { SmsIcon } from '../icons/sms';
 import { Text } from '../kit/text';
 import { LangSwitcher } from './lang-switcher';
@@ -92,13 +93,13 @@ export const BurgerMenu = () => {
               </section>
               <div className="flex flex-col gap-5">
                 <div className="flex flex-col gap-4 px-2.5">
-                  {/* <Link
-                    href="tel:+15551234567"
+                  <Link
+                    href="tel:+447886083812"
                     className="flex items-center gap-1"
                   >
                     <PhoneIcon />
-                    +1 (555) 123-4567
-                  </Link> */}
+                    +447886083812
+                  </Link>
                   <Link
                     href="mailto:info@marketeloro.com"
                     className="flex items-center gap-1"
