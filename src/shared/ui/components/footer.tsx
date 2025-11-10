@@ -33,11 +33,11 @@ export const Footer = () => {
           <section className="flex w-[444px] flex-col gap-5 max-[1040px]:w-full">
             <div className="flex flex-col gap-2.5">
               <Link
-                href="tel:+447365579232"
+                href="tel:+447886083812"
                 className="flex items-center gap-1"
               >
                 <PhoneIcon color="white" />
-                <Text color="white">+447365579232</Text>
+                <Text color="white">+447886083812</Text>
               </Link>
               <Link
                 href="mailto:info@marketeloro.com"

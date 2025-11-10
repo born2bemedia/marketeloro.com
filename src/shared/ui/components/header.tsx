@@ -44,9 +44,9 @@ export const Header = () => {
             <MailIcon />
             <Text>info@marketeloro.com</Text>
           </Link>
-          <Link href="tel:+447365579232" className="flex items-center gap-1">
+          <Link href="tel:+447886083812" className="flex items-center gap-1">
             <PhoneIcon />
-            <Text>+447365579232</Text>
+            <Text>+447886083812</Text>
           </Link>
         </div>
         {/* <SocialNetworks /> */}

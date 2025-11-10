@@ -34,10 +34,10 @@ export const Contact = () => {
           >
             {t('callUs', { fallback: 'Call us directly:' })}{' '}
             <Link
-              href="tel:+447365579232"
+              href="tel:+447886083812"
               className="text-jaguar text-[32px] font-bold"
             >
-              +447365579232
+              +447886083812
             </Link>
           </Text>
         </div>
